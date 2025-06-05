@@ -60,8 +60,8 @@ N - MONGO DB DAY 2
 HA - Try, Catch, Finally, Throw, Then, Promises
 
 02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Mottu Uncle
-03-06-2025 (TUE) - Absent - Pavithran, 
-04-06-2025 (WED) - Absent - 
+03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
+04-06-2025 (WED) - Absent - Pavithran, Dinesh
 05-06-2025 (THU) - Absent - 
 06-06-2025 (FRI) - Absent -  
 

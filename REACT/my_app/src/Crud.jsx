@@ -8,6 +8,7 @@
 //     const [ list, setList ] = useState([])
 //     const [ show, setShow ] = useState(false)
 //     const [ viewText, setViewText ] = useState('')
+
 //     const [ edit, setEdit ] = useState('')
 //     const [ editText, setEditText ] = useState('')
 
@@ -38,8 +39,8 @@
 //     }
 
 //     const updateFun = () => {
-//         setList(list.map((value, index) => ( edit === index ? editText : value )))
-//         setEdit('')
+        // setList(list.map((value, index) => ( edit === index ? editText : value )))
+        // setEdit('')
 //     }
 
 //     return (
@@ -70,11 +71,13 @@
 //                                 </td>
 //                                 <td className='d-flex gap-3'>
 //                                     <button className='btn btn-success w-100' onClick={() => viewFun(value)}>View</button>
+
 //                                     {
 //                                         edit === index 
 //                                         ? ( <button className='btn btn-warning w-100' onClick={updateFun}>Update</button> ) 
 //                                         : ( <button className='btn btn-warning w-100' onClick={() => editFun(index)}>Edit</button> )
 //                                     }
+
 //                                     <button className='btn btn-danger w-100' onClick={() => deleteFun(index)}>Delete</button>
 //                                 </td>
 //                             </tr>
@@ -110,6 +113,9 @@ const Crud = () => {
     var [ showModal, setShowModal ] = useState(false)
     var [ viewTask, setViewTask ] = useState('')
 
+    var [ edit, setEdit ] = useState('')
+    var [ editText, setEditText ] = useState('')
+
     const inputFun = (e) => {
         setInput(e.target.value);
     }
@@ -136,6 +142,20 @@ const Crud = () => {
         setViewTask(value)
     }
 
+    const editFun = (index) => {
+        setEdit(index)
+        setEditText(list[index]) // list[0] // html
+    }
+
+    const editTextFun = (e) => {
+        setEditText(e.target.value);
+    }
+
+    const updateFun = () => {
+        setList(list.map((value, index) => ( edit === index ? editText : value )))
+        setEdit('')
+    }
+
     return (
         <>
             <div className="container p-5">
@@ -158,10 +178,28 @@ const Crud = () => {
 
                             {list.map((value, index) => (
                                 <tr key={index}>
-                                    <td>{value}</td>
+
+                                    <td>
+                                        { 
+                                            edit === index 
+                                            ? <input type="text" className='form-control' value={editText} onChange={editTextFun} />
+                                            : value
+                                        }
+                                    </td>
+
                                     <td className='d-flex gap-3'>
+
                                         <button className='flex-grow-1 btn btn-primary' onClick={() => viewFun(value)}>View</button>
-                                        <button className='flex-grow-1 btn btn-warning'>Edit</button>
+
+                                        {
+                                            edit === index 
+                                        
+                                            ? <button className='flex-grow-1 btn btn-warning' onClick={updateFun}>Update</button>
+                                            : <button className='flex-grow-1 btn btn-warning' onClick={() => editFun(index)}>Edit</button>
+
+                                        }
+
+
                                         <button className='flex-grow-1 btn btn-danger' onClick={() => deleteFun(index)}>Delete</button>
                                     </td>
                                 </tr>
