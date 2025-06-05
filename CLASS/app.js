@@ -1,98 +1,72 @@
-// var obj = {
-//     key : value,
-//     key : value,
-//     key : value
-// }
+// Length starts with 1
 
-// var obj = {
-//     name : 'siva',
-//     age : 20,
-//     place : 'Trichy'
-// }
+// var text = 'html'
+// console.log(text);
+// console.log(text.length);
 
-// console.log(obj);
-// console.log(obj.age);
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
+// console.log(arr);
+// console.log(arr.length);
 
-// var obj = {
-//     name : 'siva',
-//     age : 20,
-//     place : {
-//         doorNo : 10,
-//         street : 'abc street',
-//         city : 'Trichy'
-//     }
-// }
+// Position, Index starts with 0 
 
-// console.log(obj);
-// console.log(obj.place.street);
-// console.log(obj.place.doorNo);
+// var text = 'html';
+// console.log(text);
+// console.log(text[0]);
+// console.log(text[3]);
 
-// var obj = {
-//     name : 'siva',
-//     age : 20,
-//     fun : function(){
-//         console.log('Hello')
-//     }
-// }
+// var arr = [ 'abinaya', 'is', 'name', 'my' ]
+// console.log(arr);
+// console.log(arr[3], arr[2], arr[1], arr[0]);
 
-// obj.fun() 
+// var text = 'HTML'
+// console.log(text.toLowerCase());
 
-// var obj = {
-//     name  : 'siva',
-//     age : 20,
-//     fun : function(){
-//         return 'Hello'
-//     }
-// }
+// var text  = 'html'
+// console.log(text.toUpperCase());
 
-// console.log(obj.fun());
+// Includes
 
-// var obj = {
-//     name  : 'Siva',
-//     age : 20,
-//     fun : function(){
-//         return `Hello ${obj.name}, My Age ${this.age}`
-//     }
-// }
+// var text = 'hello'
+// console.log(text.includes('a'));
 
-// console.log(obj.fun());
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
+// console.log(arr.includes('react'));
 
-// Hello Siva, My age 20
+// Substr( start (0), length (1) )
 
-// Set 
+// var text = 'helloworld'
+// console.log(text);
+// console.log(text.substr(5, 5));
 
-// var obj = new Map();
-// obj.set('name', 'siva')
-// obj.set('age', 20)
-// obj.set('place', 'trichy')
+// var a = 'javascript'
+// console.log(a.substr(0, 4));
 
-// console.log(obj);
+// var b = 'computer science'
+// console.log(b.substr(9, 7));
 
-// get
+// CharAt 
 
-// console.log(obj.get('name'));
-// console.log(obj.get('age'));
+// var a = 'hello'
+// console.log(a.charAt(4)); // o
 
-// Size
+// indexOf 
 
-// console.log(obj.size);
+// var a = 'hello'
+// console.log(a.indexOf('e')); // 1
 
-// delete
+// Trim 
 
-// console.log(obj.delete('name'));
+// var a = '          hello          '
+// console.log(a);
+// console.log(a.trim());
 
-// console.log(obj);
+// var b = '         hello           world          '
+// console.log(b);
+// console.log(b.trim());
 
-// console.log(obj.delete('age'));
+// Replace 
 
-// console.log(obj);
-
-// clear 
-
-// console.log(obj.clear());
-
-// console.log(obj);
-
-// Has
-
-// console.log(obj.has('name'));
+// var a = 'hello world'
+// console.log(a);
+// console.log(a.replace('world', 'javascript'));

@@ -37,7 +37,7 @@
 //   return (
 //     <>
 //         <Swiper 
-//             slidesPerView={3}
+//             slidesPerView={5}
 //             spaceBetween={20}
 //         >
 //             <SwiperSlide>
@@ -245,7 +245,7 @@
 //             pagination={{ clickable : true }}
 //             autoplay={{ delay: 2000 }}
 //             loop={true}
-//             speed={3000}
+//             speed={1000}
 //         >
 //             <SwiperSlide>
 //                 <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" alt="" height='300' className='w-100' />

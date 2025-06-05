@@ -29,41 +29,41 @@ KADD - CSS DAY 1
 2 - REACT DAY 10 [ Use Effect, Use Ref ]
 3 - REACT DAY 10 [ Use Effect, Use Ref ]
 N - EXPRESS DAY 2
-HA - DOM, QUERY SELECTOR
+HA - OBJECT METHODS
 MU - CSS DAY 1
 
 WEDNESDAY - 04-06-2025
 
 KADD - CSS DAY 2 [ Combinators, Border, Margin, Padding, Display ]
-7 - JS DAY 1 [ Introduction, Outputs in JavaScript, JS Inline, Internal, External, Comment Line in JS, String, Concatenation ]
+7 - JS DAY 1 [ Introduction, Outputs in JavaScript, JS Inline, Internal, External, Comment Line in JS ]
 2 - REACT DAY 11 [ CRUD ] 
 3 - REACT DAY 11 [ CRUD ]
 N - EXPRESS DAY 3 
-HA - Events, Event Listener 
+HA - DOM, QUERY SELECTOR
 
 THURSDAY - 05-06-2025
 
 KADD - CSS DAY 3 
 10 - JS DAY 2
-2 - REACT DAY 12 [ Form Validation ]
-3 - REACT DAY 12 [ Form Validation ]
-N - MONGO DB DAY 1
-HA - Form Validation, Password Validation
+2 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
+3 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
+N - NAVEEN LEAVE
+HA -  Events, Event Listener 
 
 FRIDAY - 06-06-2025
 
-KADD - HTML DAY 3
-10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
-2 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
-3 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
-N - MONGO DB DAY 2
-HA - Try, Catch, Finally, Throw, Then, Promises
+KADD - CSS DAY 4 [ Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position, Z-Index ]
+10 - JS DAY 3 [ Number Methods, Functions ]
+2 - REACT DAY 12 [ Form Validation ]
+3 - REACT DAY 12 [ Form Validation ]
+N - NAVEEN LEAVE
+HA - Form Validation 
 
 02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Mottu Uncle
 03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
 04-06-2025 (WED) - Absent - Pavithran, Dinesh
-05-06-2025 (THU) - Absent - 
-06-06-2025 (FRI) - Absent -  
+05-06-2025 (THU) - Absent - Pavithran, Bharath, Naveen, Hari Babu
+06-06-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import Router from './Form/Router'
 // import Day1_Components from './Day_1_Components'
 // import Day_2_JS from './Day_2_JS'
 // import Day_3_Style from './Day_3_Style'
@@ -10,7 +11,7 @@ import React from 'react'
 // import Day_6_Context_2 from './Day_6_Context_2'
 // import Bootstrap from './Bootstrap'
 // import Day_7_Reducer from './Day_7_Reducer'
-import Router from './Router'
+// import Router from './Router'
 // import Day_8_Effect from './Day_8_Effect'
 // import Day_9_Ref from './Day_9_Ref'
 
@@ -29,9 +30,10 @@ const App = () => {
           </Day_6_Context>
       </ContextProvider> */}
       {/* <Day_7_Reducer /> */}
-      <Router />
+      {/* <Router /> */}
       {/* <Day_8_Effect /> */}
       {/* <Day_9_Ref /> */}
+      <Router />
     </>
   )
 }

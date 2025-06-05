@@ -62,14 +62,19 @@
                     </div>
                 `
             })
-            document.getElementById("cardRow").innerHTML = content || `<h1 class='text-danger text-center'>No Users Found</h1>`
+            document.getElementById("cardRow").innerHTML = content || `<p class='text-center text-danger'>No User Found</p>`
         }
         cardFun(users)
 
         const Submit = (event) => {
             event.preventDefault()
-            var searchInput = document.getElementById('searchBox').value.toLowerCase();
-            var filteredUsers = users.filter((value) => value.name.toLowerCase().includes(searchInput));
+
+            var searchInput = document.getElementById('searchBox').value.toUpperCase() // input box la type panra text
+
+            var filteredUsers = users.filter((value) => value.name.toUpperCase().includes(searchInput) || value.email.toUpperCase().includes(searchInput))
+
+            // value.name => json object all names
+
             cardFun(filteredUsers)
         }
 
