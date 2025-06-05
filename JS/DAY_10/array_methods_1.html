@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascirpt</title>
+</head>
+<body>
+    
+  <!-- ARRAY and Its Methods -->
+
+  <script>
+
+    // ARRAY METHODS - PUSH, POP, SHIFT, UNSHIFT, JOIN, REVERSE, SORT, SPLICE, SLICE, CONCAT, SOME, EVERY, SPREAD OPERATOR, REST OPERATOR
+
+    // var arr = ['html', 'css', 'bootstrap', 'javascript']
+    // console.log(arr);
+
+    // var new_arr = new Array('html', 'css', 'bootstrap', 'javascript')
+    // console.log(new_arr);
+
+    // console.log(new_arr[1])
+
+    // JOIN
+
+      // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+
+      // console.log(arr)
+
+      // console.log(arr.join());
+
+      // console.log(arr.join(" -- ")); 
+
+      // console.log(arr.join(""));
+
+    // REVERSE
+
+      // let numbers = [1, 2, 3, 4, 5];
+      // console.log(numbers.reverse()); 
+
+      // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+      // console.log(arr.reverse()); 
+
+    // SORT
+
+      // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+      // console.log(arr.sort());
+
+      // let nums = [30, 20, 100];
+
+      // console.log(nums.sort()) // => 100, 20, 30,
+
+      // console.log(nums.sort((a, b) => a - b));
+
+      // Order => Result + => Swap , Result - => No Swap
+
+      // a = 30, b = 20 => 30 - (-20) = 10 [ 20, 30, 100 ]
+
+      // a = 30, b = 100 => 30 - 100 = -70 [ 20, 30, 100 ]
+
+      // console.log(nums.sort((a, b) => b - a)); 
+
+      // a = 30, b = 20 => 20 - 30 = -30 [ 30, 20, 100 ]
+
+      // a = 20, b = 100 => 100 - 20 = 80 [ 30, 100, 20 ]
+
+      // a = 30, b = 100 => 100 - 30 = 70 [ 100, 30, 20]
+
+    // SPLICE
+
+      // splice(start, deletecount, newitems)
+
+      // REMOVE
+
+        // var arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+        // console.log(arr.splice(0, 3)) 
+        // console.log(arr)
+
+      // REMOVE & INSERT
+
+        // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+        // console.log(arr.splice(1, 1, 'ABC')) 
+        // console.log(arr);
+
+      // ADD
+
+        // let arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+        // console.log(arr.splice(1, 0, 'ABC'));
+        // console.log(arr);
+    
+    // SLICE
+
+      // slice(start, count)
+
+      // var arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+      // console.log(arr.slice(0, 2));
+      // console.log(arr.slice(2));
+      // console.log(arr.slice(0, -1)); 
+
+    // CONCAT
+
+      // let arr1 = [1, 2, 3];
+      // let arr2 = [4, 5, 6];
+      // console.log(arr1.concat(arr2)); // [1, 2, 3, 4, 5, 6]
+
+      // let arr3 = [7, 8];
+      // console.log(arr1.concat(arr2, arr3)); // [1, 2, 3, 4, 5, 6, 7, 8]
+
+      // console.log(arr1.concat(9)); // [1, 2, 3, 9]
+
+    // SOME
+    
+      // Atleast One Element Condition true - true otherwise false 
+
+      // var num = [1, 2, 3, 7, 5];
+
+      // var even_num = num.some( (num) => num % 2 == 0)
+
+      // console.log(even_num);
+
+      // var num = [ 3, 5, 6, -7 ];
+
+      // var negative_num = num.some((num) => num < 0)
+
+      // console.log(negative_num);
+
+      // var users = [ 
+      //   {
+      //     name : 'Abinaya',
+      //     age : 20
+      //   },
+      //   {
+      //     name : 'Anu',
+      //     age : 30
+      //   },
+      //   {
+      //     name : 'Hari', 
+      //     age : 16
+      //   }
+      // ]
+
+      // var age = users.some((users) => users.age <= 18)
+      // console.log(age);
+
+    // EVERY
+
+      // var num = [ 2, 4, 5, 6 ];
+      // var even_num = num.every((num)=> num % 2 == 0)
+      // console.log(even_num);
+            
+      // var price = [3000, 2000, 4500, 8500];
+      // var below_price = price.every((price)=> price <= 10000)
+      // console.log(below_price);
+            
+      // var words = [ 'html', 'css', 'javascript' ]
+      // var words_length = words.every((words) => words.length >= 3);
+      // console.log(words_length);
+
+    // SPREAD OPERATOR
+
+      // var num = [1, 2, 3, 4, 5]
+      // console.log(num);
+      // console.log(...num);
+
+      // var word = "HELLO";
+      // console.log(word);
+      // console.log(...word);
+
+      // var arr1 = [ 1, 2, 3, 4, 5];
+      // var arr2 = [...arr1];
+
+      // console.log(arr2);
+
+      // var arr1 = [1, 2, 3];
+      // var arr2 = [4, 5, 6];
+
+      // var array = [...arr1, ...arr2]
+      // console.log(array);
+            
+      // var arr1 = [1, 2, 3, 4];
+      // var arr2 = [...arr1, 5, 6, 7]
+
+      // console.log(arr2);
+
+    // REST OPERATOR
+
+      // var numbers = [1, 2, 3, 4, 5];
+      // var [first, second, ...rest] = numbers;
+
+      // console.log(first); 
+      // console.log(second); 
+      // console.log(rest); 
+
+      // var arr1 = [10, 20, 30, 40, 50];
+      // var [first, second, ...rest] = arr1;
+      // var arr2 = [first, second, ...rest]
+      // console.log(first);
+      // console.log(second);
+      // console.log(rest);
+      // console.log(arr2);
+
+      // var arr = ["html", "css", "javascript", "bootstrap"];
+      // var [, , ...remainingArr] = arr;
+      // console.log(remainingArr);
+
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: lightcoral;
+            color: white;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+        }
+        .icon{
+            display: none;
+        }
+        @media screen and (max-width:768px){
+            .menu{
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                background-color: lightcoral;
+            }
+            .icon{
+                display: flex;
+            }
+            .menu a{
+                display: block;
+                padding: 8px 5px;
+            }
+        }
+        @media screen and (min-width:769px){
+            .menu{
+                display: flex !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h3 class="logo">Logo</h3>
+        <h3 class="icon">&#9776;</h3>
+        <div class="menu">
+            <a href="">Menu</a>
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.icon').click(function(){
+                $('.menu').slideToggle()
+            })
+        })
+    </script>
+</body>
+</html>

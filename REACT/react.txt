@@ -1,0 +1,51 @@
+REACT 
+
+Installation & Set up
+
+npm create vite@latest
+project-name folder_name (app_name) => Ex : my_app
+select react framework and javascript variant
+cd my_app
+npm install 
+npm run dev
+
+Cleaning Process
+
+Delete
+    public folder
+    App.css 
+    assets -> svg file
+
+Clear 
+    index.css
+    App.jsx
+
+for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
+
+DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
+DAY - 2 => JS in REACT, EVENT
+DAY - 3 => STYLE, PROPS
+DAY - 4 => USE STATE
+DAY - 5 => USE STATE 
+DAY - 6 => BOOTSTRAP COMPONENTS, ASSETS
+DAY - 7 => USE CONTEXT
+DAY - 8 => USE REDUCER, USE REF
+DAY - 9 => USE EFFECT, RUN BUILD
+DAY - 10 => USE EFFECT 
+DAY - 11 => ROUTING 
+DAY - 12 => CRUD 
+DAY - 13 => FORM VALIDATION
+DAY - 14 => PACKAGES ( swiper, material ui, react components )
+DAY - 15 => RENDER
+
+PROJECT - COSTICA FROM THEME FOREST 
+
+28-05 - WED - CALCULATOR, BOOTSTRAP COMPONENTS, ASSETS 
+29-05 - THU - USE EFFECT
+30-05 - FRI - USE REDUCER, USE REF 
+
+02-06 - MON - USE CONTEXT 
+03-06 - TUE - ROUTING 
+04-06 - WED - CRUD 
+05-06 - THU - FORM VALIDATION 
+06-06 - FRI - PACKAGES, PROJECT  

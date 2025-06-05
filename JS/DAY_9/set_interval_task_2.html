@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="fun(event)">
+        <labe>Enter Your Name</labe>
+        <input type="text" required>
+        <br>
+        <label>Enter Your Age</label>
+        <input type="number" required>
+        <br>
+        <label>Enter Your Email</label>
+        <input type="email" required>
+        <br>
+        <input type="submit">
+    </form>
+
+    <p id="text"></p>
+
+    <script>
+        function fun(event){
+            event.preventDefault();
+            var count = 5;
+            document.getElementById('text').innerHTML = `You will be redirect to the next page within ${count} seconds`;
+            setInterval(() => {
+                count = count - 1;
+                document.getElementById('text').innerHTML = `You will be redirect to the next page within ${count} seconds`
+                if(count == 0){
+                    window.location.href = 'navigate.html'
+                }
+            }, 1000)
+        }
+    </script>
+</body>
+</html>

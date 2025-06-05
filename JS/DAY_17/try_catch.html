@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try, Catch, Finally, Throw, Then, Promises</title>
+</head>
+<body>
+
+    <script>
+
+        // try , catch 
+        
+            // function fun(){
+            //     try{
+
+            //     }
+            //     catch(error){
+
+            //     }
+            // }
+            // fun()
+
+            // function fun(){
+            //     try{
+            //         var word = 'Hello';
+            //         console.log(word.toUpperCase())
+            //     }
+            //     catch(error){
+            //         console.log(error)
+            //     }
+            // }
+            // fun()
+
+            // function fun(){
+            //     try{
+            //         var a = 45;
+            //         console.log(a.toUpperCase())
+            //     }
+            //     catch(error){
+            //         console.log('YOUR ERROR', error)
+            //         console.log(error.name)
+            //         console.log(error.message)
+            //     }
+            // }
+            // fun()
+
+        // try , catch , finally
+
+            // try{
+
+            // }catch(error){
+
+            // }finally{
+            
+            // }
+
+            // function fun(){
+            //     try{
+            //         var text = 56;
+            //         console.log(text.toUpperCase())
+            //     }
+            //     catch(error){
+            //         console.error(error)
+            //         console.error(error.name)
+            //         console.error(error.message)
+            //     }
+            //     finally{
+            //         console.log('Function Working')
+            //     }
+            // }
+            // fun()
+
+            // function fun(){
+            //     try{
+            //         var text = 'javascript';
+            //         console.log(text.toUpperCase())
+            //     }
+            //     catch(error){
+            //         console.log(error);
+            //     }
+            //     finally{
+            //         console.log('Hello')
+            //     }
+            // }
+            // fun()
+
+            // function fun(a, b){
+            //     try{
+            //         var result = a + c;
+            //         console.log(result)
+            //     }
+            //     catch(error){
+            //         console.error(error);
+            //         console.error(error.name);
+            //         console.error(error.message);
+            //     }
+            //     finally{
+            //         console.log('Function Working')
+            //     }
+            // }
+            // fun(4, 5)
+
+        // throw 
+
+            // function fun(){
+            //     try{
+            //         throw new Error()
+            //     }
+            //     catch(error){
+
+            //     }
+            // }
+            // fun()
+
+            // function fun(a){
+            //     try{
+            //         if(a < 5){
+            //             console.log('True')
+            //         }
+            //         else{
+            //             throw new Error('False')
+            //         }
+            //     }
+            //     catch(error){
+            //         console.error(error.name)
+            //     }
+            // }
+            // fun(8)
+
+            // function fun(age){
+            //     try{
+            //         if(age < 18){
+            //             throw new Error('Age is below 18')
+            //         }
+            //         else{
+            //             console.log('Age is Above 18')
+            //         }
+            //     }
+            //     catch(error){
+            //         console.log('abc', error)
+            //     }
+            // }
+            // fun(8)
+            
+            // function fun(num){
+            //     try{
+            //         if(num % 2 == 0){
+            //             console.log('Number is Even')
+            //         }
+            //         else{
+            //             throw new Error('Number is Odd')
+            //         }
+            //     }
+            //     catch(error){
+            //         console.error('Your Error', error)
+            //     }
+            // }
+            // fun(87)
+        
+        // then promises
+
+            // SYNTAX
+
+            // function function_name(){
+            //     return new Promise((resolve, reject) => {
+            //         if(condition){
+            //             resolve()
+            //         }
+            //         else{
+            //             reject()
+            //         }
+            //     })
+            // }
+            // function_name().then(() => true_statement ).catch(() => false_statement)
+
+            // resolve => then
+            // reject => catch 
+
+            // function fun(){
+            //     return new Promise((resolve, reject) => {
+            //         let test = true;
+            //         if(test === true){
+            //             resolve()
+            //         }
+            //         else{
+            //             reject()
+            //         }
+            //     })
+            // }
+
+            // fun()
+            // .then(() => console.log('True Part'))
+            // .catch(() => console.log('False Part'))
+
+            // function fun(a){
+            //     return new Promise((resolve, reject) => {
+            //         if(a > 5){
+            //             reject()
+            //         }
+            //         else{
+            //             resolve()
+            //         }
+            //     })
+            // }
+            // fun(2).then(() => console.log('True')).catch(() => console.log('False'))
+
+            // function num(a){
+            //     return new Promise((resolve, reject) => {
+            //         if(a % 2 == 0){
+            //             resolve()
+            //         }
+            //         else{
+            //             reject()
+            //         }
+            //     })
+            // }
+
+            // num(7)
+            // .then(() => console.log('Even Number'))
+            // .catch(() => console.log('Odd Number') )
+
+            // function password(input){
+            //     return new Promise((resolve, reject) => {
+            //         var correctInput = 'abc';
+            //         if(correctInput == input){
+            //             resolve()
+            //         }
+            //         else{
+            //             reject()
+            //         }
+            //     })
+            // }
+            // password('abcd')
+            // .then(() => console.log('Correct Password'))
+            // .catch(() => console.log('Incorrect Password'))
+
+            // function fun(input){
+            //     return new Promise((resolve, reject) => {
+            //         var arr = ['html', 'css', 'bootstrap'];
+
+            //         if(arr.includes(input)){
+            //             resolve()
+            //         }
+            //         else{
+            //             reject()
+            //         }
+
+            //     })
+            // }
+            // fun('javascript').then(() => console.log('Available'))
+            // .catch(() => console.log('Not Available'))
+
+    </script>
+    
+</body>
+</html>

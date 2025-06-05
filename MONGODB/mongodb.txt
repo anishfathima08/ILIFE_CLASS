@@ -1,0 +1,5 @@
+MONGO DB 
+
+DAY 1 => Introduction about Mongo DB, Installing Mongo DB & Set Up, Mongo DB Atlas 
+DAY 2 => Creating Data Base, Table, Inserting Data, Finding Data
+DAY 3 => Operators, CRUD 

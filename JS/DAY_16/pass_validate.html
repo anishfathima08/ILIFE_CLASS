@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" onkeyup="fun()" id="passwordBox" />
+    </form>
+
+    <p id="letter">First Letter Should be Capital</p>
+    <p id="char">AtLeast One Special Character</p>
+    <p id="num">AtLeast One Number</p>
+    <p id="min">Minimum 5 Characters</p>
+
+    <script>
+
+        function fun() {
+            var password = document.getElementById("passwordBox").value;
+
+            var characters = ['!','@','#','$','%','&'];
+            var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+            // First Letter Should be Capital
+            
+            var firstLetter = password.charAt(0);
+            
+            if(num.some((a) => firstLetter.includes(a))){
+                document.getElementById('letter').style.color = 'red';
+            }
+            else if(characters.some((a) => firstLetter.includes(a))){
+                document.getElementById('letter').style.color = 'red';
+            }
+            else if(firstLetter == firstLetter.toUpperCase()){ // A == A
+                document.getElementById('letter').style.color = 'green';
+            }     
+            else{
+                document.getElementById('letter').style.color = 'red';
+            }
+
+            //AtLeast One Special Character
+            
+            if(characters.some((a) => password.includes(a))){
+                document.getElementById('char').style.color = 'green';
+            }
+            else{
+                document.getElementById('char').style.color = 'red';
+            }
+
+            //Minimum 5 Characters
+            
+            if(password.length >=5 ){
+                document.getElementById('min').style.color = 'green';
+            }
+            else{
+                document.getElementById('min').style.color = 'red';
+            }
+
+            //Atleast one Number
+            if(num.some((a) => password.includes(a))){
+                document.getElementById('num').style.color = 'green';
+            }
+            else{
+                document.getElementById('num').style.color = 'red';
+            }
+
+            //Input Empty Color Black
+            if(password.length === 0){
+                document.getElementById('letter').style.color = 'black';
+                document.getElementById('num').style.color = 'black';
+                document.getElementById('char').style.color = 'black';
+                document.getElementById('min').style.color = 'black';
+            }
+            
+        }
+    </script>
+
+
+    <!-- <input type="password" id="pass1" placeholder="Enter Password"><br><br>
+    <input type="password" id="pass2" placeholder="Confirm Password"><br><br>
+    <button onclick="checkPassword()">Submit</button>
+
+    <script>
+        function checkPassword() {
+        const pass1 = document.getElementById("pass1").value;
+        const pass2 = document.getElementById("pass2").value;
+
+        if (pass1 === pass2 && pass1 !== "") {
+            window.location.href = "nextpage.html"; 
+        } else {
+            alert("Passwords do not match!");
+        }
+        }
+    </script> -->
+    
+  </body>
+</html>

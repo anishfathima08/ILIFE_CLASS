@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+<body>
+
+    <!-- TASKS -->
+
+    <!-- IF ELSE
+        Find the number whether number is positive or negative number
+        Counter with limit
+    -->
+
+    <!-- SWITCH 
+        Day Calculate with input box
+    -->
+    
+    <!-- NESTED IF
+        Grade Calculate with input box
+    -->
+
+    <script>
+
+        // IF 
+
+            // SYNTAX 
+
+            // if(condition){
+                // statement
+            // }
+
+            // if(8>5){
+            //     console.log('True')
+            // }
+
+            // if(7>=18){
+                // console.log('You are an adult')
+            // }
+
+        // IF ELSE 
+
+            // SYNTAX 
+
+            // if(condition){
+                // Statement
+            // }
+            // else{
+                // Statement
+            // }
+
+            // if(7>5){
+            //     console.log('True')
+            // }
+            // else{
+            //     console.log('False')
+            // }
+
+            // var num = 3;
+
+            // if(num % 2 == 0){
+            //     console.log('Even Number')
+            // }
+            // else{
+            //     console.log('Odd Number')
+            // }
+
+            // var a = 18;
+        
+            // if(a >= 18){
+            //     console.log('You are an Eligible')
+            // }
+            // else{
+            //     console.log('You are not Eligible')
+            // }
+
+            // var age = prompt('Enter your age :')
+
+            // if(age >= 18){
+            //     console.log('You are an Eligible')
+            // }
+            // else{
+            //     console.log('You are noy Eligible')
+            // }
+
+            // var num = prompt('Enter any number')
+
+            // if(num >= 10){
+            //     console.log(`${num} is greater or equal than 10`)
+            // }
+            // else{
+            //     console.log(`${num} is less than 10`)
+            // }
+
+        // ELSE IF 
+
+            // SYNTAX 
+
+            // if(condition){
+            //     // statement
+            // }
+            // else if(condition){
+            //     // statement
+            // }
+            // else if(condition){
+            //     // statement
+            // }
+            // else{
+            //     // statement
+            // }
+
+            // var mark = 90;
+
+            // if(mark > 90){
+            //     console.log('Grade : A')
+            // }
+            // else if(mark > 70){
+            //     console.log('Grade : B')
+            // }
+            // else if(mark > 50){
+            //     console.log('Grade : C')
+            // }
+            // else{
+            //     console.log('Fail')
+            // }
+
+            // Age = 5 to 10 => child, 10 to 18 => Teenager, 19 to 25 => Adult, above 25 => Senior 
+
+            // var age = 26;
+
+            // if(age>=5 && age <=10){
+            //   console.log('You are Child');
+            // }
+            // else if(age>=10 && age<=18){
+            //   console.log('You are Teenager');
+            // }
+            // else if(age>=19 && age<=25){
+            //   console.log('You are Adult');
+            // }
+            // else{
+            //   console.log('You are Senior');
+            // }
+
+        // NESTED IF
+
+            // var num = 3456;
+
+            // if(num % 2 == 0){
+            //     console.log('Even Number')
+            // }
+            // else{
+            //     console.log('Odd Number')
+            // }
+
+            // if(isNaN(num)){ 
+            //     console.log('It is a String')
+            // }
+            // else{
+            //     if(num % 2 == 0){
+            //         console.log('Even Number')
+            //     }
+            //     else{
+            //         console.log('Odd Number')
+            //     }
+            // }
+
+            // var marks = 45;
+
+            // if (marks >= 50) 
+            // {
+            //     if (marks >= 80) {
+            //         console.log("Grade: A");
+            //     } else {
+            //         console.log("Grade: B");
+            //     }
+            // } 
+            // else {
+            //     console.log("Fail");
+            // }
+
+        // SWITCH
+
+            // SYNTAX
+
+            // switch (condition){
+            //     case 1:
+            //         // statement;
+            //         // break;  
+            //     case 2:
+            //         // statement;
+            //         // break;  
+            //     case 3:
+            //         // statement;
+            //         // break;  
+            //     case 4:
+            //         // statement;
+            //         // break;  
+            //     case 5:
+            //         // statement;
+            //         // break;  
+            //     default: 
+            //         // statement;
+            // }
+
+            // var day = 7;    
+
+            // switch(day){
+            //     case 0:
+            //         console.log('Sunday')
+            //         break;
+            //     case 1:
+            //         console.log('Monday')
+            //         break;
+            //     case 2 : 
+            //         console.log('Tuesday')
+            //         break;
+            //     case 3 : 
+            //         console.log('Wednesday')
+            //         break;
+            //     case 4 : 
+            //         console.log('Thursday')
+            //         break;
+            //     case 5 : 
+            //         console.log('Friday')
+            //         break;
+            //     case 6 : 
+            //         console.log('Saturday')
+            //         break;
+            //     default : 
+            //         console.log('Invalid')
+            // }
+
+            var num1 = 10;
+            var num2 = 5;
+            var operator = "+"; 
+
+            // switch(operator) {
+            //     case "+":
+            //          var result = num1 + num2;
+            //          console.log(result);
+            //         break;
+            //     case "-":
+            //         var result = num1 - num2;
+            //         console.log(result);
+            //         break;
+            //     case "*":
+            //         var result = num1 * num2;
+            //         console.log(result);
+            //         break;
+            //     case "/":
+            //         var result = num1 / num2;
+            //         console.log(result);
+            //         break;
+            //     default:
+            //         var result = "Invalid operator";
+            //         console.log(result);
+            // }
+
+
+    </script>
+</body>
+</html> 

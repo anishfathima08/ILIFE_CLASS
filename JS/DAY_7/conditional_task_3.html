@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH TASK</title>
+</head>
+<body>
+
+    <label>Enter First Number</label>
+    <input type="number" id="num1">
+    <br>
+    <label>Enter Second Number</label>
+    <input type="number" id="num2">
+    <br>
+    <label>Enter Your Operator</label>
+    <input type="text" id="input">
+    <br>
+    <button onclick="Fun()">Sum</button>
+
+    <script>
+               
+        function Fun(){
+
+            var num1 = Number(document.getElementById('num1').value);
+            var num2 = Number(document.getElementById('num2').value);
+            var operator = document.getElementById("input").value; 
+            
+            switch (operator) {
+            case "+":
+                var result = num1 + num2;
+                alert(result);
+                break;
+            case "-":
+                var result = num1 - num2;
+                alert(result);
+                break;
+            case "*":
+                var result = num1 * num2;
+                alert(result);
+                break;
+            case "/":
+                var result = num1 / num2;
+                alert(result);
+                break;
+            case "%":
+                var result = num1 / num2;
+                alert(result);
+                break;
+            default:
+                var result = "Invalid operator";
+                alert(result);
+            }
+        }
+    </script>
+    
+</body>
+</html>

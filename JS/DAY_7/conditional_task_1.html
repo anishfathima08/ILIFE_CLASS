@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ELSE TASK</title>
+</head>
+<body>
+
+    <button onclick="add()">Add</button>
+    <span id="num">0</span>
+    <button onclick="remove()">Remove</button>
+    <p id="limit"></p>
+
+    <script>
+
+        var count = Number(document.getElementById('num').innerHTML);
+
+        function add(){
+            if(count < 10){  
+                count = count + 1; // 0 + 1 = 1
+                document.getElementById('num').innerHTML = count;
+                document.getElementById('limit').innerHTML = ''
+            }
+            else{
+                document.getElementById('limit').innerHTML = 'You reached maximum limit'
+            }
+        }
+
+        function remove(){
+            if(count > 0){  
+                count = (count - 1);
+                document.getElementById('num').innerHTML = count;
+                document.getElementById('limit').innerHTML = ''
+            }
+            else{
+                document.getElementById('limit').innerHTML = 'You reached minimum limit'
+            }
+        }
+
+    </script>
+    
+</body>
+</html> 

@@ -1,0 +1,381 @@
+BATCHES
+
+10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
+11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
+12 - 01 -> Shajitha, Jasmine [ Front End React ]
+01 - 02 -> Lunch
+02 - 03 -> Free 
+03 - 04 -> Ganapathy, Jude, Dinesh [ Front End React ]
+04 - 05 -> Naveen [ MERN STACK ]
+05 - 06 -> Hari Babu, Aakash [ MERN STACK ]
+06 - 07 -> Mottu Uncle [ MERN STACK ]
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 02-06-2025 
+
+KADD - HTML DAY 4 
+10 - BOOTSTRAP DAY 4 [ ACCORDION, NAVBAR, CAROUSEL ]
+2 - REACT DAY 9 [ ROUTE ] 
+3 - REACT DAY 9 [ ROUTE ] 
+N - EXPRESS DAY 1
+HA - STUDENT LEAVE
+MU - STUDENT LEAVE 
+
+TUESDAY - 03-06-2025 
+
+KADD - CSS DAY 1 
+10 - BOOSTRAP DAY 5 [ PAGINATION, OFFCANVAS, FORM, INPUTS, PROJECT ]
+2 - REACT DAY 10 [ Use Effect, Use Ref ]
+3 - REACT DAY 10 [ Use Effect, Use Ref ]
+N - EXPRESS DAY 2
+HA - DOM, QUERY SELECTOR
+MU - CSS DAY 1
+
+WEDNESDAY - 04-06-2025
+
+KADD - CSS DAY 2 [ Combinators, Border, Margin, Padding, Display ]
+7 - JS DAY 1 [ Introduction, Outputs in JavaScript, JS Inline, Internal, External, Comment Line in JS, String, Concatenation ]
+2 - REACT DAY 11 [ CRUD ] 
+3 - REACT DAY 11 [ CRUD ]
+N - EXPRESS DAY 3 
+HA - Events, Event Listener 
+
+THURSDAY - 05-06-2025
+
+KADD - CSS DAY 3 
+10 - JS DAY 2
+2 - REACT DAY 12 [ Form Validation ]
+3 - REACT DAY 12 [ Form Validation ]
+N - MONGO DB DAY 1
+HA - Form Validation, Password Validation
+
+FRIDAY - 06-06-2025
+
+KADD - HTML DAY 3
+10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
+2 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
+3 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
+N - MONGO DB DAY 2
+HA - Try, Catch, Finally, Throw, Then, Promises
+
+02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Mottu Uncle
+03-06-2025 (TUE) - Absent - Pavithran, 
+04-06-2025 (WED) - Absent - 
+05-06-2025 (THU) - Absent - 
+06-06-2025 (FRI) - Absent -  
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 26-05-2025 
+
+NB - INTRO 
+10 - CSS DAY 7 [ Animations, Project - 1 ]
+2 - REACT DAY 4 [ Use State ] 
+3 - REACT DAY 4 [ Use State ] 
+N - NODE DAY 3 [ Try Catch ]
+H - H LEAVE
+
+TUESDAY - 27-05-2025 
+
+KADD - HTML DAY 1
+10 - AOS, ROOT, Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN ]
+2 - REACT DAY 5 [ Use State ]
+3 - REACT DAY 5 [ Use State ]
+N - PROJECT
+H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
+
+WEDNESDAY - 28-05-2025
+
+KADD - HTML DAY 1
+10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
+2 - REACT DAY 6 [ Bootstrap Components ] 
+3 - REACT DAY 6 [ Bootstrap Components ]
+N - PROJECT
+A - Aakash LEAVE 
+
+THURSDAY - 29-05-2025
+
+KADD - HTML DAY 2
+10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD ]
+2 - REACT DAY 7 [ Use Context ]
+3 - REACT DAY 7 [ Use Context ]
+N - PROJECT
+A - Aakash Leave  
+
+FRIDAY - 30-05-2025
+
+KADD - HTML DAY 3
+10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
+2 - REACT DAY 7 [ USE REDUCER ]
+N - NODE JS DAY 3
+HA - Fetching Data from API with filter, Object Methods 
+
+
+26-05-2025 (MON) - Absent - Hari Babu, Aakash, Maria
+27-05-2025 (TUE) - Absent - Aakash, Maria 
+28-05-2025 (WED) - Absent - Pavithran, NimishaVardhini, Maria, Hari Babu, Aakash
+29-05-2025 (THU) - Absent - Dhushyanth, Nimisha Vardhini, Kangathara, Hari Babu, Aakash
+30-05-2025 (FRI) - Absent - Nimisha Vardhini, Dinesh, Maria, Hari Babu, Aakash
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 19-05-2025 
+
+10 - CSS DAY 3
+3 - REACT INTRO
+5 - REACT INTRO
+N - REACT PROJECT 
+A - MAP TASK
+
+TUESDAY - 20-05-2025 
+
+10 - CSS DAY 4 
+3 - REACT DAY 1
+5 - REACT DAY 1
+N - NODE DAY 2
+A - ARRAY METHODS
+
+WEDNESDAY - 21-05-2025
+
+10 - CSS DAY 5 
+3 - REACT DAY 2 
+5 - REACT DAY 2 
+N - NAVEEN LEAVE
+A - AAKASH LEAVE  
+
+THURSDAY - 22-05-2025
+
+10 - CSS DAY 6 
+3 - REACT DAY 3
+5 - REACT DAY 3
+N - NODE DAY 3 
+H - JS
+
+FRIDAY - 23-05-2025
+
+10 - CSS DAY 7 [ Media Query ] 
+3 - REACT DAY 4 [ Use State ]
+5 - REACT DAY 4 [ Use State ]
+N - FETCHING DATA FROM FORM 
+H - JS [ Loops ( while , do while ), Conditional ( if, if else, else if ) ]
+
+SATURDAY - 24-05-2025 
+
+10:30 to 11:30 -> Yusuf [ Operators ]
+12:00 to 01:00 -> Yusuf [ String Methods, Number Methods ]
+02:30 to 3:30 -> Yusuf[ Functions ]
+
+
+19-05-2025 (MON) - Absent - Nimisha Vardhini, Jasmine Begam, Shajitha Begam, Dinesh, Maria, Murugan, Kaviyarasan
+20-05-2025 (TUE) - Absent - Maria, Murugan, Kaviyarasan
+21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria 
+22-05-2025 (THU) - Absent - Vibhashini, Maria
+23-05-2025 (FRI) - Absent - Barath, Pavithran, Jasmine Begam, Shajitha Begam, Dinesh, Maria
+24-05-2025 (SAT) - Present - Yusuf
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 12-05-2025 STAFF LEAVE
+
+TUESDAY - 13-05-2025
+
+IN - JAVASCRIPT DAY 2
+10 - LINKS, LIST
+3 - JS PROJECT
+5 - JS PROJECT
+NM - SWIPER PACKAGE, REACT PROJECT
+A - ARRAY METHODS DAY 2
+
+WEDNESDAY - 14-05-2025
+
+IN - JAVASCRIPT DAY 3
+10 - FORM AND HTML PROJECT
+3 - JS PROJECT
+5 - JS PROJECT
+N - NODE DAY 1
+A - AKASH LEAVE
+
+THURSDAY - 15-05-2025
+
+IN - REACT DAY 1
+10 - CSS DAY 1
+3 - REACT DAY 1
+10 - REACT DAY 1
+N - REACT PROJECT
+A - AKASH LEAVE
+
+FRIDAY - 16-05-2025
+
+IN - REACT DAY 2
+10 - CSS DAY 2
+3 - JS PROJECT
+5 - JS PROJECT
+N - REACT PROJECT
+A - AKASH LEAVE
+
+ATTENDANCE 
+
+12-05-2025 (MON) - Absent - STAFF LEAVE 
+13-05-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan, Barath
+14-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Aakash
+15-05-2025 (THU) - Absent - Maria, Kaviyarasan, Murugan, Aakash
+16-05-2025 (FRI) - Absent - Maria, Kaviyarasan, Murugan, Aakash, Pavithran
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 05-05-2025
+
+IN - CSS DAY 2
+NM - ROUTER
+3 - EVENT LISTENER, QUERY SELECTOR
+5 - EVENT LISTENER, QUERY SELECTOR
+P - FULL STACK INTRO 
+A - AKASH LEAVE
+
+TUESDAY - 06-05-2025
+
+IN - CSS DAY 3
+N - HTML DAY 1
+3 - FORM VALIDATION, PASSWORD VALIDATION
+5 - FORM VALIDATION, PASSWORD VALIDATION
+NM - CRUD
+A - LOOPS
+
+WEDNESDAY - 07-05-2025
+
+IN - BOOTSTRAP DAY 1
+P - HTML DAY 1
+3 - TRY CATCH FINALLY THROW PROMISES
+5 - TRY CATCH FINALLY THROW PROMISES
+NM - FORM PROTECTION
+A - LOOPS
+
+THURSDAY - 08-05-2025
+
+IN - BOOTSTRAP DAY 2
+PN - HTML DAY 2
+3 - PROJECT ADD TO CART
+5 - PROJECT ADD TO CART
+NM - PACKAGE
+A -  ARRAY METHODS - 1
+
+FRIDAY - 09-05-2025
+
+IN - BOOTSTRAP DAY 3
+NM - REACT PROJECT
+3 - REACT DAY 1
+5 - REACT DAY 1
+PN - HTML DAY 4
+A - ARRAY METHODS - 2
+
+ATTENDANCE 
+
+05-05-2025 (MON) - Absent - Jude, Dinesh, Maria, Kaviyarasan, Murugan, Aakash
+06-05-2025 (TUE) - Absent - Pavithran, Jude, Maria, Kaviyarasan, Murugan
+07-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Dinesh, NimishaVardhini, Shajitha Begam
+08-05-2025 (THU) - Absent - Pavithran, Maria, Kaviyarasan, Murugan
+09-05-2025 (FRI) - Absent - Dinesh, Maria, Kaviyarasan, Murugan
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 28-04-2025
+
+NM - DOUBT, USE REDUCER
+8 - Filter with JSON
+A - Conditional Statement 
+
+TUESDAY - 29-04-2025
+
+IN - HTML DAY 1 
+NM - USE REF
+8 - Fetching API with Filter, Object Methods
+A - Set Internal, Set Timeout 
+
+WEDNESDAY - 30-04-2025 
+
+IN - HTML DAY 2
+NM - USE CONTEXT
+8 - Object Methods, DOM 
+A - Doubt in Task
+
+THURSDAY - 01-05-2025 ( OFFICE LEAVE )
+
+FRIDAY - 02-05-2025
+
+IN - CSS DAY 1
+NM - USE CONTEXT DOUBTS
+8 - Events, Event listener, Query Selector 
+A - Loops
+
+ATTENDANCE 
+
+28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
+29-04-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
+30-04-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, 
+01-05-2025 (THU) - Absent - Office Leave
+02-05-2025 (FRI) - Absent - Maria, Kaviyarasan, Murugan
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 21-04-2025 
+
+NM - React Bootstrap ( Modals, Tabs, Offcanvas, Accordion ) 
+3 - Loops - For, Nested For
+5 - Loops - For, Nested For
+A - Javascript Day 5 ( Operators 3 )
+
+TUESDAY - 22-04-2025
+
+NM - Use Effect 1
+3 - While, Do while 
+5 -  While, Do while 
+A - Javascript Day 6 ( Operators 3 )
+
+WEDNESDAY - 23-04-2025 
+
+NM - Use Effect 2 
+3 - Array Methods 1
+5 - Array Methods 1
+A - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash Leave ) )
+
+THURSDAY - 24-04-2025
+
+NM - Use Reducer  ( Project Deployment )
+3 - Array Methods 2 
+5 - Array Methods 2 
+A - Javascript Day 8 ( Function and its Methods ) 
+
+FRIDAY - 25-04-2025
+
+NM - Use Ref ( Use Effect )
+3 - Array Methods 3 
+5 - Array Methods 3
+A - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash Leave ) )
+
+SATURDAY - 26-04-2025
+
+Y - Bootstrap ( 3 Hours [ 10:30 to 11:30, 12:00 to 01:00, 02:30 to 3:30 ] ) 
+
+10:30 to 11:30 - DISPLAY, BORDERS, TABLES 
+12:00 to 01:00 - COLUMN RESPONSIVESNESS, 
+02:30 to 03:30 - MODAL, CARDS, PAGINATION
+
+ATTENDANCE 
+
+21-04-2025 (MON) - Absent - Maria, Hari Babu
+22-04-2025 (TUE) - Absent - Maria, Hari Babu
+23-04-2025 (WED) - Absent - Maria, Dinesh, Hari Babu, Aakash, 
+24-04-2025 (THU) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
+25-04-2025 (FRI) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
+
+--------------------------------------------------------------------------------------------
+
+INTERNSHIP - 15 DAYS ( FRONT END REACT )
+
+12-05-2025 - JAVASCRIPT DAY 1 => Variables, Data Types, String Concantenation, Operators
+13-05-2025 - JAVASCRIPT DAY 2 => Conditional Statement, Loops, Array Methods
+
+14-05-2025 - REACT DAY 1 => Set Up, Functional Components, Bootstrap, Props
+15-05-2025 - REACT DAY 2 => Bootstrap, Use State, Use Effect
+16-05-2025 - REACT DAY 3 => Use Context, Routes, Form Protection 

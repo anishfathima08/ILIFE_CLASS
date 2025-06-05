@@ -1,0 +1,7 @@
+JQUERY -> Javascript Query 
+JQuery -> Javascript Library
+
+Day 1 -> Intro, Selectors, CSS, 
+Day 2 -> Hide, Show, Fade, Slide, Class Methods
+Day 3 -> Tooltip, Popover, Toast, Animation
+Day 4 -> Events (theme toggle), Callback Function, Chaining

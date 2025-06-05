@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS METHODS</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- EXAMPLE 1 -->
+    <style>
+        /* .h1tag{
+            color: red;
+        }
+        .cls{
+            background-color: black;
+        }
+        .abc{
+            padding: 30px;
+        } */
+    </style>
+    <!-- EXAMPLE 2 -->
+    <style>
+        /* p{
+            color: blue;
+            background-color: lightblue;
+            padding: 40px;
+        }
+        .cls{
+            border: 2px solid blue;
+        } */
+    </style>
+</head>
+<body>
+    <!-- ADD CLASS, REMOVE CLASS, TOGGLE CLASS -->
+
+    <!-- EXAMPLE - 1  -->
+
+    <!-- ADD CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <h1>Hello World</h1> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('#btn').click(function(){
+            //     $('h1').addClass('h1tag cls abc')
+            // })
+        // })
+    </script>
+
+    <!-- REMOVE CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <h1 class="h1tag cls abc">Hello World</h1> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('h1').removeClass('h1tag cls abc')
+        //     })        
+        // })
+    </script>
+
+    <!-- TOGGLE CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <h1 class="h1tag cls abc">Hello World</h1>  -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('h1').toggleClass('h1tag cls abc')
+        //     })        
+        // })
+    </script>
+
+    <!-- EXAMPLE - 2 -->
+
+    <!-- ADD CLASS -->
+
+    <!-- <button id="btn">Click</button>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum quia quos eligendi blanditiis natus repellat in deleniti fuga, minima incidunt odit soluta nulla neque velit alias beatae saepe, libero quibusdam commodi quaerat distinctio deserunt accusantium? Incidunt officiis a dignissimos neque sit veniam dolor, eveniet voluptates, laborum, deserunt voluptatem temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ratione maxime neque optio eum iure repudiandae ad velit vero sit! Facere ipsam voluptas, pariatur quod suscipit totam quasi nesciunt accusantium perferendis omnis qui magni, quas voluptates quaerat eaque doloremque veritatis aperiam minima natus repellendus deserunt repellat! Quisquam odio dicta laboriosam quidem nesciunt numquam quibusdam, debitis sapiente ab quasi repellat itaque. Corporis quibusdam inventore natus temporibus neque veniam ratione possimus. Possimus, qui libero consectetur praesentium expedita obcaecati illo dolores molestias! Ab, veniam consectetur. Distinctio fugit natus culpa reprehenderit nobis neque labore ducimus et, maiores consequuntur rem suscipit, impedit perspiciatis</p> -->
+
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                $('p').addClass('cls')
+            })
+        })
+    </script>
+
+    <!-- REMOVE CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <p class="cls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum quia quos eligendi blanditiis natus repellat in deleniti fuga, minima incidunt odit soluta nulla neque velit alias beatae saepe, libero quibusdam commodi quaerat distinctio deserunt accusantium? Incidunt officiis a dignissimos neque sit veniam dolor, eveniet voluptates, laborum, deserunt voluptatem temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ratione maxime neque optio eum iure repudiandae ad velit vero sit! Facere ipsam voluptas, pariatur quod suscipit totam quasi nesciunt accusantium perferendis omnis qui magni, quas voluptates quaerat eaque doloremque veritatis aperiam minima natus repellendus deserunt repellat! Quisquam odio dicta laboriosam quidem nesciunt numquam quibusdam, debitis sapiente ab quasi repellat itaque. Corporis quibusdam inventore natus temporibus neque veniam ratione possimus. Possimus, qui libero consectetur praesentium expedita obcaecati illo dolores molestias! Ab, veniam consectetur. Distinctio fugit natus culpa reprehenderit nobis neque labore ducimus et, maiores consequuntur rem suscipit, impedit perspiciatis</p> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('p').removeClass('cls')
+        //     })
+        // })
+    </script>
+
+    <!-- TOGGLE CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum quia quos eligendi blanditiis natus repellat in deleniti fuga, minima incidunt odit soluta nulla neque velit alias beatae saepe, libero quibusdam commodi quaerat distinctio deserunt accusantium? Incidunt officiis a dignissimos neque sit veniam dolor, eveniet voluptates, laborum, deserunt voluptatem temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ratione maxime neque optio eum iure repudiandae ad velit vero sit! Facere ipsam voluptas, pariatur quod suscipit totam quasi nesciunt accusantium perferendis omnis qui magni, quas voluptates quaerat eaque doloremque veritatis aperiam minima natus repellendus deserunt repellat! Quisquam odio dicta laboriosam quidem nesciunt numquam quibusdam, debitis sapiente ab quasi repellat itaque. Corporis quibusdam inventore natus temporibus neque veniam ratione possimus. Possimus, qui libero consectetur praesentium expedita obcaecati illo dolores molestias! Ab, veniam consectetur. Distinctio fugit natus culpa reprehenderit nobis neque labore ducimus et, maiores consequuntur rem suscipit, impedit perspiciatis</p> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('p').toggleClass('cls')
+        //     })
+        // })
+    </script>
+
+    <!-- EXAMPLE - 3 -->
+
+    <!-- ADD CLASS -->
+
+    <!-- <button id="btn">Click</button>
+
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped w-50" id="progressdiv"></div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('#progressdiv').addClass('progress-bar-animated')
+        //     })
+        // })
+    </script>
+
+    <!-- REMOVE CLASS -->
+
+    <!-- <button id="btn">Click</button>
+
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped w-50 progress-bar-animated" id="progressdiv"></div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('#progressdiv').removeClass('progress-bar-animated')
+        //     })
+        // })
+    </script>
+
+    <!-- TOGGLE CLASS -->
+
+    <!-- <button id="btn">Click</button> -->
+
+    <!-- <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated w-50" id="progressDiv"></div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('#btn').click(function(){
+        //         $('#progressDiv').toggleClass('progress-bar-animated')
+        //     })
+        // })
+    </script>
+
+</body>
+</html>

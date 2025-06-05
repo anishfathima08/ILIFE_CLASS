@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <!-- Background - Color -->
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: animate;
+            animation-duration: 5s;
+            animation-delay: 3s;
+        }
+
+        /* div{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        div:hover{
+            animation-name: animate;
+            animation-duration: 5s;
+            animation-delay: 3s;
+        } */
+
+        /* @keyframes animate{
+            from{
+                background-color: blue;
+            }
+            to{
+                background-color: red;
+            }
+        } */
+
+        /* @keyframes animate{
+            0%{
+                background-color: blue;
+            }
+            50%{
+                background-color: red;
+            }
+            100%{
+                background-color: green;
+            }
+        } */
+
+        /* @keyframes animate{
+            0%{
+                background-color: blue;
+            }
+            40%{
+                background-color: red;
+            }
+            60%{
+                background-color: yellow;
+            }
+            80%{
+                background-color: black;
+            }
+            100%{
+                background-color: green;
+            }
+        } */
+    </style>
+
+    <!-- Margin -->
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: animate;
+            animation-duration: 2s;
+            animation-delay: 3s;
+            /* animation-iteration-count: 2; */
+            animation-iteration-count: infinite;
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+            animation-direction: alternate;
+        }
+        /* @keyframes animate{
+            from{
+                margin-left: 0px;                
+            }
+            to{
+                margin-left: 200px;
+            }
+        } */
+
+        /* @keyframes animate{
+            0%{
+                margin-left: 0;
+                margin-top: 0;
+                background-color: blue;
+            }
+            20%{
+                margin-left: 200px;
+                margin-top: 0;
+                background-color: red;
+            }
+            40%{
+                margin-left: 400px;
+                margin-top: 0px;
+                background-color: green;
+            }
+            60%{
+                margin-left: 400px;
+                margin-top: 200px;
+                background-color: black;
+            }
+            80%{
+                margin-left: 200px;
+                margin-top: 200px;
+                background-color: brown;
+            }
+            100%{
+                margin-left: 0;
+                margin-top: 200px;
+                background-color: yellow;
+            }
+        } */
+    </style>
+
+</head>
+<body>
+
+    <!-- animation - background color, margin -->
+
+    <!-- animation  -->
+    <!-- 
+        animation-name,
+        animation-delay, 
+        animation-direction - normal, reverse, alternate, 
+        animation-duration, 
+        animation-iteration-count - 2, infinte,
+        animation-timing-function - linear, ease, ease in, ease out, ease in out
+    -->
+
+    <!-- animation: name duration timing-function delay iteration-count direction; -->
+
+    <div></div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            padding: 30px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        input:checked ~ .container{
+            color: white;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle">Click</label>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla magni nam nobis doloremque autem soluta optio sequi laboriosam earum nesciunt beatae necessitatibus expedita dolore, itaque maiores facilis in cupiditate veritatis consectetur perferendis repudiandae quas quia harum! Aliquam ab architecto autem ducimus, esse quas repudiandae aliquid, blanditiis voluptate quibusdam, quis odio!</p>
+    </div>
+
+</body>
+</html>

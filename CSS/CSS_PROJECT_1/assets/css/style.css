@@ -1,0 +1,161 @@
+/* Home Page CSS*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"open sans",sans-serif;
+}
+.logo{
+    position: relative;
+    top:-150px;
+    left: 50px;
+}
+.name{
+    margin-top: -260px;
+    margin-left: 250px; 
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.menu{
+    background-color: rgba(128, 128, 128,0.3);
+    height: 66px;
+}
+.menu a{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(35, 158, 225);
+    color: white;
+}
+.menu a:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(221,10,98);
+}
+.menu .homemenu , .menu .aboutmenu, .menu .servicesmenu, .menu .portfoliomenu, .menu .contactmenu{
+    background-color: rgb(221,10,98);
+}
+main{
+    display: flex;
+}
+.contentleft p, .contentright p, .content p, .contact label{
+    color: grey;
+}
+.contentleft h1, .content h1, .main h1, .portfolio h1, .contact h1, .map h1{
+    color: rgb(221,10,98);
+    font-size: 30px;
+    font-weight: 300;
+}
+.contentright h1, .content h2, .main h2{
+    color:rgb(35, 158, 225);
+    font-size: 30px;
+    font-weight: 300;
+}
+.contentleft, .contact h1, .portfolio h1{
+    margin-left: 30px;
+    width: 450px;
+}
+.contentright{
+    margin-left: 90px;
+}
+.contentleft p, .content p{
+    line-height: 22px;
+}
+.contentright p{
+    line-height: 12px;
+}
+footer p{
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgb(98,80,75);
+    padding: 15px 15px 15px 30px;
+    margin-left: 0px;
+}
+/*About Page CSS */
+.content{
+    margin: 0px 100px 128px 30px;
+}
+/*Services Page CSS*/
+.main .firstrow, .main .secondrow{
+    display: flex;
+}
+.card h2,p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.card{
+    background-color: rgba(128, 128, 128,0.3);
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-right:10px;
+}
+.main{
+    margin:0px 30px 0px 30px;
+}
+.main button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: rgb(221,10,98);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.main button:hover{
+    background-color:  rgb(232, 94, 152);
+    cursor: pointer;
+}
+/*Portfolio Page CSS */
+.images{
+    margin: 0px 50px 30px 50px;
+    overflow: hidden;
+    display: inline-block;
+}
+.images img{
+    transition-duration: 0.8s;
+}
+.images:hover img{
+    transform: scale(1.2,1.2);
+    opacity: 0.8;
+    cursor: pointer;
+}
+/*Contact Page*/
+.contact input{
+    width: 480px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128,0.3);
+}
+.contact textarea{
+    width: 480px;
+    height: 130px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128,0.3);
+
+}
+.map{
+    margin: -430px 0px 45px 800px;
+}
+.map h1{
+    margin-top: 10px;
+    margin-left: -6px;
+}
+.contact label{
+    margin: 40px;
+}
+.contact button{
+    margin: 20px 0px 20px 150px;
+    width: 485px;
+    height: 40px;
+    border: none;
+    background-color:  rgb(35, 158, 225);
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "open sans",sans-serif;
+}
