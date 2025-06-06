@@ -8,15 +8,17 @@ import Protext from './Protext'
 const Router = () => {
   return (
     <BrowserRouter>
-        <Routes>
-            <Route path='/' element={<Form />} />
-            <Route path='/submit' element={<FormSubmit />} />
-            <Route path='/home' element={<Protext>
-              <Home />
-            </Protext>} />
-        </Routes>
+      <Routes>
+        <Route path='/' element={<Form />} />
+        <Route path='/submit' element = {<FormSubmit />} />
+        <Route path='/home' element={
+          <Protext > 
+            <Home/> 
+          </Protext>} 
+          />
+      </Routes>
     </BrowserRouter>
   )
 }
 
-export default Router
+export default Router 

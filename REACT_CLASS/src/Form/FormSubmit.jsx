@@ -5,11 +5,9 @@ const FormSubmit = () => {
     return (
         <>
             <h1>Submitted Successfully</h1>
-            <Link to='/home'>
-                <button>Go To Home Page</button>
-            </Link>
+            <Link to='/home'>Home</Link>
         </>
     )
 }
 
-export default FormSubmit
+export default FormSubmit 

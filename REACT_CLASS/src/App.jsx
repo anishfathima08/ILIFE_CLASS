@@ -1,5 +1,6 @@
 import React from 'react'
-import Router from './Form/Router'
+// import Router from './Form/Router'
+import AOS from './AOS'
 // import Day1_Components from './Day_1_Components'
 // import Day_2_JS from './Day_2_JS'
 // import Day_3_Style from './Day_3_Style'
@@ -33,7 +34,8 @@ const App = () => {
       {/* <Router /> */}
       {/* <Day_8_Effect /> */}
       {/* <Day_9_Ref /> */}
-      <Router />
+      {/* <Router /> */}
+      <AOS />
     </>
   )
 }

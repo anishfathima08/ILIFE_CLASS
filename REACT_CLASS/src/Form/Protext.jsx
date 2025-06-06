@@ -1,8 +1,8 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom'
 
-const Protect = ({children}) => {
-  
+const Protext = ({children}) => {
+
     var user = localStorage.getItem('username')
 
     if(!user){
@@ -13,4 +13,4 @@ const Protect = ({children}) => {
 
 }
 
-export default Protect 
+export default Protext 
