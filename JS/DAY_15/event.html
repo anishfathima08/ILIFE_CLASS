@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <!-- <body onload='alert("Page Loaded")'> -->
+<!-- <body> -->
 
-    <!-- EVENTS - ONCLICK, ONDBLCLICK, ONSUBMIT, ONMOUSEDOWN, ONMOUSEUP, ONMOUSEOVER, ONMOUSEOUT, ONMOUSELEAVE, ONCHANGE, ONKEYUP, ONKEYPRESS, ONFOCUS, ONBLUR, WINDOW RESIZE, ONLOAD -->
+    <body onload='alert("Page Loaded")'>
+
 
     <!-- ONCLICK -->
 
@@ -54,20 +54,20 @@
 
     <!-- ONMOUSEDOWN & ONMOUSEUP -->
 
-        <!-- <button onmousedown="mouseDown()" onmouseup="mouseUp()">Click</button> -->
-        <!-- <p></p> -->
+        <!-- <button onmouseup="mouseUpFun()"  onmousedown="mouseDownFun()" id="btn">Click</button> -->
 
         <script>
+            // function mouseDownFun(){
+            //     document.getElementById('btn').style.backgroundColor = 'blue'
+            // }   
 
-            // const mouseDown = () => {
-            //     document.getElementsByTagName('p')[0].innerHTML = 'Button Pressed'
+            // function mouseUpFun(){
+            //     document.getElementById('btn').style.backgroundColor = 'red'
             // }
-
-            // const mouseUp = () => {
-            //     document.getElementsByTagName('p')[0].innerHTML = 'Button Released'
-            // }
-
         </script>
+
+        <!-- ONMOUSEOVER, ONMOUSEENTER  -->
+        <!-- ONMOUSEOUT, ONMOUSELEAVE  -->
 
     <!-- ONMOUSEOVER -->
 
@@ -76,7 +76,6 @@
         <script>
 
             // function mouseOverFun(){
-
             //     document.getElementsByTagName('p')[0].style.color = 'red'
             //     document.getElementsByTagName('p')[0].style.backgroundColor = 'black'
             // }
@@ -98,6 +97,33 @@
 
         </script>
 
+        <!-- <p onmouseover="mouseOverFun()" onmouseout='mouseOutFun()'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, debitis excepturi. Ratione inventore dolorum tempore maxime alias fugiat, sequi, voluptates doloremque eligendi veritatis quae, dolorem laborum quas quo possimus eius id! Sunt repellendus possimus, velit adipisci maiores ut reprehenderit quasi excepturi eveniet doloremque dolor, atque at non nesciunt natus explicabo?</p> -->
+
+        <script>
+
+            // function mouseOverFun(){
+            //     document.getElementsByTagName('p')[0].style.color = 'blue'
+            // }
+
+            // function mouseOutFun(){
+            //     document.getElementsByTagName('p')[0].style.color = 'black'
+            // }
+
+
+        </script>
+
+    <!-- ONMOUSEENTER -->
+
+        <!-- <p onmouseenter="mouseEnterFun()">Hello</p> -->
+
+        <script>
+
+            // function mouseEnterFun(){
+            //     document.getElementsByTagName('p')[0].style.color = 'blue'
+            // }
+
+        </script>
+
     <!-- ONMOUSELEAVE -->
 
         <!-- <p onmouseleave="mouseLeaveFun()">Hello</p> -->
@@ -113,13 +139,13 @@
 
         </script>
 
-    <!-- ONMOUSEOVER & ONMOUSELEAVE -->
+    <!-- ONMOUSEENTER & ONMOUSELEAVE -->
 
-        <!-- <p onmouseover="mouseOverFun()" onmouseleave="mouseLeaveFun()">Hello</p> -->
+        <!-- <p onmouseenter="mouseEnterFun()" onmouseleave="mouseLeaveFun()">Hello</p> -->
 
         <script>
 
-            // function mouseOverFun(){
+            // function mouseEnterFun(){
             //     document.getElementsByTagName('p')[0].style.color = 'blue';
             //     document.getElementsByTagName('p')[0].style.backgroundColor = 'red';
             // }
@@ -131,7 +157,7 @@
 
         </script>
 
-        <!-- <marquee onmouseover="stop()" onmouseleave="start()">Hello World</marquee> -->
+        <!-- <marquee onmouseenter="stop()" onmouseleave="start()">Hello World</marquee> -->
 
     <!-- ONCHANGE -->
 
@@ -180,7 +206,7 @@
         <script>
 
             // const focusFun = () => {
-            //     document.getElementById('inputBox').style.backgroundColor = 'blue'
+                // document.getElementById('inputBox').style.backgroundColor = 'blue'
             // }
 
         </script>
@@ -213,9 +239,9 @@
 
         </script>
 
-        <!-- <input type="text" id="inputBox" onfocus="focusFun(this)" onblur="blurFun(this)">
-        <input type="text" id="inputBox" onfocus="focusFun(this)" onblur="blurFun(this)">
-        <input type="text" id="inputBox" onfocus="focusFun(this)" onblur="blurFun(this)"> -->
+        <!-- <input type="text" onfocus="focusFun(this)" onblur="blurFun(this)">
+        <input type="text" onfocus="focusFun(this)" onblur="blurFun(this)">
+        <input type="text" onfocus="focusFun(this)" onblur="blurFun(this)"> -->
 
         <script>
 

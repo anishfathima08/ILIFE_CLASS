@@ -8,7 +8,49 @@ BATCHES
 03 - 04 -> Ganapathy, Jude, Dinesh [ Front End React ]
 04 - 05 -> Naveen [ MERN STACK ]
 05 - 06 -> Hari Babu, Aakash [ MERN STACK ]
-06 - 07 -> Mottu Uncle [ MERN STACK ]
+06 - 07 -> Sethuraman [ MERN STACK ]
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 09-06-2025
+
+KADD - CSS DAY 5 [ Flex, Grid ]
+7 - JS DAY 3 [ Number Methods, Functions ]
+N - EXPRESS DAY 3 [ VALUES, ERROR ]
+HA - EVENT LISTENER 
+S - CSS DAY 3 4 5
+
+TUESDAY - 10-06-2025 
+
+KADD - CSS DAY 6 [ Media Query]
+7 - JS DAY 4 [ Operators ]
+N - EXPRESS DAY 4 [ EJS, HBS ]
+HA - JS [ Form Validation, Password Validation ]
+S - CSS DAY 6 [ Media Query]
+
+WEDNESDAY - 11-06-2025 
+
+KADD - CSS DAY 7 [ Transition, Tranform ]
+7 - JS DAY 5 [ Conditional Statements ]
+N - 
+HA - JS [ Try, Catch, Finally, Throw, Then, Promises ]
+S - CSS DAY 7 [ Transition, Tranform ]
+
+THURSDAY - 12-06-2025 
+
+KADD - CSS DAY 8 [ Animation, Root Variable, AOS ] 
+7 - JS DAY 6 [ Loops ]
+N - 
+HA - JS [ ADD TO CART ]
+S - CSS DAY 8 [ Animation, Root Variable, AOS ]
+
+FRIDAY - 13-06-2025 
+
+KADD - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ] 
+7 - JS DAY 7 [ Set Interval, Set Timeout ]
+N - 
+HA - JS [ ADD TO CART ]
+S - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ] 
 
 --------------------------------------------------------------------------------------------
 
@@ -20,7 +62,7 @@ KADD - HTML DAY 4
 3 - REACT DAY 9 [ ROUTE ] 
 N - EXPRESS DAY 1
 HA - STUDENT LEAVE
-MU - STUDENT LEAVE 
+S - STUDENT LEAVE 
 
 TUESDAY - 03-06-2025 
 
@@ -30,7 +72,7 @@ KADD - CSS DAY 1
 3 - REACT DAY 10 [ Use Effect, Use Ref ]
 N - EXPRESS DAY 2
 HA - OBJECT METHODS
-MU - CSS DAY 1
+S - CSS DAY 1
 
 WEDNESDAY - 04-06-2025
 
@@ -40,6 +82,7 @@ KADD - CSS DAY 2 [ Combinators, Border, Margin, Padding, Display ]
 3 - REACT DAY 11 [ CRUD ]
 N - EXPRESS DAY 3 
 HA - DOM, QUERY SELECTOR
+S - CSS DAY 2
 
 THURSDAY - 05-06-2025
 
@@ -48,22 +91,24 @@ KADD - CSS DAY 3
 2 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 3 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 N - NAVEEN LEAVE
-HA -  Events, Event Listener 
+HA -  Filter 
+S - LEAVE
 
 FRIDAY - 06-06-2025
 
 KADD - CSS DAY 4 [ Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position, Z-Index ]
-10 - JS DAY 3 [ Number Methods, Functions ]
+10 - JS DAY 3 [ PROJECT ]
 2 - REACT DAY 12 [ Form Validation ]
 3 - REACT DAY 12 [ Form Validation ]
 N - NAVEEN LEAVE
-HA - Form Validation 
+HA - Events, Event Listener
+S - LEAVE 
 
-02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Mottu Uncle
+02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Sethuraman
 03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
 04-06-2025 (WED) - Absent - Pavithran, Dinesh
-05-06-2025 (THU) - Absent - Pavithran, Bharath, Naveen, Hari Babu
-06-06-2025 (FRI) - Absent - 
+05-06-2025 (THU) - Absent - Pavithran, Bharath, Naveen, Hari Babu, Sethuraman
+06-06-2025 (FRI) - Absent - Pavithran, Shajitha Begam, Jasmine Begam, Naveen
 
 --------------------------------------------------------------------------------------------
 
