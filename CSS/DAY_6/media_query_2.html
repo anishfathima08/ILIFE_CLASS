@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Query 2 ( Grid )</title>
-
     <style>
       .container {
         display: grid;
-
+        gap: 10px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
       }
       .container div {
@@ -31,14 +30,14 @@
         background-color: lightsalmon;
       }
 
-      @media screen and (max-width: 768px) {
-        .container {
+      @media screen and (max-width:768px){
+        .container{
           grid-template-columns: 1fr 1fr;
         }
       }
 
-      @media screen and (max-width: 320px) {
-        .container {
+      @media screen and (max-width:320px){
+        .container{
           grid-template-columns: 1fr;
         }
       }

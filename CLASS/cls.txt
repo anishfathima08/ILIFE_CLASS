@@ -2,10 +2,10 @@ BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
 11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
-12 - 01 -> Shajitha, Jasmine [ Front End React ]
+12 - 01 -> Free
 01 - 02 -> Lunch
 02 - 03 -> Free 
-03 - 04 -> Ganapathy, Jude, Dinesh [ Front End React ]
+03 - 04 -> Free 
 04 - 05 -> Naveen [ MERN STACK ]
 05 - 06 -> Hari Babu, Aakash [ MERN STACK ]
 06 - 07 -> Sethuraman [ MERN STACK ]
@@ -15,15 +15,15 @@ BATCHES
 MONDAY - 09-06-2025
 
 KADD - CSS DAY 5 [ Flex, Grid ]
-7 - JS DAY 3 [ Number Methods, Functions ]
-N - EXPRESS DAY 3 [ VALUES, ERROR ]
+7 - JS DAY 3 [ Project Hosting ]
+N - EXPRESS DAY 3 [ VALUES, ERROR ] 
 HA - EVENT LISTENER 
 S - CSS DAY 3 4 5
 
 TUESDAY - 10-06-2025 
 
-KADD - CSS DAY 6 [ Media Query]
-7 - JS DAY 4 [ Operators ]
+KADD - CSS DAY 6 [ Media Query ]
+7 - JS DAY 4 [ Number Methods, Functions ]
 N - EXPRESS DAY 4 [ EJS, HBS ]
 HA - JS [ Form Validation, Password Validation ]
 S - CSS DAY 6 [ Media Query]
@@ -31,7 +31,7 @@ S - CSS DAY 6 [ Media Query]
 WEDNESDAY - 11-06-2025 
 
 KADD - CSS DAY 7 [ Transition, Tranform ]
-7 - JS DAY 5 [ Conditional Statements ]
+7 - JS DAY 5 [ Operators ]
 N - 
 HA - JS [ Try, Catch, Finally, Throw, Then, Promises ]
 S - CSS DAY 7 [ Transition, Tranform ]
@@ -39,18 +39,24 @@ S - CSS DAY 7 [ Transition, Tranform ]
 THURSDAY - 12-06-2025 
 
 KADD - CSS DAY 8 [ Animation, Root Variable, AOS ] 
-7 - JS DAY 6 [ Loops ]
+7 - JS DAY 6 [ Conditional Statements ]
 N - 
 HA - JS [ ADD TO CART ]
 S - CSS DAY 8 [ Animation, Root Variable, AOS ]
-
+            
 FRIDAY - 13-06-2025 
 
 KADD - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ] 
-7 - JS DAY 7 [ Set Interval, Set Timeout ]
+7 - JS DAY 7 [ Loops ]
 N - 
 HA - JS [ ADD TO CART ]
-S - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ] 
+S - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]  
+
+09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen, 
+10-06-2025 (TUE) - Absent - 
+11-06-2025 (WED) - Absent - 
+12-06-2025 (THU) - Absent - 
+13-06-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
 

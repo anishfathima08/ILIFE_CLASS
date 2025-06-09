@@ -4,30 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <style>
-
-        .container{
-            padding: 30px;
+        p{
             border: 2px solid black;
-            margin: 10px;
+            padding: 20px;
         }
-
-        input:checked ~ .container{
-            color: white;
+        #inputBox:checked ~ p{
             background-color: black;
+            color: white;
         }
-
     </style>
 </head>
 <body>
+    <input type="checkbox" id="inputBox">
+    <label for="inputBox">Click</label>
 
-    <input type="checkbox" id="toggle">
-    <label for="toggle">Click</label>
-
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla magni nam nobis doloremque autem soluta optio sequi laboriosam earum nesciunt beatae necessitatibus expedita dolore, itaque maiores facilis in cupiditate veritatis consectetur perferendis repudiandae quas quia harum! Aliquam ab architecto autem ducimus, esse quas repudiandae aliquid, blanditiis voluptate quibusdam, quis odio!</p>
-    </div>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus sapiente labore asperiores voluptate, nam quisquam quibusdam architecto nihil! Harum iste sapiente ex vitae quibusdam blanditiis distinctio nostrum aspernatur inventore animi saepe, velit necessitatibus quis non reiciendis omnis, cumque ea ad eos ab nesciunt iusto modi quia alias! Fugiat, ratione.</p>
 </body>
 </html>

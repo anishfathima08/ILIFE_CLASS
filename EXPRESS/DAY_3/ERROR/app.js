@@ -1,4 +1,4 @@
-//Error Handling
+// Error Handling
 
 const PORT = 8080;
 const express = require('express');
@@ -29,9 +29,8 @@ app.use((err,req,res,next)=>{
         res.send({
             name:err.name,
             message:err.message,
-            stack:err.stack
         });
-    }
+    } 
     else{
         res.send(err);
     }
@@ -39,4 +38,4 @@ app.use((err,req,res,next)=>{
 
 app.listen(PORT, ()=>{
     console.log('Running Successfully');
-})
+}) 

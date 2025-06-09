@@ -4,8 +4,8 @@ CSS (Cascading Style Sheet)
 
 DAY 1.	Inline, Internal, External, Selectors, Pseudo Selectors, Colors, Background Colors
 DAY 2.	Combinators, Border, Margin, Padding, Display
-DAY 3 - Text Properties, Text-shadow, Box-shadow, List Style, Table, Background Image
-DAY 4.	Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position, Z-Index
+DAY 3.	Text Properties, Text-shadow, Box-shadow, List Style, Table, Background Image
+DAY 4.	Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position, Z-Index 
 DAY 5.	Flex, Grid, Media Query
 DAY 6.	Animations ( Transform, Transition ), Root Variable, AOS 
 

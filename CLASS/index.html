@@ -4,69 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #hide{
+            display: none;
+        }
+    </style>
 </head>
 <body>
-
-    <!-- EVENTS - ONCLICK, ONDBLCLICK, ONSUBMIT, ONMOUSEDOWN, ONMOUSEUP, ONMOUSEOVER, ONMOUSEOUT, ONMOUSEENTER, ONMOUSELEAVE, ONCHANGE, ONKEYUP, ONKEYPRESS, ONFOCUS, ONBLUR, WINDOW RESIZE, ONLOAD -->
-
-    <!-- <button onclick="clickFun()">Click</button> -->
-
-    <!-- <br> -->
+    <!-- <button id="addBtn">Add</button>
+    <button id="removeBtn">Remove</button> -->
 
     <script>
-        // function clickFun(){
-        //     alert('Click Event')
+
+        // function addFun(){
+        //     console.log('Event Added')
         // }
+        
+        // document.getElementById('addBtn').addEventListener('click', addFun)
+
+        // function removeFun(){
+        //     document.getElementById('addBtn').removeEventListener('click', addFun)
+        // }
+
+        // document.getElementById('removeBtn').addEventListener('click', removeFun)
+
     </script>
 
-    <!-- <button ondblclick="dblClickFun()">Double Click</button> -->
+    <!-- <button id="addBtn">Color Button</button>
+    <button id="removeBtn">Remove Button</button> -->
 
-    <!-- <br> -->
 
     <script>
-        // function dblClickFun(){
-        //     alert('Double Click Event')
+
+        // function addFun(){
+        //     // document.body.style.backgroundColor = 'blue'
+        //     document.body.style.backgroundColor = document.body.style.backgroundColor  == 'blue' ? 'white' : 'blue'
         // }
+
+        // document.getElementById('addBtn').addEventListener('click', addFun)
+
+        // function removeFun(){
+        //     document.getElementById('addBtn').removeEventListener('click', addFun)
+        // }
+
+        // document.getElementById('removeBtn').addEventListener('click', removeFun)
+
     </script>
 
-    <!-- <form onsubmit="submitFun(event)">
-        <input type="text" required>
+    <form onsubmit="submitFun(event)">
+        <input type="text" id="username">
+        <br><br>
+        <input type="text" id="password">
+        <i class="fa-solid fa-eye" id="show" onclick="toggle()"></i>
+        <i class="fa-solid fa-eye-slash" id="hide"  onclick="toggle()"></i>
+        <br><br>
         <input type="submit">
-    </form> -->
+    </form>
+
+    <p id="error"></p>
 
     <script>
-        // function submitFun(event){
-        //     event.preventDefault()
-        //     console.log('Login Successfully');
-        // }
-    </script>
+        function submitFun(event){
+            event.preventDefault()
+            var username = document.getElementById('username').value
+            var password = document.getElementById('password').value
 
-    <!-- <button onmouseup="mouseUpFun()" onmousedown="mouseDownFun()" id="btn">Click</button> -->
+            if(username == 'abc' && password == '123'){
+                window.location.href = 'sample.html'
+            }
+            else{
+                // alert('Invalid Inputs')
+                document.getElementById('error').innerHTML = 'Invlid Inputs'
+                document.getElementById('error').style.color = 'red'
+            }
+        }
 
-    <script>
-        // function mouseDownFun(){
-        //     document.getElementById('btn').style.backgroundColor = 'blue'
-        // }   
+        function toggle(){
+            var passowrdBox = document.getElementById('password')
 
-        // function mouseUpFun(){
-        //     document.getElementById('btn').style.backgroundColor = 'red'
-        // }
-    </script>
-
-    <!-- <p onmouseover="mouseOverFun()" onmouseout="mouseOutFun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tenetur eligendi obcaecati exercitationem nihil modi dolore sit mollitia quibusdam, unde voluptates, eius amet placeat, deserunt a! Ipsam repellendus voluptatibus expedita consequatur veniam ducimus omnis, et quis assumenda dolores aut repudiandae excepturi dolorum, hic animi magnam sit a obcaecati quasi? Aliquid.</p> -->
-
-    <script>
-        // function mouseOverFun(){
-        //     document.getElementsByTagName('p')[0].style.color = 'blue'
-        // }
-        // function mouseOutFun(){
-        //     document.getElementsByTagName('p')[0].style.color = 'black'
-        // }
-    </script>
-
-    <p onmouseenter="mouseOver">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil debitis quam libero eaque commodi aliquid culpa, minus quia a, ratione at aperiam nostrum consequatur natus ipsam repellendus fugit iusto odit similique fuga voluptates quas non dolorum! Nam aperiam aliquam praesentium eligendi iure, consequatur sit totam doloremque eveniet! Voluptates, consectetur aspernatur.</p>
-
-    <script>
+            if(passowrdBox.type === 'password'){
+                passowrdBox.type = 'text'
+            }
+        }
 
     </script>
 
