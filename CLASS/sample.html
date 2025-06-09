@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- toFixed, toString, Number(), isNaN(), isFinite(), parseInt, parseFloat, Math.sqrt, Math.ceil, Math.floor, Math.random -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
 
-  <script>
+    <!-- Event Listener -->
 
-    // var num = 10.7423;
-    // console.log(num.toFixed());
+    <!-- <button id="addBtn">Add</button>  
+    <button id="removeBtn">Remove</button> -->
 
-    var a = '123';
-    
-  </script>
-</body>
+    <script>
+      // function addFun(){
+      //   console.log('Event Added');
+      // }
+      // document.getElementById('addBtn').addEventListener('click', addFun)
+
+      // function removeFun(){
+      //   document.getElementById('addBtn').removeEventListener('click', addFun)
+      //   console.log('Event Removed');
+      // }
+
+      // document.getElementById('removeBtn').addEventListener('click', removeFun)
+    </script>
+
+    <button id="clrBtn">Color Button</button>
+    <button id="defaultBtn">Default Button</button>
+
+    <script>
+
+      document.getElementById('clrBtn').addEventListener('click', addFun)
+
+      function addFun(){
+        // document.body.style.backgroundColor = 'blue'
+        document.body.style.backgroundColor = document.body.style.backgroundColor === 'blue' ? 'white' : 'blue'
+      }
+
+      document.getElementById('defaultBtn').addEventListener('click', removeFun)
+
+      function removeFun(){
+        document.getElementById('clrBtn').removeEventListener('click', addFun)
+      }
+
+    </script>
+
+  </body>
 </html>
