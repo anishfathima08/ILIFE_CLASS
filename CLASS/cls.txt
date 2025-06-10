@@ -1,13 +1,15 @@
 BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
-11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
-12 - 01 -> Free
+11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Shalini [ Python Full Stack ]
+12 - 01 -> Maria [ Python Stack - Online ]
+
 01 - 02 -> Lunch
+
 02 - 03 -> Free 
-03 - 04 -> Free 
-04 - 05 -> Naveen [ MERN STACK ]
-05 - 06 -> Hari Babu, Aakash [ MERN STACK ]
+03 - 04 -> Free
+04 - 05 -> Naveen [ MERN STACK - Online ]
+05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ]
 06 - 07 -> Sethuraman [ MERN STACK ]
 
 --------------------------------------------------------------------------------------------
@@ -16,44 +18,44 @@ MONDAY - 09-06-2025
 
 KADD - CSS DAY 5 [ Flex, Grid ]
 7 - JS DAY 3 [ Project Hosting ]
-N - EXPRESS DAY 3 [ VALUES, ERROR ] 
+N - Naveen Leave
 HA - EVENT LISTENER 
-S - CSS DAY 3 4 5
+S - CSS DAY 3
 
 TUESDAY - 10-06-2025 
 
-KADD - CSS DAY 6 [ Media Query ]
+KADD - CSS [ Tasks ]
 7 - JS DAY 4 [ Number Methods, Functions ]
-N - EXPRESS DAY 4 [ EJS, HBS ]
+N - EXPRESS DAY 3 [ VALUES, ERROR ]
 HA - JS [ Form Validation, Password Validation ]
-S - CSS DAY 6 [ Media Query]
+S - CSS [ Background Imag, Float, Opacity, Scroll Behaviour Over Flow, Position ]
 
 WEDNESDAY - 11-06-2025 
 
-KADD - CSS DAY 7 [ Transition, Tranform ]
-7 - JS DAY 5 [ Operators ]
-N - 
+KADD - CSS DAY 6 [ Media Query ]
+8 - JS DAY 5 [ Operators ]
+N - EXPRESS DAY 4 [ EJS, HBS ]
 HA - JS [ Try, Catch, Finally, Throw, Then, Promises ]
-S - CSS DAY 7 [ Transition, Tranform ]
+S - 
 
 THURSDAY - 12-06-2025 
 
-KADD - CSS DAY 8 [ Animation, Root Variable, AOS ] 
+KADD - CSS DAY 7 [ Transition, Tranform ] 
 7 - JS DAY 6 [ Conditional Statements ]
 N - 
 HA - JS [ ADD TO CART ]
-S - CSS DAY 8 [ Animation, Root Variable, AOS ]
+S - 
             
 FRIDAY - 13-06-2025 
 
-KADD - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ] 
+KADD - CSS DAY 8 [ Animation, Root Variable, AOS ]
 7 - JS DAY 7 [ Loops ]
 N - 
 HA - JS [ ADD TO CART ]
-S - BOOTSRAP DAY 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]  
+S - 
 
-09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen, 
-10-06-2025 (TUE) - Absent - 
+09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen
+10-06-2025 (TUE) - Absent - Pavithran
 11-06-2025 (WED) - Absent - 
 12-06-2025 (THU) - Absent - 
 13-06-2025 (FRI) - Absent - 
@@ -97,7 +99,7 @@ KADD - CSS DAY 3
 2 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 3 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 N - NAVEEN LEAVE
-HA -  Filter 
+HA - Filter 
 S - LEAVE
 
 FRIDAY - 06-06-2025

@@ -12,7 +12,7 @@ app.get('/',(req,res,next)=>{
 app.get('/about', (req,res,next) => {
     const about = 'About Page';
     next(about);
-})
+}) 
 
 app.get('/contact', (req,res,next) =>{
     const contact = 'Contact Page';

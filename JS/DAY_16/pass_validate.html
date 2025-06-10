@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="">
+    <form>
       <input type="text" onkeyup="fun()" id="passwordBox" />
     </form>
 
@@ -27,13 +27,7 @@
             
             var firstLetter = password.charAt(0);
             
-            if(num.some((a) => firstLetter.includes(a))){
-                document.getElementById('letter').style.color = 'red';
-            }
-            else if(characters.some((a) => firstLetter.includes(a))){
-                document.getElementById('letter').style.color = 'red';
-            }
-            else if(firstLetter == firstLetter.toUpperCase()){ // A == A
+            if(firstLetter == firstLetter.toUpperCase()){ // A == A
                 document.getElementById('letter').style.color = 'green';
             }     
             else{
@@ -59,6 +53,7 @@
             }
 
             //Atleast one Number
+
             if(num.some((a) => password.includes(a))){
                 document.getElementById('num').style.color = 'green';
             }

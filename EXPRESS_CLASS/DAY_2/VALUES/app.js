@@ -1,21 +1,24 @@
-const express = require('express')
-const app = express()
+// const express = require('express')
+// const app = express()
 
-const path = require('path')
+// const path = require('path')
+// const PORT = 5000
 
-app.use(express.urlencoded({ extended : true }))
+// app.use(express.urlencoded({extended : true}))
 
-// username=abc&password=123 
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'index.html'))
+// })
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
-})
+// app.post('/submit', (req, res) => {
+//     // res.send(`${req.body.username} ${req.body.password}`)
 
-app.post('/submit', (req, res) => {
+//     const { username, password } = req.body
+//     res.send(`Your username is ${username} and Your Password is ${password}`)
 
-  const { username, password } = req.body
+// })
 
-  res.send(`Username : ${username} <br> Password : ${password}`)
-})
+// app.listen(PORT)
 
-app.listen(8080)
+// 1234567890sdfghjk => username='abc'&password='abc123' 
+// { username : 'abc', password : 'abc123' }
