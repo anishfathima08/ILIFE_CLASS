@@ -6,70 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="password" onkeyup="passwordFun()">
-
-    <p>First Letter Should Be Capital</p>
-    <p>Atleast One Number</p>
-    <p>Atleast One Special Character</p>
-    <p>Minimum 5 Characters</p>
+    <!-- Try, Catch, Finally, Throw -->
 
     <script>
 
-        function passwordFun(){
-            var password = document.getElementById('password').value 
-            
-            // First Letter
+        // function fun(){
+        //     try{
+        //         var a = 342;
+        //         console.log(a.toUpperCase());
+        //     }
+        //     catch(error){
+        //         console.log(error);
+        //         console.log(error.name);
+        //         console.log(error.message);
+        //     }
+        // }
+        // fun()
 
-            var firstLetter = password.charAt(0)
+        // function fun(){
+        //     try{
+        //         var a = 45
+        //         console.log(a.toUpperCase());
+        //     }
+        //     catch(error){
+        //         console.log(error);
+        //     }
+        //     finally{
+        //         console.log('Function Working');
+        //     }
+        // }
+        // fun()
 
-            if(firstLetter === firstLetter.toUpperCase()){
-                document.getElementsByTagName('p')[0].style.color = 'green'
-            }
-            else{
-                document.getElementsByTagName('p')[0].style.color = 'red'
-            }
-
-            // Atleat One Number 
-
-            var num = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' ]
-
-            if(num.some(a => password.includes(a))){
-                document.getElementsByTagName('p')[1].style.color = 'green'
-            }
-            else{
-                document.getElementsByTagName('p')[1].style.color = 'red'
-            }
-
-            // Atleast One Special Character 
-
-            var char = [ '@', '#', '$', '%', '^', '&', '*' ]
-
-            if(char.some(a => password.includes(a))){
-                document.getElementsByTagName('p')[2].style.color = 'green'
-            }
-            else{
-                document.getElementsByTagName('p')[2].style.color = 'red'
-            }
-
-            // 
-
-            if(password.length >= 5){
-                document.getElementsByTagName('p')[3].style.color = 'green'
-            }
-            else{
-                document.getElementsByTagName('p')[3].style.color = 'red'
-            }
-
-            if(password.length === 0){
-                document.getElementsByTagName('p')[0].style.color = 'black'
-                document.getElementsByTagName('p')[1].style.color = 'black'
-                document.getElementsByTagName('p')[2].style.color = 'black'
-                document.getElementsByTagName('p')[3].style.color = 'black'
-            }
-        }
-        
+        // function fun(a, b){
+        //     try{
+        //         var result = a + c;
+        //         console.log(result);
+        //     }
+        //     catch(error){
+        //         console.log(error)
+        //         console.log(error.name)
+        //         console.log(error.message)
+        //     }
+        //     finally{
+        //         console.log('Function Working');
+        //     }
+        // }
+        // fun(8, 6)
 
     </script>
-
 </body>
 </html>

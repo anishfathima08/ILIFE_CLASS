@@ -1,0 +1,78 @@
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container div {
+    height: 100px;
+}
+
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightcoral;
+}
+.box3{
+    background-color: lightgreen;
+}
+.box4{
+    background-color: lightseagreen;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:320px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+} */
+/* 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    height: 100px;
+    flex: 1;
+}
+
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightcoral;
+}
+.box3{
+    background-color: lightgreen;
+}
+.box4{
+    background-color: lightseagreen;
+}
+   
+@media screen and (max-width:768px){
+    .container div{
+        flex: 1 50%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .container div{
+        flex: 1 100%;
+    }
+}  */
+
+p{
+    border: 2px solid;
+    padding: 20px;
+}
+
+#inputBox:checked ~ p{
+    color: white;
+    background-color: black;
+} 

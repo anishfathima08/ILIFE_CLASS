@@ -33,30 +33,38 @@ S - CSS [ Background Imag, Float, Opacity, Scroll Behaviour Over Flow, Position 
 WEDNESDAY - 11-06-2025 
 
 KADD - CSS DAY 6 [ Media Query ]
-8 - JS DAY 5 [ Operators ]
+8 - JS DAY 5 [ Operators ] 
 N - EXPRESS DAY 4 [ EJS, HBS ]
-HA - JS [ Password Validation, Try, Catch, Finally, Throw, Then, Promises ]
+HA - JS [ Password Validation, Try, Catch, Finally ]
 S - CSS [ Flex, Grid ]
 
 THURSDAY - 12-06-2025 
 
 KADD - CSS DAY 7 [ Media Query ] 
 7 - JS DAY 6 [ Conditional Statements ]
-N - 
-HA - JS [ ADD TO CART ]
-S - 
+N - MONGO DB 1
+HA - JS [ Throw, Promises, ADD TO CART ]
+S - CSS MEDIA QUERY 
             
 FRIDAY - 13-06-2025 
 
 KADD - CSS DAY 8 [ Animation, Root Variable, AOS ]
 7 - JS DAY 7 [ Loops ]
-N - 
+N - MONGO DB 2
 HA - JS [ ADD TO CART ]
-S - 
+S - CSS MEDIA QUERY 
+
+SATURDAY - 14-06-2025 
+
+Yusuf 
+
+10:30 to 11:30 -> Yusuf [ Conditional Statements ]
+12:00 to 01:00 -> Yusuf [ Loops ]
+02:30 to 3:30 -> Yusuf[ Set Interval, Set Timeout, Array Methods - 1 ] 
 
 09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen
 10-06-2025 (TUE) - Absent - Pavithran
-11-06-2025 (WED) - Absent - 
+11-06-2025 (WED) - Absent - Pavithran 
 12-06-2025 (THU) - Absent - 
 13-06-2025 (FRI) - Absent - 
 
