@@ -22,22 +22,21 @@
 
 // app.listen(PORT) 
 
+// const express = require('express')
+// const app = express()
+// const PORT = 8080
+// const path = require('path')
 
-const express = require('express')
-const app = express()
-const PORT = 8080
-const path = require('path')
+// app.set('view engine', 'hbs')
 
-app.set('view engine', 'hbs')
+// app.set('views', path.join(__dirname, 'public'))
 
-app.set('views', path.join(__dirname, 'public'))
+// app.get('/', (req, res) => {
+//   res.render('index', { title : 'Home', message : 'Welcome To Home Page' })
+// })
 
-app.get('/', (req, res) => {
-  res.render('index', { title : 'Home', message : 'Welcome To Home Page' })
-})
+// app.get('/about', (req, res) => {
+//   res.render('about', { title : 'About', message : 'Welcome To About Page' })
+// })
 
-app.get('/about', (req, res) => {
-  res.render('about', { title : 'About', message : 'Welcome To About Page' })
-})
-
-app.listen(PORT)
+// app.listen(PORT)

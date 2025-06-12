@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+<body>
     <form>
       <input type="text" onkeyup="fun()" id="passwordBox" />
     </form>
@@ -20,8 +20,8 @@
         function fun() {
             var password = document.getElementById("passwordBox").value;
 
-            var characters = ['!','@','#','$','%','&'];
-            var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+            var characters = [ '!', '@', '#', '$', '%', '&' ];
+            var num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 ];
 
             // First Letter Should be Capital
             
@@ -34,7 +34,7 @@
                 document.getElementById('letter').style.color = 'red';
             }
 
-            //AtLeast One Special Character
+            // AtLeast One Special Character
             
             if(characters.some((a) => password.includes(a))){
                 document.getElementById('char').style.color = 'green';
@@ -43,7 +43,7 @@
                 document.getElementById('char').style.color = 'red';
             }
 
-            //Minimum 5 Characters
+            // Minimum 5 Characters
             
             if(password.length >=5 ){
                 document.getElementById('min').style.color = 'green';
@@ -52,7 +52,7 @@
                 document.getElementById('min').style.color = 'red';
             }
 
-            //Atleast one Number
+            // Atleast one Number
 
             if(num.some((a) => password.includes(a))){
                 document.getElementById('num').style.color = 'green';
@@ -61,7 +61,7 @@
                 document.getElementById('num').style.color = 'red';
             }
 
-            //Input Empty Color Black
+            // Input Empty Color Black
             if(password.length === 0){
                 document.getElementById('letter').style.color = 'black';
                 document.getElementById('num').style.color = 'black';

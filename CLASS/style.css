@@ -1,25 +1,17 @@
-.container{
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    /* gap: 20px; */
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.container{
-    display: grid;
-    gap: 10px;
-}
-
-.container > div{
-    padding: 30px;
+.container > div {
+    height: 100px;
+    flex: 1;
 }
 
 .box1{
-    grid-column: 1 / span 2;
     background-color: lightblue;
 }
 .box2{
-    grid-column: 3;
-    grid-row: 1 / span 2;
     background-color: lightcoral;
 }
 .box3{
@@ -27,11 +19,124 @@
 }
 .box4{
     background-color: lightsalmon;
-} 
-.box5{
-    grid-column: 1 / span 2;
-    background-color: lightseagreen;
 }
-.box6{
-    background-color: lightgray;
+
+@media screen and (max-width:768px){
+    .container > div{
+        flex: 1 50%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .container > div{
+        flex: 1 100%;
+    }
+} */
+
+/* 0 to 320px  */
+/* 321px 768px */
+
+/* .container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container > div{
+    padding: 20px;
+}
+
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightcoral;
+}
+.box3{
+    background-color: lightgreen;
+}
+.box4{
+    background-color: lightsalmon;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+} */
+
+/* div{
+    background-color: blue;
+    height: 100px;
+} */
+
+/* @media screen and (max-width:768px){
+    div{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:320px){
+    div{
+        background-color: yellow;
+    }
+} */
+
+/* 0 to 320px - yellow */
+/*  321 to 768px - red */
+
+
+/* @media screen and (min-width:320px){
+    div{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:768px){
+    div{
+        background-color: yellow;
+    }
+} */
+
+/* 320px and above - red */
+/* 768px and above - yellow */
+/* 
+@media screen and (min-width:320px) and (max-width:768px){
+    div{
+        background-color: red;
+    }
+} */
+
+
+div{
+    background-color: blue;
+    height: 200px;
+}
+
+h1{
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+    div{ 
+        background-color: red;
+    }
+    h1{
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 320px){
+    div{
+        background-color: yellow;
+    }
+    h1{
+        color: blue;
+    }
 }

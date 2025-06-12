@@ -2,7 +2,7 @@ BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
 11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Shalini [ Python Full Stack ]
-12 - 01 -> Maria [ Python Stack - Online ]
+12 - 01 -> Maria [ Python Stack - Online ] 
 
 01 - 02 -> Lunch
 
@@ -42,16 +42,18 @@ THURSDAY - 12-06-2025
 
 KADD - CSS DAY 7 [ Media Query - Nav Bar, Transition, Tranform] 
 7 - JS DAY 6 [ Conditional Statements ]
+M - JS DAY 6 [ Conditional Statements ]
 N - EXPRESS DAY 4 [ EJS, HBS ]
-HA - JS [  Password Validation, Try, Catch, Finally ] 
+HA - JS [ Password Validation, Try, Catch, Finally ] 
 S - CSS MEDIA QUERY 
             
 FRIDAY - 13-06-2025 
 
-KADD - CSS DAY 8 [ Animation, Root Variable, AOS ]
+KADD - CSS DAY 8 [ Transition, Tranform ]
 7 - JS DAY 7 [ Loops ]
-N - MONGO DB 2
-HA - JS [ Throw, Promises, ADD TO CART ]
+M - JS DAY 7 [ Loops ]
+N - MONGO DB 1
+HA - JS [ Throw, Promises, ADD TO CART ( Search ) ]
 S - CSS MEDIA QUERY 
 
 SATURDAY - 14-06-2025 
@@ -65,7 +67,7 @@ Yusuf
 09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen
 10-06-2025 (TUE) - Absent - Pavithran
 11-06-2025 (WED) - Absent - Pavithran 
-12-06-2025 (THU) - Absent - 
+12-06-2025 (THU) - Absent - Pavithran 
 13-06-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
