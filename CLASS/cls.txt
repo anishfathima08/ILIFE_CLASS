@@ -60,7 +60,7 @@ Yusuf
 
 10:30 to 11:30 -> Yusuf [ Conditional Statements ]
 12:00 to 01:00 -> Yusuf [ Loops ]
-02:30 to 3:30 -> Yusuf[ Set Interval, Set Timeout, Array Methods - 1 ] 
+02:30 to 3:30 -> Yusuf [ Set Interval, Set Timeout, Array Methods - 1 ] 
 
 09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen
 10-06-2025 (TUE) - Absent - Pavithran
