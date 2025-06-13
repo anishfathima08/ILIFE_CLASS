@@ -14,11 +14,56 @@ BATCHES
 
 --------------------------------------------------------------------------------------------
 
+MONDAY - 16-06-2025
+
+KADD - CSS [ Animations, 2nd Project ]
+8 - JS [ While, Do While, Set Interval, Set Timeout ]
+M - JS [ While, Do While, Set Interval, Set Timeout ]
+N - MONGO DB 1
+HA - ADD TO CART 
+S - CSS [ Animations, 2nd Project ] 
+
+TUESDAY - 17-06-2025
+
+KADD - BOOTSTRAP DAY 1 [ INTRODUCTION, BOOTSTRAP 5 CDN LINK, COLORS, BUTTONS, PADDING, MARGIN, WIDTH ] 
+8 - JS [ Array Methods 1 ] 
+M - JS [ Array Methods 1 ]
+N - MONGO DB 2
+HA - ADD TO CART 
+S - BOOTSTRAP DAY 1 [ INTRODUCTION, BOOTSTRAP 5 CDN LINK, COLORS, BUTTONS, PADDING, MARGIN, WIDTH ]
+
+WEDNESDAY - 18-06-2025
+
+KADD - BOOTSTRAP DAY 2 [ TYPOGRAPHY, LIST STYLES, ROUNDED, BADGE, TABLES ]
+8 - JS [ Array Methods 2 ]
+M - JS [ Array Methods 2 ]
+N - MONGO DB 3 
+HA - REACT DAY 1 
+S - BOOTSTRAP DAY 2 [ TYPOGRAPHY, LIST STYLES, ROUNDED, BADGE, TABLES ] 
+
+THURSDAY - 19-06-2025 
+
+KADD - BOOTSTRAP DAY 3 [ DISPLAY NONE, INLINE, BLOCK, FLEX, COLUMN RESPONSIVESNESS ]
+8 - JS [ Array Methods 3 ]
+M - JS [ Array Methods 3 ]
+HA - REACT DAY 2 
+S - BOOTSTRAP DAY 3 [ DISPLAY NONE, INLINE, BLOCK, FLEX, COLUMN RESPONSIVESNESS ]
+
+FRIDAY - 20-06-2025
+
+KADD - BOOTSTRAP DAY 4 [ BOOTSTRAP ICONS, BORDERS, SHADOW, FLOAT, CARDS ]
+8 - JS [ FETCH API, OBJECT METHODS ]
+M - JS [ FETCH API, OBJECT METHODS ]
+HA - REACT DAY 3 
+S - BOOTSTRAP DAY 4 [ BOOTSTRAP ICONS, BORDERS, SHADOW, FLOAT, CARDS ]
+
+--------------------------------------------------------------------------------------------
+
 MONDAY - 09-06-2025
 
 KADD - CSS DAY 5 [ Flex, Grid ]
 7 - JS DAY 3 [ Project Hosting ]
-N - Naveen Leave
+N - Naveen dddd
 HA - EVENT LISTENER 
 S - CSS DAY 3
 
@@ -44,31 +89,28 @@ KADD - CSS DAY 7 [ Media Query - Nav Bar, Transition, Tranform]
 7 - JS DAY 6 [ Conditional Statements ]
 M - JS DAY 6 [ Conditional Statements ]
 N - EXPRESS DAY 4 [ EJS, HBS ]
-HA - JS [ Password Validation, Try, Catch, Finally ] 
+HA - JS [ Password Validation ] 
 S - CSS MEDIA QUERY 
             
 FRIDAY - 13-06-2025 
 
-KADD - CSS DAY 8 [ Transition, Tranform ]
+KADD - CSS DAY 8 [ Transition, Transform ]
 7 - JS DAY 7 [ Loops ]
 M - JS DAY 7 [ Loops ]
 N - MONGO DB 1
-HA - JS [ Throw, Promises, ADD TO CART ( Search ) ]
-S - CSS MEDIA QUERY 
+HA - JS [ Try, Catch, Finally, Throw, Promises ]
+S - CSS MEDIA QUERY, Transition, Transform 
 
 SATURDAY - 14-06-2025 
 
-Yusuf 
-
-10:30 to 11:30 -> Yusuf [ Conditional Statements ]
-12:00 to 01:00 -> Yusuf [ Loops ]
-02:30 to 3:30 -> Yusuf [ Set Interval, Set Timeout, Array Methods - 1 ] 
+=> PPT create and prepare for next week work shop 
+=> Take Notes for Express with MongoDB 
 
 09-06-2025 (MON) - Absent - Dhinakaran, Pavithran, Vibhashini, Naveen
 10-06-2025 (TUE) - Absent - Pavithran
 11-06-2025 (WED) - Absent - Pavithran 
 12-06-2025 (THU) - Absent - Pavithran 
-13-06-2025 (FRI) - Absent - 
+13-06-2025 (FRI) - Absent - Vibhashini
 
 --------------------------------------------------------------------------------------------
 
@@ -79,8 +121,8 @@ KADD - HTML DAY 4
 2 - REACT DAY 9 [ ROUTE ] 
 3 - REACT DAY 9 [ ROUTE ] 
 N - EXPRESS DAY 1
-HA - STUDENT LEAVE
-S - STUDENT LEAVE 
+HA - STUDENT dddd
+S - STUDENT dddd 
 
 TUESDAY - 03-06-2025 
 
@@ -108,9 +150,9 @@ KADD - CSS DAY 3
 10 - JS DAY 2
 2 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 3 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
-N - NAVEEN LEAVE
+N - NAVEEN dddd
 HA - Filter 
-S - LEAVE
+S - dddd
 
 FRIDAY - 06-06-2025
 
@@ -118,9 +160,9 @@ KADD - CSS DAY 4 [ Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position
 10 - JS DAY 3 [ PROJECT ]
 2 - REACT DAY 12 [ Form Validation ]
 3 - REACT DAY 12 [ Form Validation ]
-N - NAVEEN LEAVE
+N - NAVEEN dddd
 HA - Events, Event Listener
-S - LEAVE 
+S - dddd 
 
 02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Sethuraman
 03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
@@ -137,7 +179,7 @@ NB - INTRO
 2 - REACT DAY 4 [ Use State ] 
 3 - REACT DAY 4 [ Use State ] 
 N - NODE DAY 3 [ Try Catch ]
-H - H LEAVE
+H - H dddd
 
 TUESDAY - 27-05-2025 
 
@@ -155,7 +197,7 @@ KADD - HTML DAY 1
 2 - REACT DAY 6 [ Bootstrap Components ] 
 3 - REACT DAY 6 [ Bootstrap Components ]
 N - PROJECT
-A - Aakash LEAVE 
+A - Aakash dddd 
 
 THURSDAY - 29-05-2025
 
@@ -164,7 +206,7 @@ KADD - HTML DAY 2
 2 - REACT DAY 7 [ Use Context ]
 3 - REACT DAY 7 [ Use Context ]
 N - PROJECT
-A - Aakash Leave  
+A - Aakash dddd  
 
 FRIDAY - 30-05-2025
 
@@ -204,8 +246,8 @@ WEDNESDAY - 21-05-2025
 10 - CSS DAY 5 
 3 - REACT DAY 2 
 5 - REACT DAY 2 
-N - NAVEEN LEAVE
-A - AAKASH LEAVE  
+N - NAVEEN dddd
+A - AAKASH dddd  
 
 THURSDAY - 22-05-2025
 
@@ -239,7 +281,7 @@ SATURDAY - 24-05-2025
 
 --------------------------------------------------------------------------------------------
 
-MONDAY - 12-05-2025 STAFF LEAVE
+MONDAY - 12-05-2025 STAFF dddd
 
 TUESDAY - 13-05-2025
 
@@ -257,7 +299,7 @@ IN - JAVASCRIPT DAY 3
 3 - JS PROJECT
 5 - JS PROJECT
 N - NODE DAY 1
-A - AKASH LEAVE
+A - AKASH dddd
 
 THURSDAY - 15-05-2025
 
@@ -266,7 +308,7 @@ IN - REACT DAY 1
 3 - REACT DAY 1
 10 - REACT DAY 1
 N - REACT PROJECT
-A - AKASH LEAVE
+A - AKASH dddd
 
 FRIDAY - 16-05-2025
 
@@ -275,11 +317,11 @@ IN - REACT DAY 2
 3 - JS PROJECT
 5 - JS PROJECT
 N - REACT PROJECT
-A - AKASH LEAVE
+A - AKASH dddd
 
 ATTENDANCE 
 
-12-05-2025 (MON) - Absent - STAFF LEAVE 
+12-05-2025 (MON) - Absent - STAFF dddd 
 13-05-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan, Barath
 14-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Aakash
 15-05-2025 (THU) - Absent - Maria, Kaviyarasan, Murugan, Aakash
@@ -294,7 +336,7 @@ NM - ROUTER
 3 - EVENT LISTENER, QUERY SELECTOR
 5 - EVENT LISTENER, QUERY SELECTOR
 P - FULL STACK INTRO 
-A - AKASH LEAVE
+A - AKASH dddd
 
 TUESDAY - 06-05-2025
 
@@ -362,7 +404,7 @@ NM - USE CONTEXT
 8 - Object Methods, DOM 
 A - Doubt in Task
 
-THURSDAY - 01-05-2025 ( OFFICE LEAVE )
+THURSDAY - 01-05-2025 ( OFFICE dddd )
 
 FRIDAY - 02-05-2025
 
@@ -376,7 +418,7 @@ ATTENDANCE
 28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
 29-04-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
 30-04-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, 
-01-05-2025 (THU) - Absent - Office Leave
+01-05-2025 (THU) - Absent - Office dddd
 02-05-2025 (FRI) - Absent - Maria, Kaviyarasan, Murugan
 
 --------------------------------------------------------------------------------------------
@@ -400,7 +442,7 @@ WEDNESDAY - 23-04-2025
 NM - Use Effect 2 
 3 - Array Methods 1
 5 - Array Methods 1
-A - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash Leave ) )
+A - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash dddd ) )
 
 THURSDAY - 24-04-2025
 
@@ -414,7 +456,7 @@ FRIDAY - 25-04-2025
 NM - Use Ref ( Use Effect )
 3 - Array Methods 3 
 5 - Array Methods 3
-A - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash Leave ) )
+A - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash dddd ) )
 
 SATURDAY - 26-04-2025
 
