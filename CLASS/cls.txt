@@ -3,7 +3,7 @@ BATCHES
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
 11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Shalini [ Python Full Stack ]
 12 - 01 -> Maria [ Python Stack - Online ] 
-
+ 
 01 - 02 -> Lunch
 
 02 - 03 -> Free 
@@ -46,6 +46,7 @@ THURSDAY - 19-06-2025
 KADD - BOOTSTRAP DAY 3 [ DISPLAY NONE, INLINE, BLOCK, FLEX, COLUMN RESPONSIVESNESS ]
 8 - JS [ Array Methods 3 ]
 M - JS [ Array Methods 3 ]
+N - 
 HA - REACT DAY 2 
 S - BOOTSTRAP DAY 3 [ DISPLAY NONE, INLINE, BLOCK, FLEX, COLUMN RESPONSIVESNESS ]
 
@@ -54,8 +55,15 @@ FRIDAY - 20-06-2025
 KADD - BOOTSTRAP DAY 4 [ BOOTSTRAP ICONS, BORDERS, SHADOW, FLOAT, CARDS ]
 8 - JS [ FETCH API, OBJECT METHODS ]
 M - JS [ FETCH API, OBJECT METHODS ]
+N - 
 HA - REACT DAY 3 
 S - BOOTSTRAP DAY 4 [ BOOTSTRAP ICONS, BORDERS, SHADOW, FLOAT, CARDS ]
+
+16-06-2025 (MON) - Absent -
+17-06-2025 (TUE) - Absent - 
+18-06-2025 (WED) - Absent -  
+19-06-2025 (THU) - Absent -  
+20-06-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
 
@@ -63,7 +71,7 @@ MONDAY - 09-06-2025
 
 KADD - CSS DAY 5 [ Flex, Grid ]
 7 - JS DAY 3 [ Project Hosting ]
-N - Naveen dddd
+N - Naveen Leave
 HA - EVENT LISTENER 
 S - CSS DAY 3
 
@@ -110,7 +118,7 @@ SATURDAY - 14-06-2025
 10-06-2025 (TUE) - Absent - Pavithran
 11-06-2025 (WED) - Absent - Pavithran 
 12-06-2025 (THU) - Absent - Pavithran 
-13-06-2025 (FRI) - Absent - Vibhashini
+13-06-2025 (FRI) - Absent - Pavithran, Vibhashini
 
 --------------------------------------------------------------------------------------------
 
@@ -121,8 +129,8 @@ KADD - HTML DAY 4
 2 - REACT DAY 9 [ ROUTE ] 
 3 - REACT DAY 9 [ ROUTE ] 
 N - EXPRESS DAY 1
-HA - STUDENT dddd
-S - STUDENT dddd 
+HA - STUDENT Leave
+S - STUDENT Leave 
 
 TUESDAY - 03-06-2025 
 
@@ -150,9 +158,9 @@ KADD - CSS DAY 3
 10 - JS DAY 2
 2 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
 3 - REACT DAY 12 [ PACKAGES ( swiper, react components ) ]
-N - NAVEEN dddd
+N - NAVEEN Leave
 HA - Filter 
-S - dddd
+S - Leave
 
 FRIDAY - 06-06-2025
 
@@ -160,9 +168,9 @@ KADD - CSS DAY 4 [ Over Flow, Opacity, Float, Scroll Behaviour, Cursor, Position
 10 - JS DAY 3 [ PROJECT ]
 2 - REACT DAY 12 [ Form Validation ]
 3 - REACT DAY 12 [ Form Validation ]
-N - NAVEEN dddd
+N - NAVEEN Leave
 HA - Events, Event Listener
-S - dddd 
+S - Leave 
 
 02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Sethuraman
 03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
@@ -179,7 +187,7 @@ NB - INTRO
 2 - REACT DAY 4 [ Use State ] 
 3 - REACT DAY 4 [ Use State ] 
 N - NODE DAY 3 [ Try Catch ]
-H - H dddd
+H - H Leave
 
 TUESDAY - 27-05-2025 
 
@@ -196,8 +204,8 @@ KADD - HTML DAY 1
 10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
 2 - REACT DAY 6 [ Bootstrap Components ] 
 3 - REACT DAY 6 [ Bootstrap Components ]
-N - PROJECT
-A - Aakash dddd 
+N - PROJECT 
+A - Aakash Leave 
 
 THURSDAY - 29-05-2025
 
@@ -206,7 +214,7 @@ KADD - HTML DAY 2
 2 - REACT DAY 7 [ Use Context ]
 3 - REACT DAY 7 [ Use Context ]
 N - PROJECT
-A - Aakash dddd  
+A - Aakash Leave  
 
 FRIDAY - 30-05-2025
 
@@ -246,8 +254,8 @@ WEDNESDAY - 21-05-2025
 10 - CSS DAY 5 
 3 - REACT DAY 2 
 5 - REACT DAY 2 
-N - NAVEEN dddd
-A - AAKASH dddd  
+N - NAVEEN Leave
+A - AAKASH Leave  
 
 THURSDAY - 22-05-2025
 
@@ -281,7 +289,7 @@ SATURDAY - 24-05-2025
 
 --------------------------------------------------------------------------------------------
 
-MONDAY - 12-05-2025 STAFF dddd
+MONDAY - 12-05-2025 STAFF Leave
 
 TUESDAY - 13-05-2025
 
@@ -299,7 +307,7 @@ IN - JAVASCRIPT DAY 3
 3 - JS PROJECT
 5 - JS PROJECT
 N - NODE DAY 1
-A - AKASH dddd
+A - AKASH Leave
 
 THURSDAY - 15-05-2025
 
@@ -308,7 +316,7 @@ IN - REACT DAY 1
 3 - REACT DAY 1
 10 - REACT DAY 1
 N - REACT PROJECT
-A - AKASH dddd
+A - AKASH Leave
 
 FRIDAY - 16-05-2025
 
@@ -317,11 +325,11 @@ IN - REACT DAY 2
 3 - JS PROJECT
 5 - JS PROJECT
 N - REACT PROJECT
-A - AKASH dddd
+A - AKASH Leave
 
 ATTENDANCE 
 
-12-05-2025 (MON) - Absent - STAFF dddd 
+12-05-2025 (MON) - Absent - STAFF Leave 
 13-05-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan, Barath
 14-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Aakash
 15-05-2025 (THU) - Absent - Maria, Kaviyarasan, Murugan, Aakash
@@ -336,7 +344,7 @@ NM - ROUTER
 3 - EVENT LISTENER, QUERY SELECTOR
 5 - EVENT LISTENER, QUERY SELECTOR
 P - FULL STACK INTRO 
-A - AKASH dddd
+A - AKASH Leave
 
 TUESDAY - 06-05-2025
 
@@ -404,7 +412,7 @@ NM - USE CONTEXT
 8 - Object Methods, DOM 
 A - Doubt in Task
 
-THURSDAY - 01-05-2025 ( OFFICE dddd )
+THURSDAY - 01-05-2025 ( OFFICE Leave )
 
 FRIDAY - 02-05-2025
 
@@ -418,7 +426,7 @@ ATTENDANCE
 28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
 29-04-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
 30-04-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, 
-01-05-2025 (THU) - Absent - Office dddd
+01-05-2025 (THU) - Absent - Office Leave
 02-05-2025 (FRI) - Absent - Maria, Kaviyarasan, Murugan
 
 --------------------------------------------------------------------------------------------
@@ -442,7 +450,7 @@ WEDNESDAY - 23-04-2025
 NM - Use Effect 2 
 3 - Array Methods 1
 5 - Array Methods 1
-A - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash dddd ) )
+A - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash Leave ) )
 
 THURSDAY - 24-04-2025
 
@@ -456,7 +464,7 @@ FRIDAY - 25-04-2025
 NM - Use Ref ( Use Effect )
 3 - Array Methods 3 
 5 - Array Methods 3
-A - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash dddd ) )
+A - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash Leave ) )
 
 SATURDAY - 26-04-2025
 
@@ -475,12 +483,3 @@ ATTENDANCE
 25-04-2025 (FRI) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
 
 --------------------------------------------------------------------------------------------
-
-INTERNSHIP - 15 DAYS ( FRONT END REACT )
-
-12-05-2025 - JAVASCRIPT DAY 1 => Variables, Data Types, String Concantenation, Operators
-13-05-2025 - JAVASCRIPT DAY 2 => Conditional Statement, Loops, Array Methods
-
-14-05-2025 - REACT DAY 1 => Set Up, Functional Components, Bootstrap, Props
-15-05-2025 - REACT DAY 2 => Bootstrap, Use State, Use Effect
-16-05-2025 - REACT DAY 3 => Use Context, Routes, Form Protection 
