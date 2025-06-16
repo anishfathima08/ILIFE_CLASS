@@ -1,127 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+        .cssBTN {
+            /*  padding: 8px 15px;
+                border: none;
+                color: white;
+                background-color: red;
+                border-radius: 5px; 
+            */
+        }
+    </style>
 </head>
 <body>
 
-    <h1 id="text">HELLO</h1>
+    <!-- INTRO, CDN LINK, COLORS, BUTTON -->
 
-    <!-- <p>You Will be Redirect to the Next Page within 3 seconds</p> -->
+    <!-- 
+    dark - black
+    light - white
+    primary - blue
+    secondary - grey
+    success - green
+    danger - red
+    warning - yellow
+    info - light blue
+    black 
+    white
+    -->
 
-    <script>
-        // WHILE 
+    <!-- <h1 class="text-primary">Hello</h1>
+    <h1 class="text-dark">Hello</h1>
+    <h1 class="text-light">Hello</h1>
+    <h1 class="text-info">Hello</h1>
+    <h1 class="text-success">Hello</h1>
+    <h1 class="text-warning">Hello</h1>
+    <h1 class="text-danger">Hello</h1>
+    <h1 class="text-secondary">Hello</h1>
+    <h1 class="text-black">Hello</h1>
+    <h1 class="text-white">Hello</h1>
 
-            // initailization
-            // while(condition){
-                // statement
-            // }/
+    <h1 class="bg-primary">Hello</h1>
+    <h1 class="bg-dark text-danger">Hello</h1>
+    <h1 class="bg-light">Hello</h1>
+    <h1 class="bg-info">Hello</h1>
+    <h1 class="bg-success">Hello</h1>
+    <h1 class="bg-warning">Hello</h1>
+    <h1 class="bg-primary">Hello</h1>
+    <h1 class="bg-white">Hello</h1> -->
 
-            // var i = 1;
-            // while(i <= 5){
-            //     console.log(i)
-            //     i++
-            // }
+    <!-- <button class="btn btn-danger">Click</button> -->
+    <!-- <button class="btn btn-outline-danger">Click</button> -->
 
-            // var i = 5;
-            // while(i >= 1){
-            //     console.log(i)
-            //     i--;
-            // }
-
-            // var myPassword = '123'
-            // var userPassword = ''
-
-            // while(myPassword != userPassword){
-            //     userPassword = prompt('Enter Correct Password')
-            // }
-            // console.log('Correct Password')
-
-        // DO WHILE 
-
-            // initialization
-            // do{
-                // statement
-            // }
-            // while(condition)
-
-            // var i = 1;
-            // do{
-            //     console.log(i)
-            //     i++
-            // }
-            // while(i <= 10)
-
-            // var i = 1;
-            // do{
-            //     console.log(i)
-            //     i++
-            // }
-            // while( i >= 10)
-
-            // var i = 5;
-            // do{
-            //     console.log(i)
-            //     i--
-            // }
-            // while( i )
-
-            // var num = ''
-
-            // do{
-            //     num = prompt('Enter a number less than 10')
-            // }
-            // while(num >= 10)
-
-        // SET TIMEOUT => Text Change, Page Redirect
-        
-            // setTimeout(function_name, duration)
-
-            // function fun(){
-            //     document.getElementById('text').innerHTML = 'HI'
-            // }
-            // setTimeout(fun, 2000)
-
-            // setTimeout(() => {
-            //     document.getElementById('text').innerHTML = 'HI'
-            // }, 3000)
-
-            // function fun(){
-            //     window.location.href = 'sample.html'
-            // }
-            // setTimeout(fun, 3000)
-
-            // setTimeout(() => {
-            //     window.location.href = 'sample.html'
-            // }, 3000)
-
-            // function fun(){
-            //     window.location.href = 'youtube.com'
-            // }
-            // setTimeout(fun, 3000)
-
-            // setTimeout(() => {
-            //     window.location.href = 'youtube.com'
-            // }, 3000)
-
-        // SET INTERVAL
-
-            // setInterval(function_name, duration)
-
-            // function fun(){
-            //     document.getElementById('text').innerHTML += 'Hello'
-            // }
-            // setInterval(fun, 3000)
-
-            // setInterval(() => {
-            //     document.getElementById('text').innerHTML += 'Hello'
-            // }, 3000)
-
-    </script>
-
-
+    <button class="btn btn-danger p-5">Click</button>
+    <button class="btn btn-danger p-4">Click</button>
+    <button class="btn btn-danger p-3">Click</button>
+    <button class="btn btn-danger p-2">Click</button>
+    <button class="btn btn-danger p-1">Click</button>
+    <button class="btn btn-danger">Click</button>
+    <button class="btn btn-danger p-6">Click</button>
+    <button class="btn btn-danger pt-5">Click</button>
+    <button class="btn btn-danger pb-5">Click</button>
+    <button class="btn btn-danger ps-5">Click</button>
+    <button class="btn btn-danger pe-5">Click</button>
+    <button class="btn btn-danger py-5">Click</button>
+    <button class="btn btn-danger px-5">Click</button>
 
 </body>
 </html>

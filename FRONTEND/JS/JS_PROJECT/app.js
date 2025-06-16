@@ -79,18 +79,18 @@ const searchProducts = () => {
 
 const display_data = () => {
     var product_list = '';
-    all_products.map((product) => {
+    all_products.map((value) => {
     product_list += 
     `
         <div class="col-lg-3 col-md-6">
             <div class="card mb-5">
-                <img src=${product.img} alt='' />
+                <img src=${value.img} alt='' />
                 <div class="card-body">
-                    <h3>${product.name}</h3>
-                    <h3>${product.price}</h3>
-                    <button class='btn btn-primary' onclick="addToCart(${product.id})">Add to Cart</button>
+                    <h3>${value.name}</h3>
+                    <h3>${value.price}</h3>
+                    <button class='btn btn-primary' onclick="addToCart(${value.id})">Add to Cart</button>
                     <br>
-                    <button class='mt-3 btn btn-primary' onclick="addToWish(${product.id})">Add to Wishlist</button>
+                    <button class='mt-3 btn btn-primary' onclick="addToWish(${value.id})">Add to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -99,6 +99,17 @@ const display_data = () => {
     document.getElementById('cardRow').innerHTML = product_list;
 }
 display_data();
+
+
+
+
+
+
+
+
+
+
+
 
 var cart = [];
 var wish = [];

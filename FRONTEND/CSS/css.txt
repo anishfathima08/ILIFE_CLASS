@@ -10,4 +10,4 @@ DAY 5.	Flex, Grid, Media Query
 DAY 6.	Animations ( Transform, Transition ), Root Variable, AOS 
 
 PROJECT - 1 -> ILIFE 
-PROJECT - 2 ->  https://spicyhut-anis.netlify.app/, https://carvilla-af.netlify.app 
+PROJECT - 2 ->  https://spicyhut-anis.netlify.app/, https://carvilla-af.netlify.app  
