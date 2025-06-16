@@ -6,23 +6,122 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="addFun()">Add</button>
-    <span id="num">0</span>
-    <button onclick="removeFun()">Remove</button>
+
+    <h1 id="text">HELLO</h1>
+
+    <!-- <p>You Will be Redirect to the Next Page within 3 seconds</p> -->
 
     <script>
-        function addFun(){
-            var num = Number(document.getElementById('num').innerHTML);
-            if(num < 10){
-                document.getElementById('num').innerHTML = num + 1
-            }
-        }
-        function removeFun(){
-            var num = Number(document.getElementById('num').innerHTML);
-            if(num > 0){
-                document.getElementById('num').innerHTML = num - 1
-            }
-        }
+        // WHILE 
+
+            // initailization
+            // while(condition){
+                // statement
+            // }/
+
+            // var i = 1;
+            // while(i <= 5){
+            //     console.log(i)
+            //     i++
+            // }
+
+            // var i = 5;
+            // while(i >= 1){
+            //     console.log(i)
+            //     i--;
+            // }
+
+            // var myPassword = '123'
+            // var userPassword = ''
+
+            // while(myPassword != userPassword){
+            //     userPassword = prompt('Enter Correct Password')
+            // }
+            // console.log('Correct Password')
+
+        // DO WHILE 
+
+            // initialization
+            // do{
+                // statement
+            // }
+            // while(condition)
+
+            // var i = 1;
+            // do{
+            //     console.log(i)
+            //     i++
+            // }
+            // while(i <= 10)
+
+            // var i = 1;
+            // do{
+            //     console.log(i)
+            //     i++
+            // }
+            // while( i >= 10)
+
+            // var i = 5;
+            // do{
+            //     console.log(i)
+            //     i--
+            // }
+            // while( i )
+
+            // var num = ''
+
+            // do{
+            //     num = prompt('Enter a number less than 10')
+            // }
+            // while(num >= 10)
+
+        // SET TIMEOUT => Text Change, Page Redirect
+        
+            // setTimeout(function_name, duration)
+
+            // function fun(){
+            //     document.getElementById('text').innerHTML = 'HI'
+            // }
+            // setTimeout(fun, 2000)
+
+            // setTimeout(() => {
+            //     document.getElementById('text').innerHTML = 'HI'
+            // }, 3000)
+
+            // function fun(){
+            //     window.location.href = 'sample.html'
+            // }
+            // setTimeout(fun, 3000)
+
+            // setTimeout(() => {
+            //     window.location.href = 'sample.html'
+            // }, 3000)
+
+            // function fun(){
+            //     window.location.href = 'youtube.com'
+            // }
+            // setTimeout(fun, 3000)
+
+            // setTimeout(() => {
+            //     window.location.href = 'youtube.com'
+            // }, 3000)
+
+        // SET INTERVAL
+
+            // setInterval(function_name, duration)
+
+            // function fun(){
+            //     document.getElementById('text').innerHTML += 'Hello'
+            // }
+            // setInterval(fun, 3000)
+
+            // setInterval(() => {
+            //     document.getElementById('text').innerHTML += 'Hello'
+            // }, 3000)
+
     </script>
+
+
+
 </body>
 </html>

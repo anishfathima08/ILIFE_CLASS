@@ -10,7 +10,7 @@ BATCHES
 03 - 04 -> Free
 04 - 05 -> Naveen [ MERN STACK - Online ]
 05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ]
-06 - 07 -> Sethuraman [ MERN STACK ]
+06 - 07 -> Sethumadhavan [ PHP STACK ]
 
 --------------------------------------------------------------------------------------------
 
@@ -172,10 +172,10 @@ N - NAVEEN Leave
 HA - Events, Event Listener
 S - Leave 
 
-02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Sethuraman
+02-06-2025 (MON) - Absent - Pavithran, Aakash, Hari Babu, Sethumadhavan
 03-06-2025 (TUE) - Absent - Pavithran, Hari Babu
 04-06-2025 (WED) - Absent - Pavithran, Dinesh
-05-06-2025 (THU) - Absent - Pavithran, Bharath, Naveen, Hari Babu, Sethuraman
+05-06-2025 (THU) - Absent - Pavithran, Bharath, Naveen, Hari Babu, Sethumadhavan
 06-06-2025 (FRI) - Absent - Pavithran, Shajitha Begam, Jasmine Begam, Naveen
 
 --------------------------------------------------------------------------------------------

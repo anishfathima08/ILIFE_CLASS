@@ -112,8 +112,7 @@ const cartCountFun = () => {
 
 const addToCart = (productID) => {
     var products = all_products.find((a) => a.id === productID);
-    console.log(products);
-    
+
     var existing_product = cart.find((a) => a.id === productID);
     if(existing_product){
         existing_product.quantity++;
