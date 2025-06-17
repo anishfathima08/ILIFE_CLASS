@@ -69,42 +69,43 @@ DATA TABLE
     _id: ObjectId("001"),
     name: "Ram",
     age: 25,
-    city: "Chennai",
-    skills: ["Node", "MongoDB", "React"],
-    score: 85,
-    active: true
+    place: "Chennai",
+    mark: 85,
+    pass: true
   },
   {
     _id: ObjectId("002"),
     name: "Sam",
     age: 30,
-    city: "Bangalore",
-    skills: ["Python", "Django"],
-    score: 70,
-    active: false
+    place: "Bangalore",
+    mark: 70,
+    pass: false
   },
   {
     _id: ObjectId("003"),
     name: "Kiran",
     age: 22,
-    city: "Chennai",
-    skills: ["HTML", "CSS"],
-    score: 60,
-    active: true
+    place: "Chennai",
+    mark: 60,
+    pass: true
   }
 ]
 
+Command For This Json 
+
+db.user.insertMany([{ name : 'Ram', age : 25, place : 'Chennai', mark : 85, pass : true  }])
+
 * Comparison Operator
 
-==  -> db.details.find({ age: { $eq: 25 } }) 
-!= -> db.details.find({ name: { $ne: "Sam" } })
-> -> db.users.find({ score: { $gt: 70 } })
-< -> db.users.find({ age: { $lt: 30 } })
->= -> db.users.find({ age: { $gte: 25 } })
-<= -> db.users.find({ age: { $lte: 30 } }) 
+equal -> db.details.find({ age: { $eq: 25 } }) 
+not equal -> db.details.find({ name: { $ne: "Sam" } })
+greater than -> db.users.find({ mark: { $gt: 70 } })
+less than -> db.users.find({ age: { $lt: 30 } })
+greater than or equal to -> db.users.find({ age: { $gte: 25 } })
+less than or equal to -> db.users.find({ age: { $lte: 30 } }) 
 
 * Logical Operator 
 
-and -> db.users.find({ $and: [ { city: "Chennai" }, { active: true } ] })
+and -> db.users.find({ $and: [ { place: "Chennai" }, { pass: true } ] })
 or -> db.users.find({ $or: [ { name: "Ram" }, { name: "Sam" } ] }) 
 not -> db.users.find({ age: { $not: { $gt: 25 } } }) 

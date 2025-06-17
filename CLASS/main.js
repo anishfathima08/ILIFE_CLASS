@@ -51,16 +51,16 @@ var all_products = [
 
 const display_data = () => {
     var product_list = '';
-    all_products.map((product) => {
+    all_products.map((value) => {
     product_list += 
     `
         <div class="col-lg-3 col-md-6">
             <div class="card mb-5">
-                <img src=${product.img} alt='' />
+                <img src=${value.img} alt='' />
                 <div class="card-body">
-                    <h3>${product.name}</h3>
-                    <h3>${product.price}</h3>
-                    <button class='btn btn-primary' onclick=addToCart(${product.id})>Add to Cart</button>
+                    <h3>${value.name}</h3>
+                    <h3>${value.price}</h3>
+                    <button class='btn btn-primary' onclick='addToCart(${value.id})'>Add to Cart</button>
                     <br>
                     <button class='mt-3 btn btn-primary'>Add to Wishlist</button>
                 </div>
@@ -74,7 +74,7 @@ display_data();
 
 const searchProducts = () => {
     var userSearch = document.getElementById('searchInput').value.toUpperCase()
-
+    
     if(userSearch.length === 0){
         document.getElementById('searchProducts').innerHTML = ''
     }
@@ -82,30 +82,62 @@ const searchProducts = () => {
         var filterSearch = all_products.filter((value) => value.name.toUpperCase().includes(userSearch))
 
         var searchList = ''
-        filterSearch.map((product) => {
+
+        filterSearch.map((value) => {
             searchList += 
-            `
-                <div class='col-lg-3 col-md-6'>
-                    <div class='card mb-5'>
-                        <img src='${product.img}' />
-                        <div class='card-body'>
-                            <h3>${product.name}</h3>
-                            <h3>${product.price}</h3>
+                `
+                    <div class='col-lg-4'>
+                        <div class='card'>
+                            <img src='${value.img}' />
+                            <div class='card-body'>
+                                <h3>${value.name}</h3>
+                                <p>${value.price}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            `
+                `
         })
 
-        document.getElementById('searchProducts').innerHTML = searchList || `<p class='text-center text-danger'> No Products Found <p>`
+        document.getElementById('searchProducts').innerHTML = searchList || `<p class='text-center text-danger'>No Products Found</p>`
     }
-
 }
 
+var cart = []
 
 const addToCart = (productID) => {
-    var cartProducts = all_products.find((a) => a.id === productID )
-    
-    
-    
+
+    alert('Product Added To Your Cart')
+
+    var cartProduct = all_products.find((value) => value.id  === productID)
+
+    var existingProduct = cart.find((value) => value.id === productID)
+
+    if(existingProduct){
+        cartProduct.quantity++
+    } 
+    else{
+        cartProduct.quantity = 1
+        cart.push(cartProduct)
+    }
+    displayCart(cart)
 }
+
+const displayCart = (cartProducts) => {
+    var cartList = ''
+    cartProducts.map((value) => {
+        cartList += 
+        `
+            <tr>
+                <td>${value.name}</td>
+                <td>${value.price}</td>
+                <td>${value.quantity}</td>
+                <td>${value.price * value.quantity}</td>
+                <td>
+                    <button class='btn btn-danger'>Remove</button>
+                </td>
+            </tr>
+        `
+    })
+
+    document.getElementById('cartRow').innerHTML = cartList
+} 

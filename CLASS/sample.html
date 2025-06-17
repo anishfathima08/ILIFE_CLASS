@@ -16,6 +16,7 @@
 
 <body>
     <div class="container my-5">
+
         <i class="fa fa-search me-5" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
 
         <div class="modal fade" id="searchModal">
@@ -28,13 +29,13 @@
                     <div class="modal-body">
                         <input type="text" class="form-control mb-3 w-100" id="searchInput" onkeyup="searchProducts()"
                             placeholder="Search for products..." />
-                        <div class="row" id="searchProducts"></div>
+                        <div class="row" id="searchProducts">
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row my-5" id="cardRow"></div>
 
         <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
 
@@ -42,13 +43,33 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Cart Products</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <h3>Your Cart Products</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
-                    <div class="modal-body"></div>
+                    <div class="modal-body">
+                        <table class="table table-primary text-center">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Price</td>
+                                    <td>Quantity</td>
+                                    <td>Total</td>
+                                    <td>Action</td>
+                                </tr>
+                            </thead>
+                            <tbody id="cartRow">
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="row my-5" id="cardRow">
+            
+        </div>
+
     </div>
 
     <script src="main.js"></script>

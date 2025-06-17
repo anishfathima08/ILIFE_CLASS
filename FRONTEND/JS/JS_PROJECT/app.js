@@ -100,17 +100,6 @@ const display_data = () => {
 }
 display_data();
 
-
-
-
-
-
-
-
-
-
-
-
 var cart = [];
 var wish = [];
 var totalAmt = 0;
