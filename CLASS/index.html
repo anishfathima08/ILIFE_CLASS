@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <style>
-        .cssBTN {
-            /*  padding: 8px 15px;
-                border: none;
-                color: white;
-                background-color: red;
-                border-radius: 5px; 
-            */
-        }
-    </style>
 </head>
 <body>
+    <!-- ARRAY METHODS - PUSH, POP, SHIFT, UNSHIFT, JOIN, REVERSE, SORT, SPLICE, SLICE, CONCAT, SOME, EVERY -->
 
-    <!-- INTRO, CDN LINK, COLORS, BUTTON -->
+    <script>
+        // var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
 
-    <!-- 
-    dark - black
-    light - white
-    primary - blue
-    secondary - grey
-    success - green
-    danger - red
-    warning - yellow
-    info - light blue
-    black 
-    white
-    -->
+        // console.log(arr);
 
-    <!-- <h1 class="text-primary">Hello</h1>
-    <h1 class="text-dark">Hello</h1>
-    <h1 class="text-light">Hello</h1>
-    <h1 class="text-info">Hello</h1>
-    <h1 class="text-success">Hello</h1>
-    <h1 class="text-warning">Hello</h1>
-    <h1 class="text-danger">Hello</h1>
-    <h1 class="text-secondary">Hello</h1>
-    <h1 class="text-black">Hello</h1>
-    <h1 class="text-white">Hello</h1>
+        // console.log(arr.sort());
 
-    <h1 class="bg-primary">Hello</h1>
-    <h1 class="bg-dark text-danger">Hello</h1>
-    <h1 class="bg-light">Hello</h1>
-    <h1 class="bg-info">Hello</h1>
-    <h1 class="bg-success">Hello</h1>
-    <h1 class="bg-warning">Hello</h1>
-    <h1 class="bg-primary">Hello</h1>
-    <h1 class="bg-white">Hello</h1> -->
+        // var a = [ 30, 20, 100 ]
+        // console.log(a.sort());
+        // console.log(a.sort((a, b) => a - b));
+        // console.log(a.sort((a, b) => b - a));
 
-    <!-- <button class="btn btn-danger">Click</button> -->
-    <!-- <button class="btn btn-outline-danger">Click</button> -->
+        // +ve -> swap 
+        // -ve -> no swap
+        
+        // a = 30, b = 20, 30 - 20 => 10 [ 20, 30, 100 ]
+        // a = 30, b = 100, 30 - 100 => -70 [ 20, 30, 100 ]
+        // a = 20, b = 30, 20 - 30 => -10 [ 20, 30, 100 ]
 
-    <button class="btn btn-danger p-5">Click</button>
-    <button class="btn btn-danger p-4">Click</button>
-    <button class="btn btn-danger p-3">Click</button>
-    <button class="btn btn-danger p-2">Click</button>
-    <button class="btn btn-danger p-1">Click</button>
-    <button class="btn btn-danger">Click</button>
-    <button class="btn btn-danger p-6">Click</button>
-    <button class="btn btn-danger pt-5">Click</button>
-    <button class="btn btn-danger pb-5">Click</button>
-    <button class="btn btn-danger ps-5">Click</button>
-    <button class="btn btn-danger pe-5">Click</button>
-    <button class="btn btn-danger py-5">Click</button>
-    <button class="btn btn-danger px-5">Click</button>
+        // a = 30, b = 20, 20 - 30 => -10 [ 30, 20, 100 ]
+        // a = 20, b = 100, 100 - 20 => 80 [ 30, 100, 20 ]
+        // a = 30, b = 100, 100 - 30 => 70 [ 100, 30, 20 ]
+
+        // var a = [ 5, 4, 3, 2, 1 ]
+        // console.log(a);
+        // console.log(a.reverse());
+
+        // splice(start, deletecount, newitems)
+
+        var arr = ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
+        // console.log(arr);
+        // console.log(arr.splice(2, 1)); 
+        // console.log(arr);  
+        
+        // console.log(arr);
+        // console.log(arr.splice(0, 3, 'HELLO'));
+        // console.log(arr);
+        
+        // console.log(arr);
+        // console.log(arr.splice(0, 0, 'ABC'));
+        // console.log(arr);
+        // console.log(arr.splice(-1, 0, 'HI'));
+        // console.log(arr);
+
+        console.log(arr.slice(0, 1));
+        console.log(arr);
+        
+        
+        
+
+    </script>
 
 </body>
 </html>
