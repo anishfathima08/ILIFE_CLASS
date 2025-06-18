@@ -103,6 +103,7 @@ const searchProducts = () => {
 }
 
 var cart = []
+var totalAmt = 0
 
 const addToCart = (productID) => {
 
@@ -120,6 +121,11 @@ const addToCart = (productID) => {
         cart.push(cartProduct)
     }
     displayCart(cart)
+
+    totalAmt = totalAmt + cartProduct.price; 
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
+
+
 }
 
 const displayCart = (cartProducts) => {
@@ -133,11 +139,30 @@ const displayCart = (cartProducts) => {
                 <td>${value.quantity}</td>
                 <td>${value.price * value.quantity}</td>
                 <td>
-                    <button class='btn btn-danger'>Remove</button>
+                    <button class='btn btn-danger' onclick='removeFromCart(${value.id})'>Remove</button>
                 </td>
             </tr>
         `
     })
 
     document.getElementById('cartRow').innerHTML = cartList
+} 
+
+const removeFromCart = (productID) => {
+
+    const product = cart.find((a) => a.id === productID)
+
+    if(product.quantity > 1){
+        product.quantity-- 
+        totalAmt = totalAmt - product.price
+    }
+    else{
+        cart =  cart.filter((a) => a.id !== productID)   
+        totalAmt = totalAmt - product.price * product.quantity;
+    }
+
+    displayCart(cart)
+
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
+
 } 

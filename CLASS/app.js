@@ -1,185 +1,179 @@
-// PUSH 
+var all_products = [
+    { 
+        id: 1, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 1", 
+        price: 100,
+    },
+    { 
+        id: 2, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 2", 
+        price: 200 
+    },
+    { 
+        id: 3, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 3", 
+        price: 300 
+    },
+    { 
+        id: 4, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 4", 
+        price: 400 
+    },
+    { 
+        id: 5, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 5", 
+        price: 500 
+    },
+    { 
+        id: 6, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 6", 
+        price: 600 
+    },
+    { 
+        id: 7, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 7", 
+        price: 700 
+    },
+    { 
+        id: 8, 
+        img : '../../CLASS/img1.jpg', 
+        name: "Product 8", 
+        price: 800 
+    }
+];
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
+const searchProducts = () => {
+    var searchInput = document.getElementById('searchInput').value.toUpperCase();
 
-// console.log(arr);
-// console.log(arr.push('hello'));
-// console.log(arr);
-// console.log(arr.push(''));
-// console.log(arr);
+    if(searchInput.length === 0){
+        document.getElementById('searchProducts').innerHTML = ''
+    }
+    else{
+        var filterData = all_products.filter((data) => data.name.toUpperCase().includes(searchInput));
+        var searchList = '';
+        filterData.map((product) => {
+        searchList += 
+        `
+            <div class='col-lg-3 col-md-6'>
+                <div class='card mb-5'>
+                    <img src='${product.img}' />
+                    <div class='card-body'>
+                        <h3>${product.name}</h3>
+                        <h3>${product.price}</h3>
+                    </div>
+                </div>
+            </div>
+        `
+        })
 
-// POP 
+        document.getElementById('searchProducts').innerHTML = searchList || `<p class='text-center text-danger'> No Products Found <p>`
+    }
+}
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.pop());
-// console.log(arr);
+const display_data = () => {
+    var product_list = '';
+    all_products.map((value) => {
+    product_list += 
+    `
+        <div class="col-lg-3 col-md-6">
+            <div class="card mb-5">
+                <img src=${value.img} alt='' />
+                <div class="card-body">
+                    <h3>${value.name}</h3>
+                    <h3>${value.price}</h3>
+                    <button class='btn btn-primary' onclick="addToCart(${value.id})">Add to Cart</button>
+                    <br>
+                    <button class='mt-3 btn btn-primary' onclick="addToWish(${value.id})">Add to Wishlist</button>
+                </div>
+            </div>
+        </div>
+    `
+    })
+    document.getElementById('cardRow').innerHTML = product_list;
+}
+display_data();
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr.push('hello')); //'html', 'css', 'bootstrap', 'javascript', hello
-// console.log(arr.push('abc')); // 'html', 'css', 'bootstrap', 'javascript', hello, abc
-// console.log(arr.pop()); // 'html', 'css', 'bootstrap', 'javascript', hello,
-// console.log(arr.pop()); // 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.push('abc')); // 'html', 'css', 'bootstrap', 'javascript', abc
-// console.log(arr.push('react')); // 'html', 'css', 'bootstrap', 'javascript', abc, react
-// // console.log(arr.pop()); 'html', 'css', 'bootstrap', 'javascript', abc,
-// console.log(arr); // 'html', 'css', 'bootstrap', 'javascript', abc
+var cart = [];
+var totalAmt = 0;
+var cartCount = 0;
 
-// SHIFT 
+const cartCountFun = () => {
+    document.getElementById('cartCount').innerHTML = cartCount
+    document.getElementById('cartCount').style.display = 
+    (cartCount > 0) ? 'inline' : 'none'
+}
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.shift());
-// console.log(arr);
+const addToCart = (productID) => {
+    var products = all_products.find((a) => a.id === productID);
 
-// UNSHIFT 
+    var existing_product = cart.find((a) => a.id === productID);
+    if(existing_product){
+        existing_product.quantity++;
+    }
+    else{
+        products.quantity = 1;
+        cart.push(products)
+    }
+    display_cart(cart);
+    cartCount++; 
+    cartCountFun()
+    totalAmt = totalAmt + products.price; 
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
+}
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.unshift('Hello'));
-// console.log(arr);
+const display_cart = (products) => {
+    let cart_list = '';
 
-// var a = [ 2, 4, 5, 6 ]
-// console.log(a.unshift(8)); // 8, 2, 4, 5, 6
-// console.log(a.shift()); // 2, 4, 5, 6
-// console.log(a.unshift(6)); // 6, 2, 4, 5, 6
-// console.log(a.unshift(8)); // 8, 6, 2, 4, 5, 6
-// console.log(a.shift()); // 6, 2, 4, 5, 6
-// console.log(a.unshift(2)); // 2, 6, 2, 4, 5, 6
-// console.log(a.unshift(5)); // 5, 2, 6, 2, 4, 5, 6
-// console.log(a);
+    if (products.length === 0) {
+        cart_list = `
+            <tr>
+                <td colspan="5" class="text-center text-danger">Cart Empty</td>
+            </tr>
+        `;
+    } 
+    else {
+        products.map((product) => {
+            cart_list += `
+                <tr>
+                    <td>${product.name}</td>
+                    <td>${product.price}</td>
+                    <td>${product.quantity}</td>
+                    <td>${product.price * product.quantity}</td>
+                    <td>
+                        <button class='btn btn-danger' onclick='removeFromCart(${product.id})'>Remove</button>
+                    </td>
+                </tr>
+            `;
+        });
+    }
 
-// var a = [ 1, 3, 5, 7 ]
-// console.log(a.push(8)); // 1, 3, 5, 7, 8
-// console.log(a.unshift(9)); // 9, 1, 3, 5, 7, 8
-// console.log(a.pop()); // 9, 1, 3, 5, 7
-// console.log(a.shift()); // 1, 3, 5, 7
-// console.log(a.unshift(0)); // 0, 1, 3, 5, 7
-// console.log(a.shift()); // 1, 3, 5, 7
-// console.log(a.unshift(3)); // 3, 1, 3, 5, 7
-// console.log(a.push(4)); // 3, 1, 3, 5, 7, 4
-// console.log(a.push(7)); // 3, 1, 3, 5, 7, 4, 7
-// console.log(a.pop()); // 3, 1, 3, 5, 7, 4
-// console.log(a);
+    document.getElementById('cartRow').innerHTML = cart_list;
+};
 
-// JOIN 
+const removeFromCart = (productID) => {
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.join()); // html,css,bootstrap,javascript
-// console.log(arr.join('')); // htmlcssbootstrapjavascript
-// console.log(arr.join('-')); // html-css-
-// console.log(arr.join('*')); // html*css*
-// console.log(arr.join('     ')); // html           css       bootstrap
+    var product = cart.find((a) => a.id === productID)
 
-// REVERSE 
+    if(product.quantity > 1){
+        product.quantity--
+        totalAmt = totalAmt - product.price 
+    } 
+    else{
+        cart = cart.filter((a) => a.id !== productID )
+        totalAmt = totalAmt - product.price * product.quantity 
+    }
 
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.reverse());
+    display_cart(cart)
+    cartCount-- 
+    cartCountFun()
 
-// var a = [ 5, 4, 3, 2, 1 ]
-// console.log(a);
-// console.log(a.reverse());
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
 
-// SORT
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.sort()); // bootstrap, css, html, javascript
-
-// var a = [ 30, 20, 100 ]
-// console.log(a);
-// console.log(a.sort()); // 20, 30, 100
-
-// console.log(a.sort((a, b) => a - b));
-
-// +ve => swap, -ve => no swap 
-
-// a = 30, b = 20, 30 - 20 = 10 [ 20, 30, 100 ]
-// a = 30, b = 100, 30 - 100 = -70 [ 20, 30, 100 ]
-
-// var a = [ 30, 20, 100 ]
-// console.log(a.sort((a, b) => b - a));
-
-// a = 30, b = 20, 20 - 30 = -10 [ 30, 20, 100 ]
-// a = 20, b = 100, 100 - 20 = 80 [ 30, 100, 20 ]
-// a = 30, b = 100, 100 - 30 = 70 [ 100, 30, 20 ]
-
-// SPLICE ( start (0), deletecount, newitems )
-
-
-// REMOVE
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// // console.log(arr.splice(0, 2));
-// // console.log(arr.splice(2, 1));
-// console.log(arr.splice(2));
-// console.log(arr); 
-
-// REPLACE
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.splice(2, 1, 'hello'));
-// console.log(arr);
-
-// INSERT
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr);
-// console.log(arr.splice(1, 0, 1));
-// console.log(arr);
-
-
-// SLICE ( start, deletecount )
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(arr.splice(0, 2)); // html, css
-// console.log(arr); // bootstrap, js
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// var arr1 = arr.slice(0, 2); // html, css
-// console.log(arr1);
-// console.log(arr);
-
-
-// CONCAT 
-
-// var arr1 = [ 1, 2, 3 ]
-// var arr2 = [ 4, 5, 6 ]
-
-// console.log(arr1[0]-arr2[0]);
-
-// console.log(arr1);
-// console.log(arr2.concat('hello', 'abc')); // 456123
-// console.log(arr1);
-
-// var arr = [ 1, 2, 3, [ 'html', 'css','js' ] ]
-// console.log(arr[3][2]);
-
-// var a = [ 9, 3, 8, 2, 7 ]
-// console.log(a.some((value) => value % 2 == 0 ));
-
-// var a = [ 10, 6, 8, 2, 7 ]
-// console.log(a.some((abc) => abc % 2 == 0));
-
-// 10 % 2 == 0 // 
-
-// var arr = [
-//     {
-//         name : 'abinaya',
-//         age : 10
-//     },
-//     {
-//         name : 'siva',
-//         age : 2
-//     },
-//     {
-//         name : 'hari',
-//         age : 15
-//     }
-// ]
-
-// console.log(arr.every((value) => value.age <= 18 ));
+} 
