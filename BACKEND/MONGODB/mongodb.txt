@@ -91,17 +91,22 @@ DATA TABLE
   }
 ]
 
+Command For This Json 
+
+db.user.insertMany([{ name : 'Ram', age : 25, place : 'Chennai', mark : 85, pass : true  }])
+
 * Comparison Operator
 
-==  -> db.details.find({ age: { $eq: 25 } }) 
-!= -> db.details.find({ name: { $ne: "Sam" } })
-> -> db.users.find({ mark: { $gt: 70 } })
-< -> db.users.find({ age: { $lt: 30 } })
->= -> db.users.find({ age: { $gte: 25 } })
-<= -> db.users.find({ age: { $lte: 30 } }) 
+equal -> db.details.find({ age: { $eq: 25 } }) 
+not equal -> db.details.find({ name: { $ne: "Sam" } })
+greater than -> db.users.find({ mark: { $gt: 70 } })
+less than -> db.users.find({ age: { $lt: 30 } })
+greater than or equal to -> db.users.find({ age: { $gte: 25 } })
+less than or equal to -> db.users.find({ age: { $lte: 30 } }) 
 
 * Logical Operator 
 
-and -> db.users.find({ $and: [ { city: "Chennai" }, { pass: true } ] })
+and -> db.users.find({ $and: [ { place: "Chennai" }, { pass: true } ] })
+>>>>>>> 4786e7e46971b9e3717689ee80aec5ca8bdd62a8
 or -> db.users.find({ $or: [ { name: "Ram" }, { name: "Sam" } ] }) 
 not -> db.users.find({ age: { $not: { $gt: 25 } } }) 

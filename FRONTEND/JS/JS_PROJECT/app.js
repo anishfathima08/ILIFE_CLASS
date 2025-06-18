@@ -100,17 +100,6 @@ const display_data = () => {
 }
 display_data();
 
-
-
-
-
-
-
-
-
-
-
-
 var cart = [];
 var wish = [];
 var totalAmt = 0;
@@ -178,6 +167,7 @@ const removeFromCart = (productID) => {
     }
     else{
         cart = cart.filter((a) => a.id !== productID )
+        totalAmt = totalAmt - product.price * product.quantity;
     }
 
     display_cart(cart)
@@ -186,24 +176,6 @@ const removeFromCart = (productID) => {
     cartCount--;
     cartCountFun();
 }
-
-// const removeFromCart = (productID) => {
-//     var product = cart.find(a => a.id === productID);
-
-//     if (product.quantity > 1) {
-//         product.quantity--;
-//         totalAmt = totalAmt - product.price;
-//     } else {
-//         totalAmt = totalAmt - product.price * product.quantity;
-        
-//         cart = cart.filter(product => product.id !== productID);
-//     }
-
-//     document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
-//     display_cart(cart);
-    // cartCount--;
-    // cartCountFun();
-// };
 
 // WISH
 

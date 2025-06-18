@@ -1,0 +1,10 @@
+MONGO DB WITH EXPRESS 
+
+npm i mongoose, npm i dotenv 
+
+DAY 1 => Mongoose Install Package, Connectivity, Creating Schema and Table 
+DAY 2 => CRUD with Static File, CRUD with Rest API 
+DAY 3 => Middleware, Multer Package, File Upload 
+DAY 4 => Authentication with Static File & Rest API 
+DAY 5 => Authorization with Static File & Rest API 
+DAY 6 => Cross Origin, Body Parser, Rest API to Frontend 

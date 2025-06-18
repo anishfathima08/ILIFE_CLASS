@@ -9,47 +9,65 @@
     <script>
         // Find
 
-            // var num = [1, 4, 3, 2];
+            // Example - 1 
 
-            // var result = num.find((value) => {
-            //     return value % 2 == 0
-            // })
+                var num = [1, 4, 3, 2];
 
-            // console.log(result) // shows first matching result
+                console.log(num.find((value) => value % 2 == 0 ))
 
-            //   const users = [
-            //     {
-            //       name: "Arun",
-            //       age: 22,
-            //     },
-            //     {
-            //       name: "Anu",
-            //       age: 18,
-            //     },
-            //     {
-            //       name: "Abi",
-            //       age: 25,
-            //     },
-            //     {
-            //       name: "Hari",
-            //       age: 15,
-            //     },
-            //   ];
+            // Example - 2
 
-            //   const result = users.find((user) => {
-            //     return user.age >= 18
-            //   });
-            //   console.log(result);
+                var users = [
+                    {
+                        name: "Arun",
+                        age: 22,
+                    },
+                    {
+                        name: "Anu",
+                        age: 18,
+                    },
+                    {
+                        name: "Abi",
+                        age: 25,
+                    },
+                    {
+                        name: "Hari",
+                        age: 15,
+                    },
+                ];
+
+                console.log(users.find((value) => value.age >= 18))
 
         // Filter
 
-            // var num = [1 , 2 , 3 , 4]
+            // Example - 1 
 
-            // var result = num.filter((value) => {
-            //     return value % 2 == 0
-            // })
+                var num = [1, 4, 3, 2];
 
-            // console.log(result) // shows all matching result
+                console.log(num.filter((value) => value % 2 == 0 ))
+
+            // Example - 2
+
+                var users = [
+                    {
+                        name: "Arun",
+                        age: 22,
+                    },
+                    {
+                        name: "Anu",
+                        age: 18,
+                    },
+                    {
+                        name: "Abi",
+                        age: 25,
+                    },
+                    {
+                        name: "Hari",
+                        age: 15,
+                    },
+                ];
+
+                console.log(users.filter((value) => value.age >= 18))
             
     </script>
 </body>
