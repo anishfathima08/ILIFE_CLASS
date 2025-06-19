@@ -9,4 +9,4 @@ const connectDB = () => {
         .catch(() => console.log('Not Connected'))
 }
 
-module.exports = connectDB
+module.exports = connectDB 

@@ -9,9 +9,9 @@
 <body>
 
     <div class="container">
-        <form onsubmit="Submit(event)" class="d-flex gap-5 justify-content-between my-5">
-            <input type="search" id="searchBox" placeholder="Search Here..." class="w-75 form-control">
-            <input type="submit" class="btn btn-primary" value="Search">
+        <form class="input-group my-5" onsubmit="searchFun(event)">
+            <input type="search" class="form-control" id="searchBox">
+            <input type="submit" class="btn btn-primary">
         </form>
         <div class="row" id="cardRow">
             
@@ -22,35 +22,31 @@
 
         const users = [
             { 
-                id : 1,
                 img : "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg",
                 name: "Abinaya",
                 email: "abinaya@example.com"
             },
             { 
-                id : 2,
                 img : "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg",
                 name: "Anu",
                 email: "anu@example.com"
             },
             { 
-                id : 3,
                 img : "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg",
                 name: "Hari",
                 email: "hari@example.com"
             },
             { 
-                id : 4,
                 img : "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg",
                 name: "Siva",
                 email: "siva@example.com"
             }
         ];        
 
-        const cardFun = (data) => {
-            var content = ""
+        const displayCard = (data) => {
+            var cardList = ''
             data.map((value) => {
-                content += `
+                cardList += `
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <img src="${value.img}" alt="" height="200">
@@ -62,18 +58,19 @@
                     </div>
                 `
             })
-            document.getElementById("cardRow").innerHTML = content || `<p class='text-center text-danger'>No User Found</p>`
+
+            document.getElementById('cardRow').innerHTML = cardList
         }
-        cardFun(users)
+        displayCard(users)
 
-        const Submit = (event) => {
-            event.preventDefault()
+        const searchFun = (event) => {
+            event.preventDefault();
 
-            var searchInput = document.getElementById('searchBox').value.toUpperCase()
+            var userSearch = document.getElementById('searchBox').value.toUpperCase();
 
-            var filteredUsers = users.filter((value) => value.name.toUpperCase().includes(searchInput) || value.email.toUpperCase().includes(searchInput))
+            var filterSearch = users.filter((value) => value.name.toUpperCase().includes(userSearch) || value.email.toUpperCase().includes(userSearch) )
 
-            cardFun(filteredUsers)
+            displayCard(filterSearch)
         }
 
     </script>

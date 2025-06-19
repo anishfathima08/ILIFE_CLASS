@@ -43,7 +43,7 @@ S - Sethumadhavan Leave
 
 THURSDAY - 19-06-2025 
 
-KADD - BOOTSTRAP DAY 3 [ COLUMN RESPONSIVESNESS, CARD, MODAL, DROPDOWN, PAGINATION ]
+KADD - BOOTSTRAP DAY 3 [ COLUMN RESPONSIVESNESS, CARD, MODAL ]
 8 - JS [ Array Methods 3 ]
 M - JS [ Array Methods 3 ]
 N - MONGO DB 3
@@ -52,7 +52,7 @@ S - CSS [ Animations ], Project
 
 FRIDAY - 20-06-2025
 
-KADD - BOOTSTRAP DAY 4 [ NAVBAR, COLLAPSE, OFFCANVAS ]
+KADD - BOOTSTRAP DAY 4 [ DROPDOWN, PAGINATION, NAVBAR, COLLAPSE ]
 8 - JS [ FETCH API WITH FILTER, OBJECT METHODS ]
 M - JS [ FETCH API WITH FILTER, OBJECT METHODS ]
 N - 
@@ -62,8 +62,8 @@ S -
 16-06-2025 (MON) - Absent - Pavithran, Vibhashini, Shalini, Aakash, Sethumadhavan
 17-06-2025 (TUE) - Absent - Pavithran, Shalini, Maria, Sethumadhavan 
 18-06-2025 (WED) - Absent - Pavithran, Shalini, Sethumadhavan
-19-06-2025 (THU) - Absent -  
-20-06-2025 (FRI) - Absent - 
+19-06-2025 (THU) - Absent - Pavithran, Shalini, Hari Babu 
+20-06-2025 (FRI) - Absent - Pavithran, 
 
 --------------------------------------------------------------------------------------------
 
@@ -107,7 +107,7 @@ KADD - CSS DAY 8 [ Transition, Transform ]
 M - JS DAY 7 [ Loops ]
 N - MONGO DB 1
 HA - JS [ Try, Catch, Finally, Throw, Promises ]
-S - CSS MEDIA QUERY, Transition, Transform 
+S - CSS MEDIA QUERY
 
 SATURDAY - 14-06-2025 
 

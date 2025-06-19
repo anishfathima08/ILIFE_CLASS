@@ -1,12 +1,10 @@
-// DAY - 1
-
 // INTRO, COMPONENTS IN REACT ( FUNCTION, CLASS )
 
 // Functional Compoenent 
 
 // import React from 'react'
 
-//   function Day_1_Components (){
+//   function Day_1_Components(){
 //     return(
 //       <>
 //         <h1>Hellooo</h1>

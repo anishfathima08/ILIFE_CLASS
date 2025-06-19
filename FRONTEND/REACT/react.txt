@@ -1,8 +1,10 @@
 REACT 
 
+React is Javascript Library
+
 Installation & Set up
 
-npm create vite@latest
+npm create vite@latest .
 project-name folder_name (app_name) => Ex : my_app
 select react framework and javascript variant
 cd my_app
