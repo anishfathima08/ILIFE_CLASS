@@ -59,7 +59,7 @@
                 `
             })
 
-            document.getElementById('cardRow').innerHTML = cardList
+            document.getElementById('cardRow').innerHTML = cardList || `<p class='text-center text-danger'>No Results Found</p>`
         }
         displayCard(users)
 

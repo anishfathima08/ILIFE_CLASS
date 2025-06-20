@@ -13,7 +13,7 @@
             <form onsubmit="submitFun(event)">
                 <input type="text" id="searchInput">
                 <input type="submit">
-            </form>
+            </form> 
             <div class="row" id="cardRow">
 
             </div>
@@ -29,7 +29,6 @@
                 cardFun(data)
             }
             dataFun()
-
 
             const cardFun = (userData) => {
                 var content = ''
@@ -47,7 +46,7 @@
                         </div>
                     `
                 })
-                document.getElementById('cardRow').innerHTML = content;
+                document.getElementById('cardRow').innerHTML = content || `<p class='text-center text-danger'>No Results Found</p>`
             }
 
             const submitFun = (event) => {

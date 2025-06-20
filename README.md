@@ -22,3 +22,68 @@ Slider 17 - EXPRESS
 Slider 18 - MONGO DB 
 
 SHOW EXAMPLE WEBSITES 
+
+
+
+
+
+
+
+
+
+
+
+env - environment variable 
+.env - to store security key like database link, port number 
+mongoose - database structure ( schema )
+models, collections, tables = same
+
+
+
+
+
+
+
+
+React JS - Javascript library
+SPA -> Single Page Application -> index.html 
+jsx -> Javascript XML -> JS HTML CODE
+
+npm create vite@latest
+my-app
+react
+javascript 
+
+public folder - delete
+src -> app.css -> delete
+app.jsx -> code -> clear 
+index.css -> code -> clear
+index.html -> favicon -> remove
+
+
+index.html -> main.jsx
+Components -> Functional Component, Class Component
+
+
+index.html -> div id-root
+main.jsx -> App.jsx
+app.jsx -> code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+index.html -> main.jsx -> app.jsx -> day1_components
