@@ -174,6 +174,3 @@
 // obj.set('place', 'trichy')
 // console.log(obj);
 // console.log(obj.size);
-
-
-

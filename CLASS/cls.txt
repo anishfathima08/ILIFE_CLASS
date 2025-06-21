@@ -14,6 +14,59 @@ BATCHES
 
 --------------------------------------------------------------------------------------------
 
+MONDAY - 23-06-2025
+
+KADD - BOOTSTRAP DAY 4 [ DROPDOWN, PAGINATION, NAVBAR ]
+8 - JS [ DOM, QUERY SELECTOR ]
+M - JS [ DOM, QUERY SELECTOR ]
+N - MONGODB DAY 3
+HA - REACT DAY 2
+S - BOOSTRAP DAY 2
+
+TUESDAY - 24-06-2025
+
+KADD - BOOTSTRAP DAY 5 [ ACCORDIAN, COLLAPSE, CANVAS ]
+8 - JS [ EVENT, EVENT LISTENER ]
+M - JS [ EVENT, EVENT LISTENER ]
+N - MONGODB DAY 4 
+HA - REACT DAY 3
+S - BOOTSTRAP DAY 3
+
+WEDNESDAY - 25-06-2025
+
+KADD - BOOTSTRAP DAY 6 [ CAROUSEL, FORM, FORM INPUTS ]
+8 - JS [ FORM VALIDATION, PASSWORD VALIDATION ]
+M - JS [ FORM VALIDATION, PASSWORD VALIDATION ]
+N -  
+HA - REACT DAY 4
+S - BOOTSTRAP DAY 4
+
+THURSDAY - 26-06-2025 
+
+KADD - JS DAY 1 [ TYPES OF OUTPUTS, TYPES OF JS, VARIABLE, COMMENTS ]
+8 - JS [ TRY CATCH ]
+M - JS [ TRY CATCH ]
+N -
+HA - REACT DAY 5
+S - BOOTSTRAP DAY 5
+
+FRIDAY - 27-06-2025
+
+KADD - 
+8 - JS [ ADD TO CART ]
+M - JS [ ADD TO CART ]
+N - 
+HA - REACT DAY 6 
+S - BOOTSTRAP DAY 6
+
+23-06-2025 (MON) - Absent - 
+24-06-2025 (TUE) - Absent - 
+25-06-2025 (WED) - Absent -
+26-06-2025 (THU) - Absent - 
+27-06-2025 (FRI) - Absent - 
+
+--------------------------------------------------------------------------------------------
+
 MONDAY - 16-06-2025
 
 KADD - CSS [ Animations, 2nd Project ]
@@ -47,7 +100,7 @@ KADD - BOOTSTRAP DAY 3 [ COLUMN RESPONSIVESNESS, CARD, MODAL ]
 8 - JS [ Array Methods 3 ]
 M - JS [ Array Methods 3 ]
 N - MONGO DB 3 
-HA - REACT DAY 1
+HA - PROJECT
 S - CSS [ Animations ], Project 
 
 FRIDAY - 20-06-2025
@@ -55,9 +108,9 @@ FRIDAY - 20-06-2025
 KADD - PROJECT 
 8 - JS [ FETCH API WITH FILTER, OBJECT METHODS ]
 M - JS [ FETCH API WITH FILTER, OBJECT METHODS ]
-N - MONGO DB 3
-HA - REACT DAY 2 
-S - 
+N - MONGO DB 2
+HA - REACT DAY 1 
+S - BOOTSTRAP DAY 1
 
 16-06-2025 (MON) - Absent - Pavithran, Vibhashini, Shalini, Aakash, Sethumadhavan
 17-06-2025 (TUE) - Absent - Pavithran, Shalini, Maria, Sethumadhavan 
