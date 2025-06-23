@@ -1,46 +1,43 @@
-const User = require("../models/User");
+const userModel = require("../models/user");
 
-// 🔵 Create User
-const createUser = async (req, res) => {
-  try {
-    const user = new User(req.body);
-    await user.save();
-    res.json({ message: "User created", user });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+const addUser = async (req, res) => {
+    try {
+        const userData = new userModel(req.body);
+        await userData.save();
+        res.status(200).send('Data Added');
+    } catch (err) {
+        res.status(404).send(`Error Name: ${err.name} and Message: ${err.message}`);
+    }
 };
 
-const getUsers = async (req, res) => {
-  const users = await User.find();
-  res.json(users);
-};
-
-const updateUser = async (req, res) => {
-  try {
-    const updatedUser = await User.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      { new: true }
-    );
-    res.json({ message: "User updated", updatedUser });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-};
+const getUser = async (req, res) => {
+    try{
+        const userList = await userModel.find()
+        res.status(200).send(userList)
+    }
+    catch(err){
+        res.status(404).send(`Error Name: ${err.name} and Message: ${err.message}`)
+    }
+}
 
 const deleteUser = async (req, res) => {
-  try {
-    await User.findByIdAndDelete(req.params.id);
-    res.json({ message: "User deleted" });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-};
-
-module.exports = {
-  createUser,
-  getUsers,
-  updateUser,
-  deleteUser,
+    try{
+        await userModel.findByIdAndDelete(req.params.id)
+        res.status(200).send("Data deleted successfully!")
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
 }
+
+const updateUser = async (req, res) => {
+    try{
+        const updatedUser = await userModel.findByIdAndUpdate(req.params.id , req.body , { new : true })
+        res.status(200).send(updatedUser)
+    }
+    catch(err){
+        res.status(404).send(`Error Name : ${err.name} , Error Message : ${err.message}`)
+    }
+}
+
+module.exports = { addUser, getUser, deleteUser, updateUser } 

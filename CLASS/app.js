@@ -1,176 +1,80 @@
-// var data = []
+// document.getElementById
+// document.getElementsByClassName
+// document.getElementsByTagName
+// document.querySelector
+// document.querySelectorAll
 
-// const fetchData = async () => {
-//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
-//     data = await url.json();
-//     displayCard(data)
-// }
-// fetchData()
+// document.createElement
 
-// const displayCard = (cardData) => {
-//     var cardList = ''
-//     cardData.map((value) => {
-//         cardList += 
-//         `
-//             <div class='col-4'>
-//                 <div class='card my-3'>
-//                     <div class='card-body'>
-//                         <h3>${value.name}</h3>
-//                         <h6>${value.email}</h6>
-//                     </div>
-//                 </div>
-//             </div>
-//         `
-//     }) 
-    
-//     document.getElementById('cardRow').innerHTML = cardList || `<p>No Results Found</p>`
-    
-// }
+// var h1tag = document.createElement('h1')
+// h1tag.innerHTML = 'Hello'
+// document.body.appendChild(h1tag) 
 
-// const submitFun = (event) => {
-//     event.preventDefault() 
-//     var userSearch = document.getElementById('searchBox').value.toLowerCase() 
-//     var filterSearch = data.filter((value) => value.name.toLowerCase().includes(userSearch)  )    
-//     displayCard(filterSearch)
-// }
+// var ptag = document.createElement('p')
+// ptag.innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, ab, corrupti, soluta beatae expedita voluptas possimus atque excepturi distinctio porro nesciunt blanditiis! Molestias, impedit. Non in quos quasi accusamus iure?'
+// document.body.appendChild(ptag) 
 
-// OBJECT METHODS
+// var atag = document.createElement('a')
+// atag.innerHTML = 'Youtube'
+// atag.href = 'https://www.youtube.com/'
+// atag.target = '_blank'
+// document.body.appendChild(atag)
 
-// var obj = {
-//     name : 'abinaya',
-//     age : 20
-// }
+// var imgTag = document.createElement('img')
+// imgTag.src = 'img1.jpg'
+// imgTag.alt = 'Error in image name'
+// imgTag.width = '300'
+// imgTag.height = '300'
+// document.body.appendChild(imgTag)
 
-// console.log(obj);
+// var centerTag = document.createElement('center')
+// document.body.appendChild(centerTag)
 
-// var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     place : {
-//         doorno : '123',
-//         street : 'abc street',
-//         city : 'trichy'
-//     }
-// }
+// var h1tag = document.createElement('h1')
+// h1tag.innerHTML = 'Hello'
+// centerTag.appendChild(h1tag) 
 
-// console.log(obj)
-// console.log(obj.age)
-// console.log(obj.place)
-// console.log(obj.place.street)
+// var oltag = document.createElement('ol')
+// document.body.appendChild(oltag)
 
+// var litag1 = document.createElement('li')
+// litag1.innerHTML = 'HTML'
+// oltag.appendChild(litag1)
 
-// var obj =   {
-//     id: 1,
-//     name: "Leanne Graham",
-//     username: "Bret",
-//     email: "Sincere@april.biz",
-//     address: {
-//       street: "Kulas Light",
-//       suite: "Apt. 556",
-//       city: "Gwenborough",
-//       zipcode: "92998-3874",
-//       geo: {
-//         lat: "-37.3159",
-//         lng: "81.1496"
-//       }
-//     }
-// }
+// var litag2 = document.createElement('li')
+// litag2.innerHTML = 'CSS'
+// oltag.appendChild(litag2)
 
-// console.log(obj.address.geo.lng)
+// var litag3 = document.createElement('li')
+// litag3.innerHTML = 'BOOTSTRAP'
+// oltag.appendChild(litag3)
 
-// var obj = {
-//     name : 'abinaya',
-//     fun : function(){
-//         console.log('Hello')
-//     }
-// }
+// var hrtag = document.createElement('hr')
+// document.body.appendChild(hrtag)
 
-// obj.fun()
+// var button = document.createElement('button')
+// button.innerHTML = 'Click'
+// document.body.appendChild(button)
 
-// var obj = {
-//     name : 'abinaya',
-//     fun : function(){
-//         return 'Hello'
-//     }
-// }
+// var marqueeTag = document.createElement('marquee')
+// marqueeTag.innerHTML = 'Hello'
+// marqueeTag.direction = 'right'
+// document.body.appendChild(marqueeTag)
 
-// console.log(obj.fun())
+// var ptag = document.createElement('p')
+// ptag.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tnihil error natus itaque facere, non quam quidem?'
 
-// var obj = {
-//     name : 'abinaya',
-//     fun : function(){
-//         console.log(`Hello ${obj.name}`)
-//     }
-// }
+// ptag.setAttribute('id', 'text')
 
-// obj.fun() 
+// document.body.appendChild(ptag)
 
-// var obj = {
-//     name : 'abinaya',
-//     fun : function(){
-//         console.log(`Hello ${this.name}`)
-//     }
-// }
-
-// obj.fun()
-
-// var obj = {
-//     name : 'abinaya',
-//     fun : function(){
-//         return `Hello ${this.name}`
-//     }
-// }
-
-// console.log(obj.fun())
-
-// var obj = {
-//     key : value,
-//     key : value
-// }
+// document.getElementById('text').style.color = 'blue'
+// document.getElementById('text').style.backgroundColor = 'black'
+// document.getElementById('text').style.padding = '40px'
 
 
-// var obj = new Map()
-// obj.set('name' ,'abi')
-// console.log(obj)
-// console.log(obj.get('name'))
-
-// var obj = new Map()
-// obj.set('name', 'anu')
-// obj.set('age', 20)
-// console.log(obj)
-// console.log(obj.get('age'))
-
-// var obj = new Map()
-// obj.set('details', { name : 'abinaya' })
-// console.log(obj)
-// console.log(obj.get('details'))
-// console.log(obj.get('details').name)
-
-// var obj = new Map()
-// obj.set('name', 'anu')
-// obj.set('age', 20)
-// console.log(obj)
-// console.log(obj.delete('age'))
-// console.log(obj.delete('place'))
-// console.log(obj)
-
-// var obj = new Map()
-// obj.set('name', 'anu')
-// obj.set('age', 20)
-// console.log(obj);
-// console.log(obj.clear());
-// console.log(obj);
-
-// var obj = new Map()
-// obj.set('name', 'anu')
-// obj.set('age', 20)
-// console.log(obj);
-// console.log(obj.has('place')); // false
-// console.log(obj.has('name')); // true
-
-// var obj = new Map()
-// obj.set('name', 'anu')
-// obj.set('age', 20)
-// obj.set('place', 'trichy')
-// console.log(obj);
-// console.log(obj.size);
+var ptag = document.createElement('p')
+ptag.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui reiciendis ea debitis tempore quaerat placeat distinctio ipsa assumenda soluta. A quisquam possimus ut numquam minus vel delectus? Dolores modi, facilis quo dignissimos ducimus optio incidunt rerum dolorum unde fuga quaerat, qui nihil error natus itaque facere, non quam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tnihil error natus itaque facere, non quam quidem?'
+ptag.setAttribute('class', 'hello')
+document.body.appendChild(ptag)
+document.getElementsByClassName('hello')[0].style.color = 'blue'
