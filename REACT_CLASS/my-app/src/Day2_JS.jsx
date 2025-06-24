@@ -163,15 +163,3 @@
 // }
 
 // export default Day2_JS
-
-import React from 'react'
-
-const Day2_JS = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Day2_JS
