@@ -67,25 +67,25 @@
 
 // VARIABLES (PROPS)
 
-    import React from 'react'
-    import Day3_Props_2 from './Day3_Props_2.jsx'
+    // import React from 'react'
+    // import Day3_Props_2 from './Day3_Props_2.jsx'
 
-    const Day3_Props_1 = () => {
+    // const Day3_Props_1 = () => {
 
-        var name = "Abi"
-        var age = 21
-        var place = "Trichy"
+    //     var name = "Abi"
+    //     var age = 21
+    //     var place = "Trichy"
 
-        return (
-            <>
-                <Day3_Props_2 user_name={name} user_age={age} user_place={place}/>
-                {/* user_name => props name
-                {name} => variable name */}
-            </>
-        )
-    }
+    //     return (
+    //         <>
+    //             <Day3_Props_2 user_name={name} user_age={age} user_place={place}/>
+    //             {/* user_name => props name
+    //             {name} => variable name */}
+    //         </>
+    //     )
+    // }
 
-    export default Day3_Props_1
+    // export default Day3_Props_1
 
 // DIRECT (PROPS)
 

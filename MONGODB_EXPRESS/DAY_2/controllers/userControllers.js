@@ -1,12 +1,12 @@
 // const userModel = require("../models/userModel");
 
-
 // const createUser = async (req, res) => {
 //     try {
 //         const userData = new userModel(req.body);
 //         await userData.save();
 //         res.status(200).send('Data Added');
-//     } catch (err) {
+//     } 
+//  (err) {
 //         res.status(404).send(`Error Name: ${err.name} and Message: ${err.message}`);
 //     }
 // };
@@ -57,4 +57,34 @@ const createUser = (req, res) => {
     }
 }
 
-module.exports = createUser
+const getUser = async (req, res) => {
+    try{
+        const userList = await userModel.find()
+        res.status(200).send(userList)
+    }
+    catch(err){
+        res.status(404).send(err)
+    }
+}
+
+const deleteUser = async (req, res) => {
+    try{
+        await userModel.findByIdAndDelete(req.params.id)
+        res.status(200).send('Deleted')
+    }
+    catch(err){
+        res.status(404).send(err)
+    }
+}
+
+const updateUser = async (req, res) => {
+    try{
+        const userUpdate = await userModel.findByIdAndUpdate(req.params.id, req.body, { new : true })
+        res.status(200).send(userUpdate)
+    }
+    catch(err){
+        res.status(404).send(err)
+    }
+}
+
+module.exports = { createUser, getUser, deleteUser, updateUser } 

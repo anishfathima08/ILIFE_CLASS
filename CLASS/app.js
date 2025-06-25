@@ -1,135 +1,87 @@
-// ONCLICK 
-
-// const clickFun = () => {
-//     alert('Button Clicked')
+// function fun(){
+//     alert('Hello')
 // }
 
-// ONDBLCLICK
+// addEventListener(event_name, function_name)
 
-// const dblClickFun = () => {
-//     alert('Button Double Clicked')
+// function addFun(){
+//     alert('Hello')
 // }
 
-// ONSUBMIT
+// document.getElementById('addButton').addEventListener('click', addFun)
 
-// const submitFun = (event) => {
-//     event.preventDefault()
-//     console.log('Form Submitted')
+// function removeFun(){
+//     document.getElementById('addButton').removeEventListener('click', addFun)
 // }
 
-// ONMOUSEDOWN
+// document.getElementById('removeButton').addEventListener('click', removeFun)
 
-// const mouseDownFun = () => {
-//     document.querySelector('button').style.backgroundColor = 'blue'
+// function addFun(){
+//     document.body.style.backgroundColor = document.body.style.backgroundColor == 'blue' ? 'white' : 'blue'
 // }
 
-// ONMOUSEUP 
+// document.getElementById('addButton').addEventListener('click', addFun)
 
-// const mouseUpFun = () => {
-//     document.querySelector('button').style.backgroundColor = 'red'
+// function removeFun(){
+//     document.getElementById('addButton').removeEventListener('click', addFun)
 // }
 
-// ONMOUSEDOWN & ONMOUSEUP
+// document.getElementById('removeButton').addEventListener('click', removeFun)
 
-// const mouseDownFun = () => {
-//     document.querySelector('button').style.backgroundColor = 'green'
+
+// function submitFun(event){
+//     event.preventDefault();
+//     var username = document.getElementById('username').value;
+
+//     var password = document.getElementById('password').value;
+
+//     if(username === 'abc' && password === '123'){
+//         window.location.href  = 'sample.html'
+//     }
+//     else{
+//         document.querySelector('p').innerHTML = 'Invalid Inputs*'
+//         document.querySelector('p').style.color = 'red'
+//     }
 // }
 
-// const mouseUpFun = () => {
-//     document.querySelector('button').style.backgroundColor = 'blue'
-// }
+function submitFun(event){
+    event.preventDefault();
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    var confirmPassword = document.getElementById('confirmPassword').value;
+    if(username === 'abc' && password === '123' && password === confirmPassword){
+        window.location.href  = 'sample.html'
+    }
+    else{
+        document.querySelector('p').innerHTML = 'Invalid Inputs*'
+        document.querySelector('p').style.color = 'red'
+    }
+}
 
-// ONMOUSEOVER
+function passwordFun(){
+    var passwordBox = document.getElementById('password')
+    if(passwordBox.type == 'password'){
+        passwordBox.type = 'text'
+        document.getElementById('show').style.display = 'none'
+        document.getElementById('hide').style.display = 'inline'
+    }
+    else{
+        passwordBox.type = 'password'
+        document.getElementById('show').style.display = 'inline'
+        document.getElementById('hide').style.display = 'none'
+    }
+} 
 
-// const mouseOverFun = () => {
-//     document.getElementsByTagName('p')[0].style.backgroundColor = 'blue'
-// }
-
-// ONMOUSEOUT
-
-// const mouseOutFun = () => {
-//     document.getElementsByTagName('p')[0].style.backgroundColor = 'red'
-// }
-
-// ONMOUSEOVER & ONMOUSEOUT
-
-// const mouseOverFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'blue'
-// }
-
-// const mouseOutFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'white'
-// }
-
-// ONMOUSEENTER
-
-// const mouseEnterFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'blue'
-// }
-
-// ONMOUSELEAVE
-
-// const mouseLeaveFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'red'
-// }
-
-// ONMOUSEENTER & ONMOUSELEAVE
-
-// const mouseEnterFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'green'
-//     document.querySelector('p').style.color = 'white'
-// }
-
-// const mouseLeaveFun = () => {
-//     document.querySelector('p').style.backgroundColor = 'blue'
-//     document.querySelector('p').style.color = 'white'
-// } 
-
-// ONCHANGE
-
-// const changeFun = () => {
-//     alert('Changed')
-// }
-
-// const changeFun = (event) => {
-//     event.preventDefault()
-//     var result = document.getElementById('inputBox').value;
-//     console.log(result);
-// }
-
-// ONKEYUP
-
-// const keyUpFun = () => {
-//     var result = document.getElementById('inputBox').value;
-//     console.log(result);
-// }
-
-// ONFOCUS
-
-// const focusFun = () => {
-//     document.querySelector('input').style.backgroundColor = 'blue'
-// }
-
-// ONBLUR
-
-// const blurFun = () => {
-//     document.querySelector('input').style.backgroundColor = 'red'
-// }
-
-// ONFOCUS & ONBLUR
-
-// const focusFun = () => {
-//     document.querySelector('input').style.backgroundColor = 'green'
-// }
-
-// const blurFun = () => {
-//     document.querySelector('input').style.backgroundColor = 'red'
-// }
-
-// window.onresize = function(){
-//     console.log('Window Size is Changed');
-// }
-
-// const loadFun = () => {
-//     alert('Page is Reload')
-// }
+function confirmFun(){
+    var confirmPasswordBox = document.getElementById('confirmPassword')
+    if(confirmPasswordBox.type == 'password'){
+        confirmPasswordBox.type = 'text'
+        document.getElementById('Cshow').style.display = 'none'
+        document.getElementById('Chide').style.display = 'inline'
+    }
+    else{
+        confirmPasswordBox.type = 'password'
+        document.getElementById('Cshow').style.display = 'inline'
+        document.getElementById('Chide').style.display = 'none'
+    }
+}

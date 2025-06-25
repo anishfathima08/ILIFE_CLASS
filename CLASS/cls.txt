@@ -3,7 +3,7 @@ BATCHES
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
 11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Shalini [ Python Full Stack ]
 12 - 01 -> Maria [ Python Stack - Online ] 
- 
+
 01 - 02 -> Lunch
 
 02 - 03 -> Free 
@@ -34,25 +34,25 @@ S - BOOTSTRAP DAY 2
 
 WEDNESDAY - 25-06-2025
 
-KADD - BOOTSTRAP DAY 6 [ CAROUSEL, FORM, FORM INPUTS ]
+KADD - BOOTSTRAP DAY 6 [ PROJECT ]
 8 - JS [ EVENTS, EVENT LISTENER, FORM VALIDATION ]
 M - JS [ EVENTS, EVENT LISTENER, FORM VALIDATION ]
-N - 
+N - MONGO DB CRUD
 HA - REACT DAY 3
 S - BOOTSTRAP DAY 3
 
 THURSDAY - 26-06-2025 
 
-KADD - JS DAY 1 [ TYPES OF OUTPUTS, TYPES OF JS, VARIABLE, COMMENTS ]
-8 - JS [ TRY CATCH ]
-M - JS [ TRY CATCH ]
+KADD - JS DAY 1 [ CAROUSEL, FORM, FORM INPUTS ]
+8 - JS [ PASSWORD VALIDATION, TRY CATCH ]
+M - JS [ PASSWORD VALIDATION, TRY CATCH ]
 N - 
-HA - REACT DAY 4
+HA - REACT DAY 4 
 S - BOOTSTRAP DAY 4
 
 FRIDAY - 27-06-2025
 
-KADD - JS DAY 2 [ DATA TYPES, FUNCTIONS ]
+KADD - JS DAY 2 [ TYPES OF OUTPUTS, TYPES OF JS, VARIABLE, COMMENTS ]
 8 - JS [ ADD TO CART ]
 M - JS [ ADD TO CART ]
 N - 
@@ -61,7 +61,7 @@ S - BOOTSTRAP DAY 5
 
 23-06-2025 (MON) - Absent - Pavithran, Dhushyanth, Shalini, Naveen, Aakash, Sethumadhavan
 24-06-2025 (TUE) - Absent - Pavithran, Shalini, Hari Babu, Sethumadhavan 
-25-06-2025 (WED) - Absent - Pavithran, Hari Babu
+25-06-2025 (WED) - Absent - Pavithran, Shalini, Hari Babu
 26-06-2025 (THU) - Absent - 
 27-06-2025 (FRI) - Absent - 
 
@@ -536,13 +536,3 @@ ATTENDANCE
 25-04-2025 (FRI) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
 
 --------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-VARIABLES (NUM, STR), ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP
-EVENTS - ONCLICK, ONDBLCLICK

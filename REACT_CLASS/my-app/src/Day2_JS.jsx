@@ -38,6 +38,7 @@
 
 // export default Day2_JS
 
+
 // import React from 'react'
 
 // const Day2_JS = () => {
@@ -54,6 +55,7 @@
 // }
 
 // export default Day2_JS
+
 
 // import React from 'react'
 
@@ -75,6 +77,7 @@
 // }
 
 // export default Day2_JS
+
 
 // import React from 'react'
 
@@ -108,6 +111,7 @@
 // }
 
 // export default Day2_JS
+
 
 // import React from 'react'
 
@@ -162,4 +166,4 @@
 //     )
 // }
 
-// export default Day2_JS
+// export default Day2_JS  

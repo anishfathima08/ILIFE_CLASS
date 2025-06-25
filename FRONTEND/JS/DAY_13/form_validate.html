@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+
     <form onsubmit="submitFun(event)">
         <input type="text" id="usernameBox">
         <br>
@@ -25,6 +26,7 @@
     <p id="ptag"></p>
 
     <script>
+        
         function submitFun(event){
             event.preventDefault()
             var username = document.getElementById('usernameBox').value;
@@ -40,14 +42,14 @@
         }
         
         function toggle(){
-            var passwordIcon = document.getElementById('passwordBox');
-            if(passwordIcon.type === 'password'){
-                passwordIcon.type = 'text';
+            var passwordBox = document.getElementById('passwordBox');
+            if(passwordBox.type === 'password'){
+                passwordBox.type = 'text';
                 document.getElementById('show').style.display = 'none'
                 document.getElementById('hide').style.display = 'inline'
             }
             else{
-                passwordIcon.type = 'password';
+                passwordBox.type = 'password';
                 document.getElementById('show').style.display = 'inline'
                 document.getElementById('hide').style.display = 'none'
             }

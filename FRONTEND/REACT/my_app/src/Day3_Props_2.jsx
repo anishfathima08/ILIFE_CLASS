@@ -1,18 +1,18 @@
 // VARIABLES (PROPS)
 
-    import React from 'react'
+    // import React from 'react'
 
-    const Day3_Props_2 = (props) => {
-      return (
-        <>
-            <h1>User Name : {props.user_name}</h1>
-            <h1>User Age : {props.user_age}</h1>
-            <h1>User Address : {props.user_place}</h1>
-        </>
-      )
-    }
+    // const Day3_Props_2 = (props) => {
+    //   return (
+    //     <>
+    //         <h1>User Name : {props.user_name}</h1>
+    //         <h1>User Age : {props.user_age}</h1>
+    //         <h1>User Address : {props.user_place}</h1>
+    //     </>
+    //   )
+    // }
 
-    export default Day3_Props_2
+    // export default Day3_Props_2
 
 // VARIABLES PROPS USING DESTRUCTURING
 
