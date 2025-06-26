@@ -1,3 +1,5 @@
+// Single Variable
+
 // import React from 'react'
 
 // const Day3_Props2 = (props) => {
@@ -10,6 +12,8 @@
 
 // export default Day3_Props2 
 
+// Single Variable using Destructuring
+
 // import React from 'react'
 
 // const Day3_Props2 = ({ user_name }) => {
@@ -21,6 +25,8 @@
 // }
 
 // export default Day3_Props2
+
+// Multiple Variables
 
 // import React from 'react'
 
@@ -35,6 +41,8 @@
 
 // export default Day3_Props2
 
+// Multiple Variables using Destructring 
+
 // import React from 'react'
 
 // const Day3_Props2 = ({user_name, user_age}) => {
@@ -47,6 +55,8 @@
 // }
 
 // export default Day3_Props2
+
+// Array
 
 // import React from 'react'
 
@@ -63,6 +73,8 @@
 
 // export default Day3_Props2
 
+// Array using Destructring
+
 // import React from 'react'
 
 // const Day3_Props2 = ({ array }) => {
@@ -78,6 +90,8 @@
 
 // export default Day3_Props2
 
+// Array using map
+
 // import React from 'react'
 
 // const Day3_Props2 = (props) => {
@@ -91,6 +105,8 @@
 // }
 
 // export default Day3_Props2
+
+// Array using map with Destructring
 
 // import React from 'react'
 
@@ -106,6 +122,8 @@
 
 // export default Day3_Props2
 
+// Object
+
 // import React from 'react'
 
 // const Day3_Props2 = (props) => {
@@ -119,6 +137,8 @@
 // }
 
 // export default Day3_Props2
+
+// Object using Destructring
 
 // import React from 'react'
 
@@ -134,6 +154,7 @@
 
 // export default Day3_Props2
 
+// JSON
 
 // import React from 'react'
 
@@ -155,6 +176,8 @@
 
 // export default Day3_Props2
 
+// JSON using Destructring
+
 // import React from 'react'
 
 // const Day3_Props2 = ({json}) => {
@@ -175,6 +198,8 @@
 
 // export default Day3_Props2
 
+// JSON with map
+
 // import React from 'react'
 
 // const Day3_Props2 = (props) => {
@@ -193,6 +218,7 @@
 
 // export default Day3_Props2
 
+// JSON using Destructring with map
 
 // import React from 'react'
 

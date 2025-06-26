@@ -1,3 +1,9 @@
+// Components => Functional Component, Non Component
+
+// Functional Component
+
+// Default Function
+
 // import React from 'react'
 
 // function Day1_Components(){
@@ -12,6 +18,8 @@
 
 // export default Day1_Components 
 
+// Arrow Function
+
 // import React from 'react'
 
 // const Day1_Components = () => {
@@ -25,30 +33,7 @@
 
 // export default Day1_Components
 
-
-// rafce 
-
-// import React from 'react'
-
-// const Day1_Components = () => {
-//     return (
-//         <>
-//             <h1>Hello</h1>
-//         </>
-//     )
-// }
-
-// export default Day1_Components
-
-// import React from 'react'
-
-// function Day1_Components() {
-//   return (
-//     <div>Day1_Components</div>
-//   )
-// }
-
-// export default Day1_Components
+// Class Component
 
 // import React from 'react'
 
@@ -64,16 +49,3 @@
 // }
 
 // export default Day1_Components
-
-
-import React from 'react'
-
-const Day1_Components = () => {
-  return (
-    <>
-        <h1>Hello 1</h1>
-    </>
-  )
-}
-
-export default Day1_Components 

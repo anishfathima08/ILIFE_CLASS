@@ -1,5 +1,7 @@
 // import React from 'react'
 
+// Variables
+
 // const Day2_JS = () => {
 
 //     // var a = 'Hello'
@@ -19,6 +21,7 @@
 
 // export default Day2_JS 
 
+// Array 
 
 // import React from 'react'
 
@@ -38,6 +41,7 @@
 
 // export default Day2_JS
 
+// Array Using Map
 
 // import React from 'react'
 
@@ -56,6 +60,7 @@
 
 // export default Day2_JS
 
+// Object
 
 // import React from 'react'
 
@@ -78,6 +83,7 @@
 
 // export default Day2_JS
 
+// JSON
 
 // import React from 'react'
 
@@ -112,6 +118,7 @@
 
 // export default Day2_JS
 
+// JSON Using Map
 
 // import React from 'react'
 
@@ -150,6 +157,7 @@
 
 // export default Day2_JS
 
+// Event
 
 // import React from 'react'
 

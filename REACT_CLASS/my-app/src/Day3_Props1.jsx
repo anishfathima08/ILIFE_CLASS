@@ -1,5 +1,7 @@
 // Props 
 
+// Single Variable
+
 // import React from 'react'
 // import Day3_Props2 from './Day3_Props2'
 
@@ -16,6 +18,8 @@
 // }
 
 // export default Day3_Props1
+
+// Multiple Variables
 
 // import React from 'react'
 // import Day3_Props2 from './Day3_Props2'
@@ -34,6 +38,8 @@
 
 // export default Day3_Props1
 
+// Array
+
 // import React from 'react'
 // import Day3_Props2 from './Day3_Props2'
 
@@ -50,6 +56,7 @@
 
 // export default Day3_Props1
 
+// Object
 
 // import React from 'react'
 // import Day3_Props2 from './Day3_Props2'
@@ -70,6 +77,8 @@
 // }
 
 // export default Day3_Props1
+
+// JSON
 
 // import React from 'react'
 // import Day3_Props2 from './Day3_Props2'

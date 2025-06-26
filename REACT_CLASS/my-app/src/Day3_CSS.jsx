@@ -1,3 +1,7 @@
+// CSS 
+
+// Inline CSS
+
 // import React from 'react'
 
 // const Day3_CSS = () => {
@@ -11,6 +15,7 @@
 
 // export default Day3_CSS
 
+// Using Object 
 
 // import React from 'react'
 
@@ -39,6 +44,7 @@
 
 // export default Day3_CSS 
 
+// External CSS
 
 // import React from 'react'
 // import './index.css'

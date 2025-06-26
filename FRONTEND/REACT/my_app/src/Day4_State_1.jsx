@@ -92,26 +92,26 @@
 
 // HIDE SHOW TEXT
 
-    import React, { useState } from 'react';
+    // import React, { useState } from 'react';
 
-    const Day4_State_1 = () => {
-      const [isVisible, setIsVisible] = useState(true); 
+    // const Day4_State_1 = () => {
+    //   const [isVisible, setIsVisible] = useState(true); 
     
-      const toggleVisibility = () => {
-        setIsVisible(!true); 
-      };
+    //   const toggleVisibility = () => {
+    //     setIsVisible(!true); 
+    //   };
     
-      return (
-        <div>
-          <button onClick={toggleVisibility}>
-            {isVisible ? 'Hide' : 'Show'} Text
-          </button>
-           <h1>{isVisible && 'This is some text that can be shown or hidden.'}</h1>
-        </div>
-      );
-    };
+    //   return (
+    //     <div>
+    //       <button onClick={toggleVisibility}>
+    //         {isVisible ? 'Hide' : 'Show'} Text
+    //       </button>
+    //        <h1>{isVisible && 'This is some text that can be shown or hidden.'}</h1>
+    //     </div>
+    //   );
+    // };
     
-    export default Day4_State_1;
+    // export default Day4_State_1;
 
 // HIDE SHOW PASSWORD
 
