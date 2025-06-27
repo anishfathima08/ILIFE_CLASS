@@ -61,9 +61,9 @@ S - LEAVE
 
 23-06-2025 (MON) - Absent - Pavithran, Dhushyanth, Shalini, Naveen, Aakash, Sethumadhavan
 24-06-2025 (TUE) - Absent - Pavithran, Shalini, Hari Babu, Sethumadhavan 
-25-06-2025 (WED) - Absent - Pavithran, Hari Babu
-26-06-2025 (THU) - Absent - Pavithran, Hari Babu  
-27-06-2025 (FRI) - Absent - 
+25-06-2025 (WED) - Absent - Pavithran, Hari Babu, Sethumadhavan
+26-06-2025 (THU) - Absent - Pavithran, Hari Babu, Sethumadhavan
+27-06-2025 (FRI) - Absent - Pavithran, Maheshwaran, Sethumadhavan, Aakash
 
 --------------------------------------------------------------------------------------------
 

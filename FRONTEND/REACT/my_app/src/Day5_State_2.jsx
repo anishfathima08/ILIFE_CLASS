@@ -4,13 +4,13 @@
     
     // const Day5_State_2 = () => {
 
-    //     var [time, setTime] = useState(new Date().toLocaleTimeString())
+    // var [time, setTime] = useState(new Date().toLocaleTimeString())
 
-    //     const timeFun = () => {
-    //         setTime(new Date().toLocaleTimeString())
-    //     }
+    // const timeFun = () => {
+    //     setTime(new Date().toLocaleTimeString())
+    // }
 
-    //     setInterval(timeFun, 1000)
+    // setInterval(timeFun, 1000)
 
     //     return (
     //         <>
@@ -43,7 +43,7 @@
 
         // return (
         //     <>
-        //         <input type="text" value={text} onChange={inputText} />
+                // <input type="text" value={text} onChange={inputText} />
         //         <button onClick={generateQR}>Generate</button>
         //         <br />
         //         { qr ?  <img src={qr} alt="" /> : ''}
