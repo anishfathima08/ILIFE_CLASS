@@ -14,10 +14,56 @@ BATCHES
 
 --------------------------------------------------------------------------------------------
 
+MONDAY - 30-06-2025
+
+TUESDAY - 01-07-2025
+
+KADD - 
+8[epix] - 
+M - 
+N - 
+HA -
+S - 
+
+WEDNESDAY - 25-06-2025
+
+KADD -
+8[epix] - 
+M - 
+N - 
+HA - 
+S - 
+
+THURSDAY - 26-06-2025 
+
+KADD - 
+8[epix] - 
+M - 
+N - 
+HA - 
+S - 
+
+FRIDAY - 27-06-2025
+
+KADD - 
+8[epix] - 
+M - 
+N - 
+HA -
+S - 
+
+30-06-2025 (MON) - Absent - 
+01-07-2025 (TUE) - Absent -  
+02-07-2025 (WED) - Absent - 
+03-07-2025 (THU) - Absent - 
+04-07-2025 (FRI) - Absent - 
+
+--------------------------------------------------------------------------------------------
+
 MONDAY - 23-06-2025
 
 KADD - BOOTSTRAP DAY 4 [ PAGINATION, DROPDOWN, COLLAPSE ]
-8 - JS [ DOM, QUERY SELECTOR ]
+8[epix] - JS [ DOM, QUERY SELECTOR ]
 M - JS [ DOM, QUERY SELECTOR ]
 N - LEAVE
 HA - REACT DAY 2
@@ -26,7 +72,7 @@ S - LEAVE
 TUESDAY - 24-06-2025
 
 KADD - BOOTSTRAP DAY 5 [ ACCORDIAN, CANVAS, NAVBAR ]
-8 - JS [ INTERNSHIP ]
+8[epix] - JS [ INTERNSHIP ]
 M - JS [ INTERNSHIP ]
 N - MONGODB DAY 3
 HA - REACT DAY 2
@@ -35,7 +81,7 @@ S - LEAVE
 WEDNESDAY - 25-06-2025
 
 KADD - [ PROJECT ] 
-8 - JS [ EVENTS, EVENT LISTENER, FORM VALIDATION ]
+8[epix] - JS [ EVENTS, EVENT LISTENER, FORM VALIDATION ]
 M - JS [ EVENTS, EVENT LISTENER, FORM VALIDATION ]
 N - MONGO DB CRUD
 HA - REACT DAY 3
@@ -44,7 +90,7 @@ S - LEAVE
 THURSDAY - 26-06-2025 
 
 KADD - BOOTSTRAP DAY 6 [ CAROUSEL, FORM, FORM INPUTS ]
-8 - JS [ PASSWORD VALIDATION, TRY CATCH ]
+8[epix] - JS [ PASSWORD VALIDATION, TRY CATCH ]
 M - JS [ PASSWORD VALIDATION, TRY CATCH ]
 N - PROJECT
 HA - REACT DAY 4 [ USE STATE 1 ]
@@ -53,7 +99,7 @@ S - LEAVE
 FRIDAY - 27-06-2025
 
 KADD - JS DAY 1 [ TYPES OF OUTPUTS, TYPES OF JS, VARIABLE, COMMENTS ]
-8 - JS [ ADD TO CART ]
+8[epix] - JS [ ADD TO CART ]
 M - JS [ ADD TO CART ]
 N - 
 HA - REACT DAY 4 [ USE STATE 2 ]
