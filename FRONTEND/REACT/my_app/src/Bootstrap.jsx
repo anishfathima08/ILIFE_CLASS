@@ -1,4 +1,4 @@
-// CARD, MODAL, OFFCANVAS, TABS, ACCORDION
+// CARD, MODAL, OFFCANVAS
 
 // CARD
 
@@ -125,71 +125,6 @@
     //                     </OffcanvasBody>
     //                 </Offcanvas>
     //             </Container>
-    //         </>
-    //     )
-    // }
-
-    // export default Bootstrap
-
-// ACCORDION
-
-// import React from 'react'
-// import { Container, Accordion } from 'react-bootstrap'
-
-// const Bootstrap = () => {
-//     return (
-//         <>
-//             <Container>
-//                 <Accordion defaultActiveKey='0'>
-//                     <Accordion.Item eventKey="0"> 
-//                         <Accordion.Header>
-//                             <h1>Title</h1>
-//                         </Accordion.Header>
-//                         <Accordion.Body>
-//                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta ullam possimus illo atque, culpa, voluptatem nulla, iste provident incidunt tempora nam minima eveniet quibusdam voluptas fugiat inventore delectus. Tempore, ducimus rem? Libero temporibus sequi, cumque cupiditate quis nisi. Saepe nihil aperiam quaerat. Eaque eius optio, facilis delectus accusamus nesciunt.</p>
-//                         </Accordion.Body>
-//                     </Accordion.Item>
-//                     <Accordion.Item eventKey="1">
-//                         <Accordion.Header>
-//                             <h1>Title</h1>
-//                         </Accordion.Header>
-//                         <Accordion.Body>
-//                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta ullam possimus illo atque, culpa, voluptatem nulla, iste provident incidunt tempora nam minima eveniet quibusdam voluptas fugiat inventore delectus. Tempore, ducimus rem? Libero temporibus sequi, cumque cupiditate quis nisi. Saepe nihil aperiam quaerat. Eaque eius optio, facilis delectus accusamus nesciunt.</p>
-//                         </Accordion.Body>
-//                     </Accordion.Item>
-//                 </Accordion>
-//             </Container>
-//         </>
-//     )
-// }
-
-// export default Bootstrap
-
-// TABS
-
-    // import React from 'react'
-    // import { Tab, Tabs } from 'react-bootstrap'
-
-    // const Bootstrap = () => {
-    //     return (
-    //         <>
-    //             <Tabs 
-    //                 defaultActiveKey='title1'   
-    //                 justify
-    //             >
-    //                 <Tab title='Title 1' eventKey="title1">
-    //                     <p>Content for Title1</p>
-    //                 </Tab>
-    //                 <Tab title='Title 2' eventKey="title2">
-    //                     <p>Content for Title2</p>
-    //                 </Tab>
-    //                 <Tab title='Title 3' eventKey="title3">
-    //                     <p>Content for Title3</p>
-    //                 </Tab>
-    //                 <Tab title='Title 4' eventKey="title4">
-    //                     <p>Content for Title4</p>
-    //                 </Tab>
-    //             </Tabs>
     //         </>
     //     )
     // }

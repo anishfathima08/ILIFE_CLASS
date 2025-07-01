@@ -7,12 +7,12 @@
 
     <style>
 
-        .container{
+        /* .container{
             display: flex;
             flex-wrap: wrap;
         }
 
-        .container > div{
+        .container > div {
             height: 100px;
             flex: 1;
         }
@@ -40,18 +40,14 @@
             .container > div {
                 flex: 1 100%;
             } 
-        }
+        } */
+
     </style>
 
-    <!-- <style>
+    <style>
 
         .container{
             display: flex;
-        }
-
-        .container > div {
-            height: 100px;
-            flex: 1;
         }
 
         .box1{
@@ -61,22 +57,27 @@
             background-color: green;
         }
 
+        .container > div {
+            flex: 1;
+            padding: 40px;
+        }
+
         @media screen and (max-width : 768px){
             .container{
                 flex-direction: column-reverse;
             }
         }
 
-    </style> -->
+    </style>
 
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="box1">box1</div>
         <div class="box2">box2</div>
         <div class="box3">box3</div>
         <div class="box4">box4</div>
-    </div>
+    </div> -->
 
     <!-- Reverse -->
 
@@ -84,5 +85,11 @@
         <div class="box1">box1</div>
         <div class="box2">box2</div>
     </div> -->
+
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+    </div>
+
 </body>
 </html>

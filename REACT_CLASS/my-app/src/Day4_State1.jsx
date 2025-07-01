@@ -1,5 +1,7 @@
 // HOOKS 
 
+// Use State [ Log, Inc, Dec, Limit, Text Hide and Show, Password Hide and Show, Theme Toggle ]
+
 // Use State 
 
 // import React from 'react'
@@ -177,3 +179,31 @@
 // }
 
 // export default Day4_State1
+
+// Theme Toggle
+
+// import React, { useState } from 'react'
+
+// const Day5_State2 = () => {
+
+//     const [ theme, setTheme ] = useState(true)
+
+//     const themeStyle = {
+//         backgroundColor :  theme ? 'black' : 'white',
+//         color : theme ? 'white' : 'black',
+//         padding : '40px'
+//     }
+
+//     const themeToggle = () => {
+//         setTheme(!theme)
+//     }
+
+//     return (
+//         <>
+//             <p style={themeStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea expedita porro eos nam soluta perspiciatis, quas veritatis excepturi impedit dicta blanditiis saepe doloribus eligendi, eveniet illum distinctio deserunt velit. Maiores, culpa quaerat deserunt voluptatum necessitatibus repellat eligendi suscipit, aspernatur eum assumenda voluptatem laborum? Assumenda sequi repellat maiores in temporibus?</p>
+//             <button onClick={themeToggle}>{ theme ? 'Light Theme' : 'Dark Theme' }</button>
+//         </>
+//     )
+// }
+
+// export default Day5_State2

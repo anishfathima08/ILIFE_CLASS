@@ -104,6 +104,7 @@ var cart = [];
 var wish = [];
 var totalAmt = 0;
 var cartCount = 0;
+var wishCount = 0;
 
 const cartCountFun = () => {
     document.getElementById('cartCount').innerHTML = cartCount;
@@ -216,9 +217,10 @@ const addToWish = (productID) => {
     else{
         products.quantity = 1;
         wish.push(products)
-        wishCountFun();
     }
     display_wish(wish);
+    wishCount++
+    wishCountFun()
 }
 
 const removeFromWish = (productID) => {

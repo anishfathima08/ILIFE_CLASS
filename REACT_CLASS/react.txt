@@ -1,0 +1,32 @@
+REACT 
+
+React is Javascript Library
+
+Installation & Set up
+
+npm create vite@latest .
+project-name folder_name (app_name) => Ex : my_app
+select react framework and javascript variant
+cd my_app
+npm install 
+npm run dev
+
+Cleaning Process
+
+Delete
+    public folder
+    App.css 
+    assets -> svg file
+
+Clear 
+    index.css
+    App.jsx
+
+for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
+
+
+DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
+DAY - 2 => JS in REACT, EVENT
+DAY - 3 => STYLE, PROPS
+DAY - 4 => USE STATE [ LOG, INC, DEC, TEXT HIDE AND SHOW, PASSWORD HIDE AND SHOW, THEME TOGGLE ]
+DAY - 5 => USE STATE [ DIGITAL CLOCK, QR CODE ], BOOTSTRAP [ MODAL, CARD, OFFCANVAS ] 

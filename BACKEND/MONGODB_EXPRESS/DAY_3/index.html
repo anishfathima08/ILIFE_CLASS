@@ -6,22 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Upload User Info with Image</h2>
-
     <form action="http://localhost:8080/api/add" method="POST" enctype="multipart/form-data">
-        <label>Name:</label>
-        <input type="text" name="name" required /><br /><br />
-
-        <label>Age:</label>
-        <input type="number" name="age" required /><br /><br />
-
-        <label>Place:</label>
-        <input type="text" name="place" required /><br /><br />
-
-        <label>Image:</label>
-        <input type="file" name="image" accept="image/*" required /><br /><br />
-
-        <button type="submit">Submit</button>
+        <input type="text" placeholder="Enter your name..." name="name">
+        <br><br>
+        <input type="number" placeholder="Enter your age..." name="age">
+        <br><br>
+        <input type="text" placeholder="Enter your place..." name="place">
+        <br><br>
+        <input type="file" name="image">
+        <br><br>
+        <input type="submit">
     </form>
 </body>
 </html>

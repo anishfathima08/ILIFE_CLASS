@@ -7,8 +7,8 @@ BATCHES
 01 - 02 -> Lunch
 
 02 - 03 -> Free 
-03 - 04 -> Free
-04 - 05 -> Naveen [ MERN STACK - Online ]
+03 - 04 -> Naveen [ MERN STACK - Online ]
+04 - 05 -> Free
 05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ]
 06 - 07 -> Sethumadhavan [ PHP STACK ]
 
@@ -18,6 +18,33 @@ MONDAY - 30-06-2025
 
 TUESDAY - 01-07-2025
 
+KADD - JS DAY 1
+8[epix] - ADD TO CART 
+M - ADD TO CART
+N - MONGO DB WITH EXPRESS 
+HA - REACT DAY 5
+S - BOOSTRAP DAY 1 
+
+WEDNESDAY - 02-07-2025
+
+KADD - JS DAY 2 
+8[epix] - 
+M - 
+N - 
+HA - 
+S - 
+
+THURSDAY - 03-07-2025 
+
+KADD - 
+8[epix] - 
+M - 
+N - 
+HA - 
+S - 
+
+FRIDAY - 04-07-2025
+
 KADD - 
 8[epix] - 
 M - 
@@ -25,35 +52,8 @@ N -
 HA -
 S - 
 
-WEDNESDAY - 25-06-2025
-
-KADD -
-8[epix] - 
-M - 
-N - 
-HA - 
-S - 
-
-THURSDAY - 26-06-2025 
-
-KADD - 
-8[epix] - 
-M - 
-N - 
-HA - 
-S - 
-
-FRIDAY - 27-06-2025
-
-KADD - 
-8[epix] - 
-M - 
-N - 
-HA -
-S - 
-
-30-06-2025 (MON) - Absent - 
-01-07-2025 (TUE) - Absent -  
+30-06-2025 (MON) - Absent - STAFF LEAVE 
+01-07-2025 (TUE) - Absent - Dinakaran, Pavithran, Shalini, 
 02-07-2025 (WED) - Absent - 
 03-07-2025 (THU) - Absent - 
 04-07-2025 (FRI) - Absent - 
