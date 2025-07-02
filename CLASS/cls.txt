@@ -20,19 +20,19 @@ TUESDAY - 01-07-2025
 
 KADD - JS DAY 1
 8[epix] - ADD TO CART 
-M - ADD TO CART
+Mariya - ADD TO CART
 N - MONGO DB WITH EXPRESS 
 HA - REACT DAY 5
-S - BOOSTRAP DAY 1 
+S - Sethumadhavan Leave 
 
 WEDNESDAY - 02-07-2025
 
 KADD - JS DAY 2 
-8[epix] - 
-M - 
-N - 
-HA - 
-S - 
+8[epix] - REACT DAY 1
+Mariya - REACT DAY 1
+N - MONGO DB WITH EXPRESS 
+HA - REACT DAY 6
+S - Sethumadhavan Leave 
 
 THURSDAY - 03-07-2025 
 
