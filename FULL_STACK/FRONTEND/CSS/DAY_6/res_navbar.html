@@ -11,62 +11,70 @@
             padding: 0;
         }
         .container{
-            background-color: black;
-            color: white;
-
             display: flex;
             justify-content: space-between;
             align-items: center;
-
-            padding: 20px;
-        }
-        .links a{
-            text-decoration: none;
+            padding: 10px 20px;
+            background-color: black;
             color: white;
-            margin: 0 20px;
         }
-
-        #inputBox{
-            display: none;
+        a{
+            color:white;
+            text-decoration: none;
+            margin: 0 10px;
         }
-
         #icon{
             display: none;
         }
-
+        #navbar{
+            display: none;
+        }
+        #close{
+            display: none;
+        }
         @media screen and (max-width:768px){
-            .links{
+            .link{
                 display: none;
             }
             #icon{
-                display: flex;
+                display: block;
             }
-            #inputBox:checked ~ .links{
+            input:checked ~ .link{
                 display: flex;
+                gap: 20px;
                 flex-direction: column;
                 position: absolute;
-                top: 75px;
-                width: 100%;
-                left: 0;
-                gap: 10px;
-                padding: 10px 0;
                 background-color: black;
-
+                top: 40px;
+                width: 40%;
+                right: 0;
+                padding: 10px;
+            }
+            input:checked ~ #bar{
+                display: none;
+            }
+            input:checked ~ #close{
+                display: flex;
             }
         }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Logo</h1>
+        <h3>Logo</h3>
 
-        <input type="checkbox" id="inputBox">
+        <input type="checkbox" id="navbar">
 
-        <label for="inputBox">
-            <i class="fa-solid fa-bars fa-2x icon" id="icon"></i>
+        <label for="navbar" id="bar">
+            <i class="fa-solid fa-bars" id="icon"></i>
         </label>
 
-        <div class="links">
+        <label for="navbar" id="close">
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <div class="link">
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Contact</a>

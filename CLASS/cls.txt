@@ -29,32 +29,32 @@ WEDNESDAY - 02-07-2025
 
 KADD - JS DAY 2 
 8[epix] - REACT DAY 1
-Mariya - REACT DAY 1
+Mariya - LEAVE 
 N - MONGO DB WITH EXPRESS 
-HA - REACT DAY 6
+HA - REACT DAY 5
 S - Sethumadhavan Leave 
 
 THURSDAY - 03-07-2025 
 
-KADD - 
-8[epix] - 
-M - 
+KADD - JS DAY 3
+8[epix] - REACT DAY 2
+Mariya - REACT DAY 1, 2
 N - 
-HA - 
-S - 
+HA - REACT DAY 6 [ Use Context ]
+S - Sethumadhavan Leave
 
 FRIDAY - 04-07-2025
 
-KADD - 
-8[epix] - 
-M - 
+KADD - JS DAY 4
+8[epix] - REACT DAY 3
+Mariya - REACT DAY 3 [ Style, Props ]
 N - 
-HA -
+HA - REACT DAY 7 [ Use Effect ]
 S - 
 
 30-06-2025 (MON) - Absent - STAFF LEAVE 
-01-07-2025 (TUE) - Absent - Dinakaran, Pavithran, Shalini, 
-02-07-2025 (WED) - Absent - 
+01-07-2025 (TUE) - Absent - Dinakaran, Pavithran, Shalini, Sethumadhavan, Hari Babu
+02-07-2025 (WED) - Absent - Pavithran, Shalini, Mariya, Hari Babu
 03-07-2025 (THU) - Absent - 
 04-07-2025 (FRI) - Absent - 
 
@@ -105,11 +105,11 @@ N -
 HA - REACT DAY 4 [ USE STATE 2 ]
 S - LEAVE
 
-23-06-2025 (MON) - Absent - Pavithran, Dhushyanth, Shalini, Naveen, Aakash, Sethumadhavan
+23-06-2025 (MON) - Absent - Pavithran, Dhushyanth, Hari Babu, Shalini, Naveen, Aakash, Sethumadhavan
 24-06-2025 (TUE) - Absent - Pavithran, Shalini, Hari Babu, Sethumadhavan 
 25-06-2025 (WED) - Absent - Pavithran, Hari Babu, Sethumadhavan
 26-06-2025 (THU) - Absent - Pavithran, Hari Babu, Sethumadhavan
-27-06-2025 (FRI) - Absent - Pavithran, Maheshwaran, Sethumadhavan, Aakash
+27-06-2025 (FRI) - Absent - Pavithran, Hari Babu, Maheshwaran, Sethumadhavan, Aakash
 
 --------------------------------------------------------------------------------------------
 

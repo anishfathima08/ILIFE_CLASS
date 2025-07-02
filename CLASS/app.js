@@ -1,181 +1,188 @@
-var all_products = [
-    { 
-        id: 1, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 1", 
-        price: 100,
-    },
-    { 
-        id: 2, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 2", 
-        price: 200 
-    },
-    { 
-        id: 3, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 3", 
-        price: 300 
-    },
-    { 
-        id: 4, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 4", 
-        price: 400 
-    },
-    { 
-        id: 5, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 5", 
-        price: 500 
-    },
-    { 
-        id: 6, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 6", 
-        price: 600 
-    },
-    { 
-        id: 7, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 7", 
-        price: 700 
-    },
-    { 
-        id: 8, 
-        img : '../../CLASS/img1.jpg', 
-        name: "Product 8", 
-        price: 800 
-    }
-];
+// STRING 
 
-var cart = [];
-var totalAmt = 0;
-var cartCount = 0;
+// var a = "hello"
+// console.log(a)
+// console.log(typeof(a))
 
-const cartCountFun = () => {
-    document.getElementById('cartCount').innerHTML = cartCount;
-    document.getElementById('cartCount').style.display = ( cartCount > 0 ) ? 'inline' : 'none'
-}
+// var a = '45';
+// console.log(a)
+// console.log(typeof(a))
 
-const searchProducts = () => {
-    var searchInput = document.getElementById('searchInput').value.toUpperCase();
+// var a = 'hello123'
+// console.log(a)
+// console.log(typeof(a))
 
-    if(searchInput.length === 0){
-        document.getElementById('searchProducts').innerHTML = ''
-    }
-    else{
-        var filterData = all_products.filter((data) => data.name.toUpperCase().includes(searchInput));
-        var searchList = '';
-        filterData.map((product) => {
-        searchList += 
-        `
-            <div class='col-lg-3 col-md-6'>
-                <div class='card mb-5'>
-                    <img src='${product.img}' />
-                    <div class='card-body'>
-                        <h3>${product.name}</h3>
-                        <h3>${product.price}</h3>
-                    </div>
-                </div>
-            </div>
-        `
-        })
+// var a = hello;
+// console.log(a) // error not defined
 
-        document.getElementById('searchProducts').innerHTML = searchList || `<p class='text-center text-danger'> No Products Found <p>`
-    }
-}
+// NUMBER
 
-const display_data = () => {
-    var product_list = '';
-    all_products.map((value) => {
-    product_list += 
-    `
-        <div class="col-lg-3 col-md-6">
-            <div class="card mb-5">
-                <img src=${value.img} alt='' />
-                <div class="card-body">
-                    <h3>${value.name}</h3>
-                    <h3>${value.price}</h3>
-                    <button class='btn btn-primary' onclick="addToCart(${value.id})">Add to Cart</button>
-                    <br>
-                    <button class='mt-3 btn btn-primary' onclick="addToWish(${value.id})">Add to Wishlist</button>
-                </div>
-            </div>
-        </div>
-    `
-    })
-    document.getElementById('cardRow').innerHTML = product_list;
-}
-display_data();
+// var a = 10;
+// console.log(a)
+// console.log(typeof(a)) // Number
 
-const addToCart = (productID) => {
-    var products = all_products.find((a) => a.id === productID);
+// BOOLEAN - TRUE FALSE 
 
-    var existing_product = cart.find((a) => a.id === productID);
-    if(existing_product){
-        existing_product.quantity++;
-    }
-    else{
-        products.quantity = 1;
-        cart.push(products)
-    }
-    display_cart(cart);
+// var a = true;
+// console.log(a)
+// console.log(typeof(a))
 
-    totalAmt = totalAmt + products.price;
-    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
+// var a = false;
+// console.log(a)
+// console.log(typeof(a)) 
 
-    cartCount++;
-    cartCountFun()
+// NULL 
 
-}
+// var a = null;
+// console.log(a)
+// console.log(typeof(a))
 
-const display_cart = (products) => {
-    let cart_list = '';
+// UNDEFINED
 
-    if (products.length === 0) {
-        cart_list = `
-            <tr>
-                <td colspan="5" class="text-center text-danger">Cart Empty</td>
-            </tr>
-        `;
-    } 
-    else {
-        products.map((value) => {
-            cart_list += `
-                <tr>
-                    <td>${value.name}</td>
-                    <td>${value.price}</td>
-                    <td>${value.quantity}</td>
-                    <td>${value.price * value.quantity}</td>
-                    <td>
-                        <button class='btn btn-danger' onclick='removeFromCart(${value.id})'>Remove</button>
-                    </td>
-                </tr>
-            `;
-        });
-    }
+// console.log(a) // not defined  - ERROR
 
-    document.getElementById('cartRow').innerHTML = cart_list;
-};
+// var a;
+// console.log(a) // undefined - DATA TYPE
 
-const removeFromCart = (productID) => {
+// OBJECT 
 
-    var product = cart.find((a) => a.id === productID)
+// SYNTAX
 
-    if(product.quantity > 1){
-        product.quantity--
-        totalAmt = totalAmt - product.price
-    }
-    else{
-        cart = cart.filter((a) => a.id !== productID )
-        totalAmt = totalAmt - product.price
-    }
-    
-    display_cart(cart)
-    document.getElementById('totalamt').innerHTML= `Total : ${totalAmt}`
+// variable_type object_name = {
+//     key : value,
+//     key : value,
+//     key : value 
+// } 
 
-    cartCount--;
-    cartCountFun()
+// var obj = {
+//     name : 'hari',
+//     age : 20,
+//     place : 'trichy',
+//     place2 : 'trichy'
+// }
 
-} 
+// console.log(obj)
+// console.log(typeof(obj));
+
+// console.log(obj.name)
+// console.log(obj.age)
+// console.log(obj.place)
+// console.log(typeof(obj)) 
+
+// ARRAY 
+
+// SYNTAX
+
+// variable_type array_name = [ value, value, value, value ]
+
+// var arr = [ 'hello', 20, 'trichy', 20 ]
+
+// console.log(arr)
+// console.log(arr[0])
+// console.log(arr[4])
+
+// var arr = [ 'name', 'is', 'my', 'abc' ]
+// console.log(arr)
+// console.log(arr[2])
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[3])
+
+// console.log(arr[2],arr[0],arr[1],arr[3])
+// console.log(arr[2]+" "+arr[0]+' '+arr[1]+' '+arr[3])
+
+// FUNCTION 
+
+// function function_name(){
+
+// }
+// function_name()
+
+// function fun(){
+//     alert('Hello')
+// }
+// fun()
+
+// DATE 
+
+// Sun - 0
+// Mon - 1
+// Tue - 2
+// Wed - 3
+
+// JAN - 0
+// FEB - 1
+// MAR - 2
+// APR - 3
+// MAY - 4
+// JUNE - 5
+// JULY - 6
+
+// var todayDate = new Date()
+// console.log(todayDate)
+// console.log(todayDate.getDate())
+// console.log(todayDate.getDay())
+// console.log(todayDate.getMonth())
+// console.log(todayDate.toLocaleTimeString())
+
+
+// STRING METHODS 
+
+// var a = 'hello'
+// console.log(a);
+// console.log(typeof(a));
+
+// LENGTH - starts with 1
+
+// var a = 'hello'
+// console.log(a.length) // 5
+
+// POSITION or INDEX - starts with 0
+
+// var a = 'hello'
+// console.log(a[0]) // h
+// console.log(a[4]) // o
+// console.log(a[1]) // e
+
+// indexOf 
+
+// var a = 'hello'
+// console.log(a.indexOf('l')) // 2
+// console.log(a.indexOf('o')) // 4
+
+// charAt 
+
+// var a = 'hello'
+// console.log(a.charAt(2)) // l
+// console.log(a.charAt(3)) // l
+// console.log(a.charAt(4)) // o
+// console.log(a.charAt(5)) // empty 
+
+// LOWERCASE 
+
+// var a = 'HELLO'
+// console.log(a)
+// console.log(a.toLowerCase())
+
+// UPPERCASE 
+
+// var a = 'hello'
+// console.log(a)
+// console.log(a.toUpperCase())
+
+// SUBSTR 
+
+// subtr(start(index), count(length))
+
+// var a = 'helloworld'
+// console.log(a)
+// console.log(a.substr(5, 5))
+// console.log(a.substr(0, 5))
+
+// var a = 'hello world'
+// console.log(a)
+// console.log(a.substr(6, 5))
+
+// var a = 'computer science'
+// console.log(a.substr(9, 7))
+// console.log(a.substr(0, 8))
