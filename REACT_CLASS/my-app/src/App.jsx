@@ -5,7 +5,9 @@ import React from 'react'
 // import Day3_Props1 from './Day3_Props1'
 // import Day4_State1 from './Day4_State1'
 // import Day5_State2 from './Day5_State2'
-import Day5_Bootstrap from './Day5_Bootstrap'
+// import Day5_Bootstrap from './Day5_Bootstrap'
+import Day6_Context1 from './Day6_Context1'
+import Day6_Context2 from './Day6_Context2'
 
 function App(){
   return(
@@ -16,7 +18,10 @@ function App(){
       {/* <Day3_Props1 /> */}
       {/* <Day4_State1 /> */}
       {/* <Day5_State2 /> */}
-      <Day5_Bootstrap />
+      {/* <Day5_Bootstrap /> */}
+      <Day6_Context2>
+        <Day6_Context1 />
+      </Day6_Context2>
     </>
   )
 }

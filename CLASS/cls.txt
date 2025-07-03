@@ -1,7 +1,7 @@
 BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
-11 - 12 -> Pavithran [ Front End ], Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Shalini [ Python Full Stack ]
+11 - 12 -> Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
 12 - 01 -> Maria [ Python Stack - Online ] 
 
 01 - 02 -> Lunch
@@ -45,7 +45,7 @@ S - Sethumadhavan Leave
 
 FRIDAY - 04-07-2025
 
-KADD - JS DAY 4
+KADD - JS DAY 4 
 8[epix] - REACT DAY 3
 Mariya - REACT DAY 3 [ Style, Props ]
 N - 
@@ -53,9 +53,9 @@ HA - REACT DAY 7 [ Use Effect ]
 S - 
 
 30-06-2025 (MON) - Absent - STAFF LEAVE 
-01-07-2025 (TUE) - Absent - Dinakaran, Pavithran, Shalini, Sethumadhavan, Hari Babu
-02-07-2025 (WED) - Absent - Pavithran, Shalini, Mariya, Hari Babu
-03-07-2025 (THU) - Absent - 
+01-07-2025 (TUE) - Absent - Dinakaran, Shalini, Sethumadhavan, Hari Babu
+02-07-2025 (WED) - Absent - Shalini, Mariya, Hari Babu
+03-07-2025 (THU) - Absent - Vibhashini, 
 04-07-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
