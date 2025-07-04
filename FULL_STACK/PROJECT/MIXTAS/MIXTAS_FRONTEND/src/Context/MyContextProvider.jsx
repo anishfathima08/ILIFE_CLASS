@@ -1,33 +1,32 @@
 import React, { createContext, useState } from 'react'
-import { all_products } from '../assets/asset'
 import { useNavigate } from 'react-router-dom'
+import { all_products } from '../../assets/asset'
 
-export const MyContext = createContext()
+export const myContext = createContext()
 
-const MyContextProvider = ({children}) => {
+const MyContextProvider = ( { children } ) => {
 
-  const navigate = useNavigate()
+    const navigate = useNavigate()
 
-  const [ input , setInput ] = useState("")
+    var [ input, setInput ] = useState('')
+    
+    var [ filteredData, setFilteredData ] = useState([])
+    
+    const SearchFun = () => {
+        setFilteredData(all_products.filter(a => a.type.toLowerCase().includes(input.toLowerCase())))
+    }
 
-  const [ filteredData , setFilteredData ] = useState([])
+    const myContextValue = {
+        navigate,
+        input, setInput,
+        filteredData, SearchFun
+    }
 
-  const SearchFun = () => {
-    setFilteredData(all_products.filter(a => a.type.toLowerCase().includes(input.toLowerCase())))
-  }
-
-  const ContextValue = {
-    navigate , 
-    setInput , 
-    SearchFun , 
-    filteredData
-  }
-
-  return (
-    <MyContext.Provider value={ContextValue}>
-        {children}
-    </MyContext.Provider>
-  )
+    return (
+        <myContext.Provider value={myContextValue}>
+            {children}
+        </myContext.Provider>
+    )
 }
 
 export default MyContextProvider

@@ -19,8 +19,8 @@ export const all_products = [
         category : "new-arrival" , 
         img : img1 , 
         type : "Hoodies" , 
-        desc : "Dime Classic Remastered Hoodie, black" , 
-        price : "$140.00"
+        desc : "Dime Classic Remast Hoodie" , 
+        price : 140.00
     },
     {
         id : 2 , 
@@ -28,31 +28,31 @@ export const all_products = [
         img : img2 , 
         type : "Hoodies" , 
         desc : "Dime Sunny Tee, forest green" , 
-        price : "$55.00"
+        price : 55.00
     },
     {
         id : 3 , 
         category : "new-arrival" , 
         img : img3 , 
         type : "Men" , 
-        desc : "Dime Classic Small Logo Sweatpants" , 
-        price : "$135.00"
+        desc : "Dime Classic Small Sweatpants" , 
+        price : 135.00
     },
     {
         id : 4 , 
         category : "new-arrival" , 
         img : img4 , 
         type : "Men" , 
-        desc : "Carhartt American Script Sweat, tobacco" , 
-        price : "$100.00"
+        desc : "Carhartt American Script Sweat" , 
+        price : 100.00
     },
     {
         id : 5 , 
         category : "shop" , 
         img : img5 , 
         type : "Jackets" , 
-        desc : "adidas X Pop Beckenbauer Track Jacket" , 
-        price : "$120.00"
+        desc : "adidas X Pop Track Jacket" , 
+        price : 120.00
     },
     {
         id : 6 , 
@@ -60,22 +60,22 @@ export const all_products = [
         img : img6 , 
         type : "Sweatshirts" , 
         desc : "Structured wool blazer" , 
-        price : "$99.99"
+        price : 99.99
     },
     {
         id : 7 , 
         category : "shop" , 
         img : img7 , 
         type : "Sweatshirts" , 
-        desc : "Tweed jacket with jewel buttons" , 
-        price : "$139.99"
+        desc : "Tweed jacket with buttons" , 
+        price : 139.99
     },
     {
         id : 8 , 
         category : "shop" , 
         img : img8 , 
         type : "Jackets" , 
-        desc : "Striped poplin shirt with pocket detail" , 
-        price : "$35.90"
+        desc : "Striped poplin shirt with pocket" , 
+        price : 35.90
     }
 ]
