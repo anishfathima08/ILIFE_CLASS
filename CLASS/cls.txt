@@ -14,7 +14,55 @@ BATCHES
 
 --------------------------------------------------------------------------------------------
 
-MONDAY - 30-06-2025
+MONDAY - 07-07-2025
+
+KADD - JS [ OPERATORS ]
+8[EPIX] - REACT [ STATE 1, 2 ]
+Naveen - BACKEND CONNECT 
+Mariya, Aakash - REACT [ CONTEXT ]
+Sethumadhavan - BOOTSTRAP DAY 1
+
+TUESDAY - 08-07-2025
+
+KADD - JS [ CONDITONAL STATEMENTS ]
+8[EPIX] - REACT [ BOOTSTRAP, CONTEXT ]
+Naveen - 
+Mariya, Aakash - REACT [ EFFECT, REDUCER ]
+Sethumadhavan - BOOTSTRAP DAY 2
+
+WEDNESDAY - 09-07-2025
+
+KADD - JS [ LOOPS ]
+8[EPIX] - REACT [ EFFECT, REDUCER ]
+Naveen - 
+Mariya, Aakash - REACT [ REF, ROUTING ]
+Sethumadhavan - BOOTSTRAP DAY 3
+
+THURSDAY - 10-07-2025
+
+KADD - JS [ SET TIMEOUT, SET INTERVAL, ARRAY METHODS - 1 ]
+8[EPIX] - REACT [ REF, ROUTING ]
+Naveen - 
+Mariya, Aakash - REACT [ CRUD ]
+Sethumadhavan - BOOTSTRAP DAY 4
+
+FRIDAY - 11-07-2025
+
+KADD - JS [ ARRAY METHODS - 2 ]
+8[EPIX] - REACT [ CRUD ]
+Naveen - 
+Mariya, Aakash - REACT [ FORM VALIDATION ]
+Sethumadhavan - BOOSTRAP DAY 5
+
+30-06-2025 (MON) - Absent - 
+01-07-2025 (TUE) - Absent - 
+02-07-2025 (WED) - Absent - 
+03-07-2025 (THU) - Absent - 
+04-07-2025 (FRI) - Absent - 
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 30-06-2025 - STAFF LEAVE
 
 TUESDAY - 01-07-2025
 
@@ -52,11 +100,22 @@ N - ADMIN PANEL PROJECT
 A - REACT DAY 7 [ Use Effect ]
 S - Sethumadhavan Leave
 
+SATURDAY - 05-07-2025 
+
+10:00 - 11:00 -> AIMAN INTERNSHIP [ HTML DAY 1 & DAY 2 ]
+11:00 - 12:00 -> MERN PROJECT
+12:00 - 01:00 -> AIMAN INTERNSHIP [ HTML DAY 3 & DAY 4 ]
+
+02:00 - 03:00 -> MARIYA REACT [ USE STATE ]
+03:00 - 04:00 -> MARIYA REACT [ BOOTSTRAP ]
+04:00 - 05:00 -> MERN PROJECT
+05:00 - 06:00 -> MERN PROJECT
+
 30-06-2025 (MON) - Absent - STAFF LEAVE 
 01-07-2025 (TUE) - Absent - Dinakaran, Sethumadhavan, Hari Babu
-02-07-2025 (WED) - Absent - Mariya, Hari Babu
-03-07-2025 (THU) - Absent - Vibhashini, Aakash, Hari Babu
-04-07-2025 (FRI) - Absent - Aakash, Hari Babu, 
+02-07-2025 (WED) - Absent - Mariya, Hari Babu, Sethumadhavan
+03-07-2025 (THU) - Absent - Vibhashini, Aakash, Hari Babu, Sethumadhavan
+04-07-2025 (FRI) - Absent - Aakash, Hari Babu, Sethumadhavan
 
 --------------------------------------------------------------------------------------------
 
@@ -101,15 +160,9 @@ FRIDAY - 27-06-2025
 KADD - JS DAY 1 [ TYPES OF OUTPUTS, TYPES OF JS, VARIABLE, COMMENTS ]
 8[epix] - JS [ ADD TO CART ]
 M - JS [ ADD TO CART ]
-N - 
+N - PROJECT
 HA - REACT DAY 4 [ USE STATE 2 ]
 S - LEAVE
-
-SATURDAY - 28-06-2025 
-
-10:00 - 11:00 -> 
-11:00 - 12:00 -> 
-12:00 - 01:00 -> 
 
 23-06-2025 (MON) - Absent - Pavithran, Dhushyanth, Hari Babu, Shalini, Naveen, Aakash, Sethumadhavan
 24-06-2025 (TUE) - Absent - Pavithran, Shalini, Hari Babu, Sethumadhavan 
