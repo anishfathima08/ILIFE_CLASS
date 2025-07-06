@@ -5,6 +5,10 @@ const productSchema = new mongoose.Schema({
         type : String,
         required : true 
     },
+    productType : {
+        type : String,
+        required : true 
+    },
     productDesc : {
         type : String,
         required : true 
@@ -14,11 +18,11 @@ const productSchema = new mongoose.Schema({
         required : true 
     },
     productImage : {
-        data : Buffer,
-        contentType : String 
+        type : String,
+        required : true 
     }
 })
 
-const productModel = mongoose.Model('product', productSchema)
+const productModel = mongoose.model('product', productSchema)
 
 module.exports = productModel

@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { all_products } from '../../assets/asset'
+import { all_products } from '../assets/asset'
 
 export const myContext = createContext()
 
