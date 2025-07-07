@@ -8,7 +8,7 @@ BATCHES
 
 02 - 03 -> Free 
 03 - 04 -> Naveen [ MERN STACK - Online ]
-04 - 05 -> Free
+04 - 05 -> INTERNSHIP [ 20 DAYS ]
 05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ]
 06 - 07 -> Sethumadhavan [ PHP STACK ]
 
@@ -19,22 +19,23 @@ MONDAY - 07-07-2025
 KADD - JS [ OPERATORS ]
 8[EPIX] - REACT [ STATE 1, 2 ]
 Naveen - BACKEND CONNECT 
+INTERSHIP ( 10 ) - INTRO, HTML DAY 1 [ Starts on 07-07-2025 ]
 Mariya, Aakash - REACT [ CONTEXT ]
-Sethumadhavan - BOOTSTRAP DAY 1
+Sethumadhavan - LEAVE
 
 TUESDAY - 08-07-2025
 
 KADD - JS [ CONDITONAL STATEMENTS ]
 8[EPIX] - REACT [ BOOTSTRAP, CONTEXT ]
-Naveen - 
+Naveen - BACKEND CONNECT
 Mariya, Aakash - REACT [ EFFECT, REDUCER ]
-Sethumadhavan - BOOTSTRAP DAY 2
+Sethumadhavan - LEAVE
 
 WEDNESDAY - 09-07-2025
 
 KADD - JS [ LOOPS ]
 8[EPIX] - REACT [ EFFECT, REDUCER ]
-Naveen - 
+Naveen - BACKEND CONNECT
 Mariya, Aakash - REACT [ REF, ROUTING ]
 Sethumadhavan - BOOTSTRAP DAY 3
 

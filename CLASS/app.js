@@ -1,224 +1,194 @@
-// function fun(){
-//     console.log('Hello')
-// }
-// fun()
+// OPERATOR
 
-// function fun(){
-//     return 'Hello'
-// }
-// console.log(fun())
+// ARITHMETIC OPERATOR - [ +, -, *, **, /, % ]
 
-// SINGLE PARAMETER CONSOLE
+// var a = 10;
+// var b = 2 ;
+// console.log(a+b) // 10 + 2 = 12 
+// console.log(`${a} + ${b} = ${a+b}`)
 
-// function fun(a){
-//     console.log(a)
-// }
-// fun(4)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a**b)
+// console.log(a/b)
+// console.log(a%b)
 
-// function fun(text){
-//     console.log(text)
-// }
-// fun('hello')
+// ASSIGNMENT OPERATOR - [ +=, -=, *=, /= ]
 
-// SINGLE PARAMETER RETURN
+// var a = 10;
+// var b = 2 ;
 
-// function fun(a){
-//     return a
-// }
-// console.log(fun(5))
+// console.log(a) // 10
+// console.log(a+=b) // a = a + b
+// console.log(a) // 12
 
-// function fun(text){
-//     return text 
-// }
-// console.log(fun('hello'))
+// console.log(b+=a) // b = b + a 
+// console.log(b)
+// console.log(a)
 
-// MULITPLE PARAMETER CONSOLE
+// console.log(a-=b) // a = a - b
+// console.log(a);
+// console.log(b-=a) // b = b - a
+// console.log(b)
+// console.log(a)
 
-// function fun(a, b){
-//     console.log( a, b)
-// }
-// fun(4, 5)
+// console.log(a*=b) // a = a * b
+// console.log(a) // a = a * b
 
-// function fun(text1, text2){
-//     console.log(text1, text2)
-// }
-// fun('hello', 'world')
+// console.log(b*=a) // b = b * a ( 2 * 10 = 20 ) b = 20
+// console.log(b*=a) // b = b * a ( 20 * 10 = 200 ) b = 200
+// console.log(b) // 200
 
-// DEFAULT PARAMETER 
+// var a = 10;
+// var b = 2 ;
 
-// function fun(a = 3){
-//     console.log(a)
-// }
-// fun()
+// console.log(a+=b) // a = a + b [ 10 + 2 = 12 ], a = 12
+// console.log(a-=b) // a = a - b [ 12 - 2 = 10 ], a = 10
+// console.log(a*=b) // a = a * b [ 10 * 2 = 20 ], a = 20
+// console.log(a/=b) // a = a / b [ 20 / 2 = 10 ], a = 10
+// console.log(a) // 10
 
-// function fun(text = 'hello'){
-//     console.log(text)
-// }
-// fun('hi')
+// COMPARISON OPERATOR - [ ==, !=, ===, !== ]
 
-// function fun(a = 5){
-//     return a 
-// }
-// console.log(fun())
+// var a = 10;
+// var b = 10;
 
-// function fun(text = 'hello'){
-//     return text 
-// }
-// console.log(fun())
+// console.log(a==b) // 10 == 8 // false 
+// console.log(a==b) // 10 == 10 // true 
 
-// function fun(){
+// var a = '10';
+// var b = 10;
 
-// }
-// fun()
+// console.log(a==b) 
 
-// ARROW FUNCTION SYNTAX 
+// var a = '10';
+// var b = 6;
 
-// variable_type function_name = () => {
-//     statement
-// }
-// function_name()
+// console.log(a==b)
 
-// var fun = () => {
-//     console.log('Hello')
-// }
-// fun()
+// var a = 10;
+// var b = 10;
 
-// var fun = () => {
-//     return 'Hello'
-// }
-// console.log(fun())
+// console.log(a!=b) // true
 
-// var fun = (a) => {
-//     console.log(a)
-// }
-// fun(3)
+// var a = '5';
+// var b = 6;
 
-// var fun = (a) => {
-//     return a
-// }
-// console.log(fun(4))
+// console.log(a!=b)
 
-// var fun = (a, b) => {
-//     console.log(a, b)
-// }
-// fun(3, 4)
+// var a = '10';
+// var b = '8';
 
-// var fun = ( a = 7 ) => {
-//     console.log(a)
-// }
-// fun(8)
+// console.log(a===b)
 
-// Concise Arrow Function 
+// var a = 10; // value = 10, dt = number
+// var b = '10'; // value = 10, dt = string
 
-// var fun = () => {
-//     console.log('Hello')
-// }
-// fun()
+// console.log(a!==b) 
 
-// var fun = () => console.log('Hello')
+// var a = 10;
+// var b = '10';
+// console.log(a!=b) // 10 != 2 => true
+// console.log(a!=b) // 10 != 10 => false
+// console.log(a!==b) 
 
-// fun()
+// RELATIONAL OPERATOR - <, >, <=, >= 
 
-// JSON -> JavaScript Object Notation 
+// var a = 6;
+// var b = 6;
 
-// var arr = [ 'html', 'css', 'abc' ]
-// console.log(arr[2]);
+// console.log(a<b) // 10<4 .
+// console.log(b<a) // 4 < 10
 
-// var obj = {
-//     name : 'abc',
-//     age : 20,
-//     place : 'trichy'
-// }
+// console.log(a>b) // 10 > 4 true
+// console.log(b>a) // 4 > 10 false
 
-// console.log(obj.age);
+// console.log(a<b) // false
+// console.log(a>b) // false
 
-// JSON SYNTAX 
+// console.log(a<=b) // 10 < or = 10
+// console.log(a>=b) // 10 > or = 6
 
-// variable_type json_name = [
-    // {
-        // key : value,
-//         key : value, 
-//         key : value
-//     },
-//     {
-//         key : value,
-//         key : value, 
-//         key : value
-//     },
-//     {
-//         key : value,
-//         key : value, 
-//         key : value
-//     },
-//     {
-//         key : value,
-//         key : value, 
-//         key : value
-//     }
-// ]
+// LOGICAL OPERATOR &&, ||, ! 
 
+// && - AND 
 
-// var json = [
-//     {
-//         name : 'abc',
-//         age : 20,
-//         place : 'trichy'
-//     },
-//     {
-//         name : 'xyz',
-//         age : 24,
-//         place : 'chennai'
-//     },
-//     {
-//         name : 'hello',
-//         age : 30,
-//         place : 'madurai'
-//     }
-// ]
+// console.log(true&&true) // true
+// console.log(true&&false) // false
+// console.log(false&&true) // false
+// console.log(false&&false) // false
 
-// console.log(json)
-// console.log(json[0].place)
-// console.log(json[2].age);
-// console.log(json[1].name);
+// console.log(5<4 && 7>3) // false && true => false
+// console.log(6>5 && 7!==7) // true && false => false
+// console.log(6===5 && 7!==7) // false && false => false
+// console.log(5=='5' && 10>5) // true && true => true
 
-// async function fun(){
-//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
-//     var data = await url.json();
-//     console.log(data[0]);
-// }
-// fun()
+// || - OR 
 
-// async function fun(){
-//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
-//     var data = await url.json();
-//     console.log(data[0].name);
-//     console.log(data[1].name);
-// }
-// fun()
+// console.log(true||true) // true
+// console.log(true||false) // true
+// console.log(false||true) // true
+// console.log(false||false) // false
 
-// var fun = async () => {
-//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
-//     var data = await url.json();
-//     console.log(data);
-// }
-// fun() 
+// console.log(4<7 || 8==='9') // true || false => true
+// console.log(9==='9' || 8>=8) // false || true => true
+// console.log( 8!=5 || 5>=3 ) // true || true  => true
+// console.log( '8'!=='8' || 5<=3 ) // false || false  => false
 
-// LOCAL VARIABLE 
+// ! NOT 
 
-// function fun(){
-    // var a = 10;
-    // console.log(a);
-// }
+// console.log(!true) // false
+// console.log(!false) // true
 
-// console.log(a) // not defined
+// console.log(!(8>5))
 
-// fun()
+// console.log(!(6==5))
 
-var a = 10;
+// UNARY OPERATOR 
 
-function fun(){
-    console.log(a)
-}
-fun()
+// POST INCREMENT ++
 
-console.log(a);
+// var a = 10;
+// console.log(a++) // a = a + 1 
+// console.log(a) // 11
+
+// var a = 10;
+// console.log(++a); 
+
+// var a = 8;
+// console.log(a++) // 8 ( 9 )
+// console.log(a++) // 9 ( 10 )
+// console.log(++a) // 11
+// console.log(++a) // 12
+// console.log(a) // 12
+
+// var a = 9;
+// console.log(++a) // 10
+// console.log(a++) // 10 ( 11 )
+// console.log(++a) // 12 
+// console.log(a++) // 12 ( 13 )
+// console.log(++a) // 14
+// console.log(a) // 14
+
+// var a = 7;
+// console.log(--a) // 6
+// console.log(a--) // 6 ( 5 )
+// console.log(--a) // 4
+// console.log(a--) // 4 ( 3 )
+// console.log(a)  // 3
+
+// TERNARY OPERATOR 
+
+// [ (condition) ? true : false ]
+
+// var a = 10;
+// var b = 6;
+
+// console.log( (a < b) ? true : false )
+// console.log( (a < b) ? false : true )
+
+// var age = 18;
+
+// console.log( ( age >= 18 ) ? 'Eligible to Vote' : 'Not Eligible to Vote' )
+
+// 18 >= 18

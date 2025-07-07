@@ -64,7 +64,7 @@ const Form = () => {
 
                 <form onSubmit={submitFun}>
 
-                    <label className='form-label' for='image' style={{ cursor: 'pointer' }}>
+                    <label className='form-label' htmlFor='image' style={{ cursor: 'pointer' }}>
                         <img src={preview ? preview : myAssets.uploadImg} alt="" height='200' width='200' />
                     </label>
 
