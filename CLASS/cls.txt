@@ -2,14 +2,14 @@ BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
 11 - 12 -> Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
-12 - 01 -> Maria [ Python Stack - Online ] 
+12 - 01 -> Free
 
 01 - 02 -> Lunch
 
 02 - 03 -> Free 
 03 - 04 -> Naveen [ MERN STACK - Online ]
 04 - 05 -> INTERNSHIP [ 20 DAYS ]
-05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ]
+05 - 06 -> Hari Babu, Aakash [ MERN STACK - Online ], Mariya [ Python Full Stack - Online ]
 06 - 07 -> Sethumadhavan [ PHP STACK ]
 
 --------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ MONDAY - 07-07-2025
 KADD - JS [ OPERATORS ]
 8[EPIX] - REACT [ STATE 1, 2 ]
 Naveen - BACKEND CONNECT 
-INTERSHIP ( 10 ) - INTRO, HTML DAY 1 [ Starts on 07-07-2025 ]
+INTERSHIP ( 10 ) - INTRO [ Starts on 07-07-2025 ]
 Mariya, Aakash - REACT [ CONTEXT ]
 Sethumadhavan - LEAVE
 
@@ -28,35 +28,39 @@ TUESDAY - 08-07-2025
 KADD - JS [ CONDITONAL STATEMENTS ]
 8[EPIX] - REACT [ BOOTSTRAP, CONTEXT ]
 Naveen - BACKEND CONNECT
+INTERSHIP ( 10 ) - HTML DAY 1
 Mariya, Aakash - REACT [ EFFECT, REDUCER ]
-Sethumadhavan - LEAVE
+Sethumadhavan - BOOSTRAP DAY 1
 
 WEDNESDAY - 09-07-2025
 
 KADD - JS [ LOOPS ]
 8[EPIX] - REACT [ EFFECT, REDUCER ]
 Naveen - BACKEND CONNECT
+INTERSHIP ( 10 ) - HTML DAY 2
 Mariya, Aakash - REACT [ REF, ROUTING ]
-Sethumadhavan - BOOTSTRAP DAY 3
+Sethumadhavan - BOOTSTRAP DAY 2
 
 THURSDAY - 10-07-2025
 
 KADD - JS [ SET TIMEOUT, SET INTERVAL, ARRAY METHODS - 1 ]
 8[EPIX] - REACT [ REF, ROUTING ]
-Naveen - 
+Naveen - BACKEND CONNECT
+INTERSHIP ( 10 ) - HTML DAY 2 
 Mariya, Aakash - REACT [ CRUD ]
-Sethumadhavan - BOOTSTRAP DAY 4
+Sethumadhavan - BOOTSTRAP DAY 3
 
 FRIDAY - 11-07-2025
 
 KADD - JS [ ARRAY METHODS - 2 ]
 8[EPIX] - REACT [ CRUD ]
-Naveen - 
+Naveen - BACKEND CONNECT
+INTERSHIP ( 10 ) - HTML DAY 3
 Mariya, Aakash - REACT [ FORM VALIDATION ]
-Sethumadhavan - BOOSTRAP DAY 5
+Sethumadhavan - BOOSTRAP DAY 4
 
-30-06-2025 (MON) - Absent - 
-01-07-2025 (TUE) - Absent - 
+30-06-2025 (MON) - Absent - Deepa Raj, Hari Babu, Sethumadhavan
+01-07-2025 (TUE) - Absent - Dinakaran, Hari Babu,
 02-07-2025 (WED) - Absent - 
 03-07-2025 (THU) - Absent - 
 04-07-2025 (FRI) - Absent - 

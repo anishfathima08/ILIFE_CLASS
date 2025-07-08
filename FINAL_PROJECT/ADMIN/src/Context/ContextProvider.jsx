@@ -30,7 +30,6 @@ const ContextProvider = ({children}) => {
 
     const submitFun = async (e) => {
         e.preventDefault();
-
         try{
             const formData = {
                 name,
@@ -39,14 +38,12 @@ const ContextProvider = ({children}) => {
                 price, 
                 image 
             }
-
             await axios.post(`${url}/add`, formData)
             alert('Data Added')
         }
         catch(err){
             console.log(`Error Name : ${err.name} , Error Message : ${err.message}`)
         }
-
     }
 
     const myContextValue = {

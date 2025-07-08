@@ -17,7 +17,8 @@
 
         function add(){
             if(count < 10){  
-                count = count + 1;
+                // count = count + 1;
+                ++count
                 document.getElementById('num').innerHTML = count;
                 document.getElementById('limit').innerHTML = ''
             }
@@ -28,7 +29,8 @@
 
         function remove(){
             if(count > 0){  
-                count = (count - 1);
+                // count = (count - 1);
+                --count
                 document.getElementById('num').innerHTML = count;
                 document.getElementById('limit').innerHTML = ''
             }

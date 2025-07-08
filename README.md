@@ -1,11 +1,13 @@
 7 MERN ( 15 DAYS )
 
+
+
 HTML - 2
-CSS - 3
+CSS - 2
 BOOTSTRAP - 2
-JS - 3 
-REACT - 1
+JS - 2
+REACT - 2
 NODE - 1
 EXPRESS - 1
 MONGO DB - 1
-CONNECt - 1
+CONNECT - 1 
