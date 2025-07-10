@@ -1,7 +1,7 @@
 BATCHES
 
 10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
-11 - 12 -> Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ]
+11 - 12 -> Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Rahul, Priya Dharshini, Dhinakaran
 12 - 01 -> Free
 
 01 - 02 -> Lunch
