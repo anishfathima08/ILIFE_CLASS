@@ -10,22 +10,31 @@ import React from 'react'
 // import Day6_Context2 from './Day6_Context2'
 // import Day7_Effect from './Day7_Effect'
 // import Day7_Reducer from './Day7_Reducer'
+import Day8_Router from './Day8_Router'
 
 function App(){
   return(
     <>
       {/* <Day1_Components /> */}
+
       {/* <Day2_JS /> */}
+
       {/* <Day3_CSS /> */}
       {/* <Day3_Props1 /> */}
+
       {/* <Day4_State1 /> */}
+
       {/* <Day5_State2 /> */}
       {/* <Day5_Bootstrap /> */}
+
       {/* <Day6_Context2>
         <Day6_Context1 />
       </Day6_Context2> */}
+
       {/* <Day7_Effect /> */}
       {/* <Day7_Reducer /> */}
+
+      <Day8_Router />
     </>
   )
 }

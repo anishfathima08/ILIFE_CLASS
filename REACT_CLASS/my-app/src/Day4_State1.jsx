@@ -180,30 +180,28 @@
 
 // export default Day4_State1
 
-// Theme Toggle
+// Theme Toggle - [ TASK ]
 
-// import React, { useState } from 'react'
+// import React from 'react'
+// import { useState } from 'react'
 
-// const Day5_State2 = () => {
+// const Day4_State1 = () => {
 
-//     const [ theme, setTheme ] = useState(true)
+//     var [ toggleMode, setToggleMode ] = useState(false)
 
-//     const themeStyle = {
-//         backgroundColor :  theme ? 'black' : 'white',
-//         color : theme ? 'white' : 'black',
-//         padding : '40px'
-//     }
-
-//     const themeToggle = () => {
-//         setTheme(!theme)
-//     }
+//     const toggle = () => (
+//         setToggleMode((a) => (
+//             document.body.style.backgroundColor = a ? 'white' : 'black',
+//             document.body.style.color = a ? 'black' : 'white',
+//             !a
+//         ))
+//     )
 
 //     return (
 //         <>
-//             <p style={themeStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea expedita porro eos nam soluta perspiciatis, quas veritatis excepturi impedit dicta blanditiis saepe doloribus eligendi, eveniet illum distinctio deserunt velit. Maiores, culpa quaerat deserunt voluptatum necessitatibus repellat eligendi suscipit, aspernatur eum assumenda voluptatem laborum? Assumenda sequi repellat maiores in temporibus?</p>
-//             <button onClick={themeToggle}>{ theme ? 'Light Theme' : 'Dark Theme' }</button>
+//             <button onClick={toggle}>{toggleMode ? 'Light Mode' : 'Dark Mode'}</button>
 //         </>
 //     )
 // }
 
-// export default Day5_State2
+// export default Day4_State1
