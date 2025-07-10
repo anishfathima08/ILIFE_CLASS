@@ -19,4 +19,24 @@ const addProduct = async (req, res) => {
     }
 }
 
-module.exports = addProduct
+const getProduct = async (req, res) => {
+    try{
+        const productData = await productModel.find()
+        res.status(200).send(productData)
+    }
+    catch(err){
+        res.status(404).send(err)
+    }
+}
+
+const deleteProduct = async (req, res) => {
+    try{
+        await productModel.findByIdAndDelete(req.params.id)
+        res.status(200).send('Product Deleted !')
+    }
+    catch(err){
+        res.status(404).send(err)
+    }
+}
+
+module.exports = { addProduct, getProduct, deleteProduct }

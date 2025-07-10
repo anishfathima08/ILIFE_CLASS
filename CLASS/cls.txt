@@ -19,7 +19,7 @@ MONDAY - 07-07-2025
 KADD - JS [ OPERATORS ]
 8[EPIX] - REACT [ STATE 1, 2 ]
 Naveen - BACKEND CONNECT 
-INTERSHIP ( 10 ) - INTRO [ Starts on 07-07-2025 ]
+INTERSHIP ( 10 ) - INTRO [ Internship Starts on 07-07-2025 ]
 Mariya, Aakash - REACT [ CONTEXT ]
 Sethumadhavan - LEAVE
 
@@ -36,7 +36,7 @@ WEDNESDAY - 09-07-2025 - STAFF LEAVE
 
 THURSDAY - 10-07-2025
 
-KADD - JS [ CONDITONAL STATEMENTS - NESTED IF, SWITCH ], [ LOOPS - FOR, NESTED FOR ]
+KADD - JS [ CONDITONAL STATEMENTS - NESTED IF, SWITCH ], [ LOOPS - FOR ]
 8[EPIX] - REACT [ EFFECT, REDUCER ]
 Naveen - BACKEND CONNECT
 INTERSHIP ( 10 ) - HTML DAY 2
@@ -45,17 +45,19 @@ Sethumadhavan - BOOTSTRAP DAY 2
 
 FRIDAY - 11-07-2025
 
-KADD - JS [ LOOPS - WHILE, DO WHILE ], [ SET TIMEOUT, SET INTERVAL, ARRAY METHODS - 1 ]
-8[EPIX] - REACT [ REF, ROUTING ]
-Naveen - BACKEND CONNECT
-INTERSHIP ( 10 ) - HTML DAY 2 
-Mariya, Aakash - REACT [ CRUD ]
-Sethumadhavan - BOOTSTRAP DAY 3
+10:00 to 11:00 - KADD - JS [ NESTED FOR, WHILE, DO WHILE ]
+11:00 to 12:00 - 9[EPIX] - REACT [ REF, ROUTING ]
+Naveen - LEAVE 
+02:00 to 03:00 - AIMAN GIRLS
+03:00 to 04:00 - AIMAN GIRLS
+04:00 to 05:00 - INTERSHIP ( 10 ) - HTML DAY 2 
+05:00 to 06:00 - Mariya, Aakash - REACT [ CRUD ]
+06:00 to 07:00 - Sethumadhavan - BOOTSTRAP DAY 3
 
 30-06-2025 (MON) - Absent - Deepa Raj, Hari Babu, Sethumadhavan
 01-07-2025 (TUE) - Absent - Dinakaran, Hari Babu
 02-07-2025 (WED) - Absent - STAFF LEAVE
-03-07-2025 (THU) - Absent - 
+03-07-2025 (THU) - Absent - Dinakaran, 
 04-07-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------

@@ -1,23 +1,23 @@
 import React from 'react'
-import Navbar from './Navbar'
 import { useParams, Navigate } from 'react-router-dom'
 
 const Shop = () => {
 
     const { id } = useParams()
 
-    const myRoute = [ 'mobile', 'phone' ]
+    const myPages = [ 'cat', 'dog' ]
 
-    if(!myRoute.includes(id)){
+    if(!myPages.includes(id)){
         return <Navigate to='*' />
     }
 
     return (
-        <>
-            <Navbar />
-            {id === 'mobile' 
-            ? <h1>Mobiles</h1> 
-            : <h2>Laptops</h2> }
+        <>  
+            <div className="container">
+                {id === 'cat' 
+                ? <h1>Cat Content</h1>
+                : <h1>Dog Content</h1>}
+            </div>
         </>
     )
 }

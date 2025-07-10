@@ -15,11 +15,10 @@ const ContextProvider = ({children}) => {
 
     const [ productData, setProductData ] = useState([])
 
-    const url = 'http://localhost:8080/api'
+    const url = 'http://localhost:8080'
 
     const submitFun = async (e) => {
         e.preventDefault()
-
         try{
             const formData = {
                 name, 
@@ -28,8 +27,7 @@ const ContextProvider = ({children}) => {
                 price,
                 img
             }
-
-            await axios.post(`${url}/add`, formData)
+            await axios.post(`${url}/api/add`, formData)
             alert('Data Added')
         }
         catch(err){
@@ -53,7 +51,7 @@ const ContextProvider = ({children}) => {
 
     const fetchData = async () => {
         try{
-            const productList = await axios.get(`${url}/products`)
+            const productList = await axios.get(`${url}/api/products`)
             setProductData(productList.data)
         }
         catch(err){

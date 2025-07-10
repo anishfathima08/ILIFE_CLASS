@@ -6,7 +6,7 @@
 
 // const Day9_Ref = () => {
 
-//   const reference = useRef("");
+//   const reference = useRef();
 
 //   const refFun = () => {
 //     reference.current.style.background = "red"

@@ -1,130 +1,96 @@
-// CONDITIONAL STATEMENTS 
+// FOR LOOP 
 
-// IF 
-
-// SYNTAX 
-
-// if(condition){
-//     statement 
-// }
-
-// if(5>4){
-//     console.log('True')
-// }
-
-// if(5!=='5' || 4>=4){ 
-//     console.log('True')
-// }
-
-// IF ELSE 
-
-// if(condition){
-//     statement 
-// }
-// else{
-//     statement
-// }
-
-// if(6<4){
-//     console.log('False')
-// }
-// else{
-//     console.log('True')
-// }
-
-// var age = 13 
-
-// if(age >= 18){
-//     console.log('Eligible To Vote')
-// }
-// else{
-//     console.log('Not Eligible To Vote')
-// }
-
-
-// var num = 7;
-
-// if(num % 2 == 0){
-//     console.log('Even')
-// }
-// else{
-//     console.log('Odd')
-// }
-
-
-// ELSE IF 
-
-// SYNTAX 
-
-// if(condition){
+// for(initialization; condition; increment/decrement){
 //     statement;
 // }
-// else if(condition){
-//     statement
-// }
-// else if(condition){
-//     statement
-// }
-// else{
-//     statement
+
+// for(var i = 1; i <= 5; i++){
+//     console.log(i)
 // }
 
-// var mark = 60;
+// i = 1, 1 <= 5, 1 ( i++ = i = i + 1)
+// i = 2, 2 <= 5, 2
+// i = 3, 3 <= 5, 3
+// i = 4, 4 <= 5, 4
+// i = 5, 5 <= 5, 5
+// i = 6, 6 <= 5
 
-// if(mark >= 80){ // 60 >= 80
-//     console.log('Grade A')
-// }
-// else if(mark > 60){ // 60 > 60
-//     console.log('Grade B')
-// }
-// else if(mark >= 40){ // 60 >= 40
-//     console.log('Grade C')
-// }
-// else{
-//     console.log('Fail')
-// }
+// var otp = Math.floor(Math.random() * 1000)  // 0 to 999
+// console.log(otp)
 
-// age -> 0 to 5 child, 5 to 15 adult, 15 to 25 teenager, 25 to 35 men, 35 to 45 elder 
+// var otp = ''
 
-// var age = 15;
-
-// if(age <= 5){  // 15 <= 5
-//     console.log('Child')
-// }
-// else if(age >= 5 && age <= 15){ 
-//     console.log('Adult')
-// }
-// else if(age >= 15 && age <= 25 ){
-//     console.log('Teenager')
-// }
-// else if(age >= 25 && age <= 35){ 
-//     console.log('Men')
-// }
-// else{
-//     console.log('Elder')
+// for(var i = 1; i <= 6; i++){
+//     otp += Math.floor(Math.random() *  10)
 // }
 
-// var count = Number(document.getElementById('count').innerHTML)
+// console.log(otp)
 
-// const addFun = () => {
-//     if(count < 10){  
-//         count = count + 1
-//         document.getElementById('count').innerHTML = count
-//         document.getElementById('limit').innerHTML = ''
-//     }
-//     else{
-//         document.getElementById('limit').innerHTML = 'You Reached Maximum Limit'
-//     }
-// }
+// otp = ''
+// otp += 5342
 
-// const subFun = () => {
-//     if(count > 0){  
-//         count = count - 1;
-//         document.getElementById('count').innerHTML = count
-//         document.getElementById('limit').innerHTML = ''
-//     }
-//     else{
-//         document.getElementById('limit').innerHTML = 'You Reached Minimum Limit'
-//     }
+// i = 1, 1 <= 4, 7
+// i = 2, 2 <= 4, 76
+// i = 3, 3 <= 4, 764
+// i = 4, 4 <= 4, 7642
+// i = 5, 5 <= 4 -> false
 
-// }
+var arr = [ 'html', 'css', 'bootstrap', 'javascript', 'abc' ]
+console.log(arr.length); // 5
+
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
+
+for( var i = 0; i <= arr.length-1; i++ ){
+    console.log(arr[i])
+}
+
+// i = 0, 0 <= 4, arr[0] - html
+// i = 1, 1 <= 4, arr[1] - css
+// i = 2, 2 <= 4, arr[2] - bootstrap
+// i = 3, 3 <= 4, arr[3] - js
+// i = 4, 4 <= 4, arr[4] - abc
+// i = 5, 5 <= 4, false 
+
+// DECREMENT
+
+for( i = 5; i >= 1; i--){
+    console.log(i)
+}
+
+// i = 5, 5 >= 1, 5
+// i = 4, 4 >= 1, 4
+// i = 3, 3 >= 1, 3
+// i = 2, 2 >= 1, 2
+// i = 1, 1 >= 1, 1
+// i = 0, 0 >= 1
+
+var arr = [ 'html', 'css', 'bootstrap', 'javascript', 'abc', 'hello', 'hi' ]
+
+for(var i = arr.length-1; i >= 0; i--){
+    console.log(arr[i])
+}
+
+// i = 4, 4 >= 0, arr[4] - abc 
+// i = 3, 3 >= 0, arr[3] - js
+// i = 2, 2 >= 0, arr[2] - bootstrap
+// i = 1, 1 >= 0, arr[1] - css
+// i = 0, 0 >= 0, arr[0] - html
+
+var a = 'hello' // olleh
+var reverse = ''
+
+for(var i = 4; i >= 0; i--){
+    reverse += a[i]
+}
+
+console.log(reverse)
+
+// i = 4, 4 >= 0, a[4] = o
+// i = 3, 3 >= 0, a[3] = ol
+// i = 2, 2 >= 0, a[2] = oll
+// i = 1, 1 >= 0, a[1] = olle
+// i = 0, 0 >= 0, a[0] = olleh

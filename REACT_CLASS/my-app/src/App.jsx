@@ -10,7 +10,16 @@ import React from 'react'
 // import Day6_Context2 from './Day6_Context2'
 // import Day7_Effect from './Day7_Effect'
 // import Day7_Reducer from './Day7_Reducer'
-import Day8_Router from './Day8_Router'
+// import Day8_Ref from './Day8_Ref'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+import Error from './Pages/Error'
+import Navbar from './Pages/Navbar'
+import Shop from './Pages/Shop'
 
 function App(){
   return(
@@ -34,7 +43,20 @@ function App(){
       {/* <Day7_Effect /> */}
       {/* <Day7_Reducer /> */}
 
-      <Day8_Router />
+      {/* <Day8_Ref /> */}
+
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />}/>
+          <Route path='/contact' element={<Contact />} />
+
+          <Route path='/shop/:id' element={<Shop />} />
+          <Route path='*' element={<Error />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }

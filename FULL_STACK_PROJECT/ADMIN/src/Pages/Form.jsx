@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { myContext } from '../Context/ContextProvider'
+import { myAssets } from '../assets/asset'
 
 const Form = () => {
 
-    const { name, setName, category, setCategory, price, setPrice, desc, setDesc } = useContext(myContext)
+    const { name, setName, category, setCategory, price, setPrice, desc, setDesc, submitFun, imageFun, previewImg } = useContext(myContext)
 
     return (
         <>
@@ -16,10 +17,16 @@ const Form = () => {
                     </Link>
                 </div>
 
-                <form>
+                <form onSubmit={submitFun}>
 
                     <label className='form-label'>Upload Product Image</label>
-                    <input type="file" className='form-control mb-4' name='img' />
+                    <input type="file" className='form-control mb-4' name='img' id='Imageinput' onChange={imageFun} hidden/>
+
+                    <br />
+                    <label htmlFor='Imageinput'>
+                        <img src={previewImg ? previewImg : myAssets.uploadImg} alt="" height='150' width='150'/>
+                    </label>
+                    <br /><br />
 
                     <label className='form-label'>Enter Product Name</label>
                     <input type="text" className='form-control mb-4'name='name' value={name} onChange={(e) => setName(e.target.value)} />
