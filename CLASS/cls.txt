@@ -1,6 +1,6 @@
 BATCHES
 
-10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran [ MERN STACK ]
+10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dhinakaran [ MERN STACK ]
 11 - 12 -> Pavan Kumar [ Front End React ],  Vibhashini [ Front End React ], Shree Parameshwaran [ Front End React ], Barath, Maheshwaran, Dhushyanth [ MERN STACK ], Rahul, Priya Dharshini, Dhinakaran
 12 - 01 -> Free
 
@@ -47,10 +47,9 @@ FRIDAY - 11-07-2025
 
 10:00 to 11:00 - KADD - JS [ NESTED FOR, WHILE, DO WHILE ]
 11:00 to 12:00 - 9[EPIX] - REACT [ REF, ROUTING ]
-Naveen - LEAVE 
-02:00 to 03:00 - AIMAN GIRLS
-03:00 to 04:00 - AIMAN GIRLS
-04:00 to 05:00 - INTERSHIP ( 10 ) - HTML DAY 2 
+02:00 to 03:00 - AIMAN GIRLS [ BOOTSTRAP ]
+03:00 to 04:00 - AIMAN GIRLS [ BOOTSTRAP ] [ Naveen - LEAVE ]
+04:00 to 05:00 - INTERSHIP ONLINE ( 7 ) - CSS DAY 1
 05:00 to 06:00 - Mariya, Aakash - REACT [ CRUD ]
 06:00 to 07:00 - Sethumadhavan - BOOTSTRAP DAY 3
 
