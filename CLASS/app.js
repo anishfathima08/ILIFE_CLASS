@@ -1,96 +1,68 @@
-// FOR LOOP 
+// wHILE LOOP 
 
-// for(initialization; condition; increment/decrement){
-//     statement;
+// initialization;
+// while(condition){
+//     statement
+//     incrememnt / decrement 
 // }
 
-// for(var i = 1; i <= 5; i++){
+// var i = 1;
+// while( i <= 5 ){
 //     console.log(i)
+//     i++;
 // }
 
-// i = 1, 1 <= 5, 1 ( i++ = i = i + 1)
-// i = 2, 2 <= 5, 2
-// i = 3, 3 <= 5, 3
-// i = 4, 4 <= 5, 4
-// i = 5, 5 <= 5, 5
-// i = 6, 6 <= 5
+// i = 1, 1 <= 5, 2
+// i = 2, 2 <= 5, 3
+// i = 3, 3 <= 5, 4
+// i = 4, 4 <= 5, 5
+// i = 5, 5 <= 5, 6
 
-// var otp = Math.floor(Math.random() * 1000)  // 0 to 999
-// console.log(otp)
+// var myPassword = '123'
+// var userPassword = ''
 
-// var otp = ''
+// while(myPassword !== userPassword){
+//     userPassword = prompt('Enter Correct Password')
+// }
+// console.log('Correct Password') 
 
-// for(var i = 1; i <= 6; i++){
-//     otp += Math.floor(Math.random() *  10)
+// DO WHILE 
+
+// intialization;
+// do{
+//     statement 
+// }
+// while(condition)
+
+// var i = 6;
+// do{
+//     console.log(i)
+//     i++
+// }
+// while(i <= 5)
+
+// var i = 6;
+// while(i <= 5){
+//     console.log(i)
+//     i++
 // }
 
-// console.log(otp)
+// var myPassword = '123'
+// var userPassword = ''
 
-// otp = ''
-// otp += 5342
+// do{
+//     userPassword = prompt('Enter Correct Password')
+// }
+// while(userPassword !== myPassword)
 
-// i = 1, 1 <= 4, 7
-// i = 2, 2 <= 4, 76
-// i = 3, 3 <= 4, 764
-// i = 4, 4 <= 4, 7642
-// i = 5, 5 <= 4 -> false
+// console.log('Correct')
 
-var arr = [ 'html', 'css', 'bootstrap', 'javascript', 'abc' ]
-console.log(arr.length); // 5
 
-// console.log(arr);
-// console.log(arr[0]);
-// console.log(arr[1]);
-// console.log(arr[2]);
-// console.log(arr[3]);
+var num = ''
 
-for( var i = 0; i <= arr.length-1; i++ ){
-    console.log(arr[i])
+do{
+    num = prompt('Enter a Number Less than 10')
 }
+while(num > 10)
 
-// i = 0, 0 <= 4, arr[0] - html
-// i = 1, 1 <= 4, arr[1] - css
-// i = 2, 2 <= 4, arr[2] - bootstrap
-// i = 3, 3 <= 4, arr[3] - js
-// i = 4, 4 <= 4, arr[4] - abc
-// i = 5, 5 <= 4, false 
-
-// DECREMENT
-
-for( i = 5; i >= 1; i--){
-    console.log(i)
-}
-
-// i = 5, 5 >= 1, 5
-// i = 4, 4 >= 1, 4
-// i = 3, 3 >= 1, 3
-// i = 2, 2 >= 1, 2
-// i = 1, 1 >= 1, 1
-// i = 0, 0 >= 1
-
-var arr = [ 'html', 'css', 'bootstrap', 'javascript', 'abc', 'hello', 'hi' ]
-
-for(var i = arr.length-1; i >= 0; i--){
-    console.log(arr[i])
-}
-
-// i = 4, 4 >= 0, arr[4] - abc 
-// i = 3, 3 >= 0, arr[3] - js
-// i = 2, 2 >= 0, arr[2] - bootstrap
-// i = 1, 1 >= 0, arr[1] - css
-// i = 0, 0 >= 0, arr[0] - html
-
-var a = 'hello' // olleh
-var reverse = ''
-
-for(var i = 4; i >= 0; i--){
-    reverse += a[i]
-}
-
-console.log(reverse)
-
-// i = 4, 4 >= 0, a[4] = o
-// i = 3, 3 >= 0, a[3] = ol
-// i = 2, 2 >= 0, a[2] = oll
-// i = 1, 1 >= 0, a[1] = olle
-// i = 0, 0 >= 0, a[0] = olleh
+console.log('Correct') 

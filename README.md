@@ -1,8 +1,6 @@
 7 MERN ( 15 DAYS )
 
-
-
-HTML - 2
+HTML - 2 ✅
 CSS - 2
 BOOTSTRAP - 2
 JS - 2

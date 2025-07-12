@@ -14,6 +14,58 @@ BATCHES
 
 --------------------------------------------------------------------------------------------
 
+MONDAY - 14-07-2025 
+
+10:00 to 11:00 - KADD [ JS - SET TIMEOUT, SET INTERVAL, ARRAY METHODS DAY 1 ]
+11:00 to 12:00 - 8[EPIX] [ REACT - USE REF, CRUD ]
+03:00 to 04:00 - NAVEEN [ UPDATE BACKEND CONNECT ]
+04:00 to 05:00 - INTERNSHIP [ CSS DAY 2 ]
+05:00 to 06:00 - MARIYA, AAKASH [ JS - FORM VALIDATION, SWIPER ]
+06:00 to 07:00 - SETHUMADHAVAN [ BOOTSTRAP DAY 3 ]
+
+TUESDAY - 15-07-2025 
+
+10:00 to 11:00 - KADD [ JS - ARRAY METHODS DAY 2 DAY 3 ]
+11:00 to 12:00 - 8[EPIX] [ REACT - FORM VALIDATION, SWIPER ]
+03:00 to 04:00 - NAVEEN 
+04:00 to 05:00 - INTERNSHIP [ BOOTSTRAP DAY 1 ]
+05:00 to 06:00 - MARIYA, AAKASH [ JS - ASSETS, PROJECT ]
+06:00 to 07:00 - SETHUMADHAVAN [ BOOSTRAP DAY 4 ]
+
+WEDNESDAY - 16-07-2025 
+
+10:00 to 11:00 - KADD [ JS - API FILER, OBJECT METHODS ]
+11:00 to 12:00 - 8[EPIX] [ REACT - [ ASSETS, PROJECT ] ]
+04:00 to 05:00 - INTERNSHIP [ BOOTSTRAP DAY 2 ]
+05:00 to 06:00 - MARIYA, AAKASH [  ]
+06:00 to 07:00 - SETHUMADHAVAN [ BOOTSTRAP DAY 5 ]
+
+THURSDAY - 17-07-2025 
+
+10:00 to 11:00 - KADD [ JS - DOM, QUERY SELECTOR ]
+11:00 to 12:00 - 8[EPIX] [ REACT ]
+04:00 to 05:00 - INTERNSHIP [ BOOTSTRAP DAY 3 ]
+05:00 to 06:00 - MARIYA, AAKASH [  ]
+06:00 to 07:00 - SETHUMADHAVAN [ BOOTSTRAP DAY 6 ]
+
+FRIDAY - 18-07-2025 
+
+10:00 to 11:00 - KADD [ JS - EVENT, EVENT LISTENER ]
+11:00 to 12:00 - 8[EPIX] 
+04:00 to 05:00 - INTERNSHIP 
+05:00 to 06:00 - MARIYA, AAKASH 
+06:00 to 07:00 - SETHUMADHAVAN
+
+ATTENDANCE
+
+14-07-2025 (MON) - Absent - 
+15-07-2025 (TUE) - Absent - 
+16-07-2025 (WED) - Absent - 
+17-07-2025 (THU) - Absent - 
+18-07-2025 (FRI) - Absent - 
+
+--------------------------------------------------------------------------------------------
+
 MONDAY - 07-07-2025
 
 KADD - JS [ OPERATORS ]
@@ -30,7 +82,7 @@ KADD - JS [ CONDITONAL STATEMENTS - IF, IF ELSE, ELSE IF ]
 Naveen - BACKEND CONNECT
 INTERSHIP ( 10 ) - HTML DAY 1
 Mariya, Aakash - REACT [ EFFECT, REDUCER ]
-Sethumadhavan - BOOSTRAP DAY 1
+Sethumadhavan - BOOTSTRAP DAY 3 DAY 1
 
 WEDNESDAY - 09-07-2025 - STAFF LEAVE
 
@@ -47,17 +99,22 @@ FRIDAY - 11-07-2025
 
 10:00 to 11:00 - KADD - JS [ NESTED FOR, WHILE, DO WHILE ]
 11:00 to 12:00 - 9[EPIX] - REACT [ REF, ROUTING ]
-02:00 to 03:00 - AIMAN GIRLS [ BOOTSTRAP ]
-03:00 to 04:00 - AIMAN GIRLS [ BOOTSTRAP ] [ Naveen - LEAVE ]
+02:00 to 03:00 - AIMAN GIRLS [ CSS PROJECT ] 
+03:00 to 04:00 - AIMAN GIRLS [ CSS PROJECT ] [ Naveen - LEAVE ]
 04:00 to 05:00 - INTERSHIP ONLINE ( 7 ) - CSS DAY 1
 05:00 to 06:00 - Mariya, Aakash - REACT [ CRUD ]
 06:00 to 07:00 - Sethumadhavan - BOOTSTRAP DAY 3
 
+SATURDAY - 12-07-2025 
+
+10:00 to 11:00 - AIMAN GIRLS [ BOOTSTRAP ]
+12:00 to 01:00 - AIMAN GIRLS [ BOOTSTRAP ]
+
 30-06-2025 (MON) - Absent - Deepa Raj, Hari Babu, Sethumadhavan
 01-07-2025 (TUE) - Absent - Dinakaran, Hari Babu
 02-07-2025 (WED) - Absent - STAFF LEAVE
-03-07-2025 (THU) - Absent - Dinakaran, 
-04-07-2025 (FRI) - Absent - 
+03-07-2025 (THU) - Absent - Dinakaran
+04-07-2025 (FRI) - Absent - Dinakaran, Barath, Dinakaran, Naveen, 
 
 --------------------------------------------------------------------------------------------
 
@@ -292,7 +349,7 @@ S - STUDENT Leave
 TUESDAY - 03-06-2025 
 
 KADD - CSS DAY 1 
-10 - BOOSTRAP DAY 5 [ PAGINATION, OFFCANVAS, FORM, INPUTS, PROJECT ]
+10 - BOOTSTRAP DAY 3 DAY 5 [ PAGINATION, OFFCANVAS, FORM, INPUTS, PROJECT ]
 2 - REACT DAY 10 [ Use Effect, Use Ref ]
 3 - REACT DAY 10 [ Use Effect, Use Ref ]
 N - EXPRESS DAY 2

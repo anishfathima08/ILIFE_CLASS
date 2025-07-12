@@ -1,6 +1,5 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useState, useEffect } from 'react'
 import axios from 'axios'
-import { useEffect } from 'react'
 
 export const myContext = createContext()
  
@@ -11,7 +10,16 @@ const ContextProvider = ({children}) => {
     const [ price, setPrice ] = useState('')
     const [ desc, setDesc ] = useState('')
     const [ img, setImg ] = useState('')
-    const [ imgPreview, setImgPreview ] = useState('')
+
+    const [ previewImg, setPreviewImg ] = useState('')
+
+    const [ updateName, setUpdateName ] = useState('')
+    const [ updateCategory, setUpdateCategory ] = useState('')
+    const [ updatePrice, setUpdatePrice ] = useState('')
+    const [ updateDesc, setUpdateDesc ] = useState('')
+    const [ updateImg, setUpdateImg ] = useState('')
+
+    const [ updatePreviewImg, setUpdatePreviewImg ] = useState('')
 
     const [ productData, setProductData ] = useState([])
 
@@ -19,43 +27,48 @@ const ContextProvider = ({children}) => {
 
     const submitFun = async (e) => {
         e.preventDefault()
+
         try{
             const formData = {
                 name, 
                 category, 
-                desc,
                 price,
+                desc,
                 img
             }
+
             await axios.post(`${url}/api/add`, formData)
-            alert('Data Added')
+
+            alert('Product Added !')
         }
         catch(err){
-            console.log(`Error Name : ${err.name}, Error Message : ${err.message}`)
+            console.log(`Error Name : ${err.name} and Error Message : ${err.message}`)
         }
     }
 
     const imageFun = (e) => {
         const file = e.target.files[0]
+
         if(file){
-            const reader = new FileReader()
+            var reader = new FileReader()
 
             reader.onloadend = () => {
-                setImg(reader.result)
-                setImgPreview(reader.result)
+                setImg(reader.result)   
+                setPreviewImg(reader.result)
             }
-
-            reader.readAsDataURL(file)
         }
+
+        reader.readAsDataURL(file)
+
     }
 
     const fetchData = async () => {
         try{
             const productList = await axios.get(`${url}/api/products`)
-            setProductData(productList.data)
+            setProductData(productList.data);
         }
         catch(err){
-            console.log(`Error Name : ${err.name}, Error Message : ${err.message}`)
+            console.log(`Error Name : ${err.name} and Error Message : ${err.message}`)
         }
     }
 
@@ -65,11 +78,36 @@ const ContextProvider = ({children}) => {
 
     const removeProduct = async (id) => {
         try{
-            await axios.delete(`${url}/remove/${id}`)
+            await axios.delete(`${url}/api/remove/${id}`)
             alert('Product Removed Successfully !')
         }
         catch(err){
-            console.log(`Error Name : ${err.name}, Error Message : ${err.message}`)
+            console.log(`Error Name : ${err.name} and Error Message : ${err.message}`)
+        }
+    }
+
+    const updateImageFun = (e) => {
+        var file = e.target.files[0]
+
+        if(file){
+            var reader = new FileReader()
+            reader.onloadend = () => {
+                setUpdateImg(reader.result)
+                setUpdatePreviewImg(reader.result)
+            }
+            reader.readAsDataURL(file)
+        }
+    }
+
+    const updateFun = (id) => {
+        var product = productData.find(a => a._id === id )
+        if(product){
+            setUpdateName(product.name)
+            setUpdateCategory(product.category)
+            setUpdateDesc(product.desc)
+            setUpdatePrice(product.price)
+            setUpdateImg(product.img)
+            setUpdatePreviewImg(product.img)
         }
     }
 
@@ -78,14 +116,21 @@ const ContextProvider = ({children}) => {
         category, setCategory, 
         price, setPrice, 
         desc, setDesc, 
-        
+
         submitFun, imageFun,
+        previewImg, productData,
 
-        imgPreview,
+        removeProduct, 
+        updateImageFun, updateFun,
 
-        productData,
+        updateName, setUpdateName,
+        updateCategory, setUpdateCategory,
+        updatePrice, setUpdatePrice,
+        updateDesc, setUpdateDesc,
+        updateImg, setUpdateImg,
 
-        removeProduct
+        updatePreviewImg, setUpdatePreviewImg
+
     }
 
     return (

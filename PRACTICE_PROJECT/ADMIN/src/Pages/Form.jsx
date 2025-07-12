@@ -5,7 +5,7 @@ import { myAssets } from '../assets/asset'
 
 const Form = () => {
 
-    const { name, setName, category, setCategory, price, setPrice, desc, setDesc, submitFun, imageFun, imgPreview } = useContext(myContext)
+    const { name, setName, category, setCategory, price, setPrice, desc, setDesc, submitFun, imageFun, previewImg } = useContext(myContext)
 
     return (
         <>
@@ -20,18 +20,16 @@ const Form = () => {
                 <form onSubmit={submitFun}>
 
                     <label className='form-label'>Upload Product Image</label>
-                    <input type="file" className='form-control mb-4' name='img' onChange={imageFun} hidden id='imgInput'/>
+                    <input type="file" className='form-control mb-4' name='img' id='Imageinput' onChange={imageFun} hidden/>
 
                     <br />
-
-                    <label htmlFor='imgInput'>
-                        <img src={imgPreview ? imgPreview : myAssets.uploadImg} alt="" height={150} />
+                    <label htmlFor='Imageinput'>
+                        <img src={previewImg ? previewImg : myAssets.uploadImg} alt="" height='150' width='150'/>
                     </label>
-
                     <br /><br />
 
                     <label className='form-label'>Enter Product Name</label>
-                    <input type="text" className='form-control mb-4' name='name' value={name} onChange={(e) => setName(e.target.value)} />
+                    <input type="text" className='form-control mb-4'name='name' value={name} onChange={(e) => setName(e.target.value)} />
 
                     <label className='form-label'>Enter Product Cetegory</label>
                     <select className='form-control mb-4' name='category' value={category} onChange={(e) => setCategory(e.target.value)} >

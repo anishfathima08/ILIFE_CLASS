@@ -1,18 +1,19 @@
-import React, { createContext, useState } from 'react'
+import React, { useState, createContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 export const myContext = createContext()
 
-const Context = ({children}) => {
-
-    const [ username, setUsername ]  = useState('')
-    const [ password, setPassword ]  = useState('')
+const Context = ( { children } ) => {
 
     const navigate = useNavigate()
 
+    var [ username, setUsername ] = useState('')
+    var [ password, setPassword ] = useState('')
+
     const submitFun = (e) => {
         e.preventDefault()
-        if(username === 'abc' && password === 'Abc@123'){
+
+        if(username == 'abc' && password == '123'){
             navigate('/submit')
         }
         else{
@@ -20,17 +21,16 @@ const Context = ({children}) => {
         }
     }
 
-    localStorage.setItem('username', username)
-
     const myContextValue = {
-        username, setUsername,
+        username, setUsername, 
         password, setPassword,
+
         submitFun
-    }       
+    }
 
     return (
-        <myContext.Provider value={myContextValue}>
-            {children}
+        <myContext.Provider value={myContextValue} >
+            { children }
         </myContext.Provider>
     )
 }

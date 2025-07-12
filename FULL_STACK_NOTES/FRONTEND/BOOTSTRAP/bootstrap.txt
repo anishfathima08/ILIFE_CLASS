@@ -32,4 +32,4 @@ DAY 5 => CAROUSEL, OFFCANVAS, FORM, FORM INPUTS
 NETLIFY, GITHUB
 PROJECT BOOTSTRAP MADE,  TEMPLATE
 
-Bootstrap Project From Scratch => https://themeforest.net/item/freshcart/56433963?srsltid=AfmBOoqRju413Co-GtEp02qY1Dhnrq8SshpyTaesFiBRqHCObZyFVfPI 
+Bootstrap Project From Scratch => https://themeforest.net/item/freshcart/56433963?srsltid=AfmBOoqRju413Co-GtEp02qY1Dhnrq8SshpyTaesFiBRqHCObZyFVfPI z

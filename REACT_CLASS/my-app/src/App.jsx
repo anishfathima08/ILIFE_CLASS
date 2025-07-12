@@ -21,7 +21,15 @@ import React from 'react'
 // import Navbar from './Pages/Navbar'
 // import Shop from './Pages/Shop'
 
-import Day9_CRUD from './Day9_CRUD'
+// import Day9_CRUD from './Day9_CRUD'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Form from './Form_Validation/Form'
+import FormSubmit from './Form_Validation/FormSubmit'
+import Home from './Form_Validation/Home'
+import About from './Form_Validation/About'
+import Context from './Form_Validation/Context'
 
 function App(){
   return(
@@ -58,7 +66,18 @@ function App(){
         </Routes>
       </BrowserRouter> */}
 
-      <Day9_CRUD />
+      {/* <Day9_CRUD /> */}
+
+      <BrowserRouter>
+        <Context>
+          <Routes>
+            <Route path='/' element={<Form />} />
+            <Route path='/submit' element={<FormSubmit />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/about' element={<About />} />
+          </Routes>
+        </Context>
+      </BrowserRouter>
 
     </>
   )
